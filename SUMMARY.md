@@ -53,7 +53,10 @@
     * [Hardware Design](reference-architecture/service-delivery/hardware/hardware-design.md)
     * [Hardware Upgrades](reference-architecture/service-delivery/hardware/hardware-upgrades.md)
   * [Orchestration](reference-architecture/service-delivery/orchestration/README.md)
-    * [Network Plane](reference-architecture/service-delivery/orchestration/network-plane.md)
+    * [Network Plane](reference-architecture/service-delivery/orchestration/network-plane/README.md)
+      * [Public Endpoints](reference-architecture/service-delivery/orchestration/network-plane/public-endpoints.md)
+      * [Internal Subnets](reference-architecture/service-delivery/orchestration/network-plane/internal-subnets.md)
+      * [Carrier Uplinks](reference-architecture/service-delivery/orchestration/network-plane/carrier-uplinks.md)
     * [Virtual Machine Plane](reference-architecture/service-delivery/orchestration/virtual-machine-plane.md)
       * [Machine Agents](reference-architecture/service-delivery/orchestration/virtual-machine-plane/machine-agents.md)
       * [Default Build](reference-architecture/service-delivery/orchestration/virtual-machine-plane/default-build.md)
@@ -73,3 +76,4 @@
 ## Corporate Governance&#x20;
 
 * [Carbon Neutrality](corporate-governance/carbon-neutrality.md)
+* [ISO27001](corporate-governance/iso27001.md)
