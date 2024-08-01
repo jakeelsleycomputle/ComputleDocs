@@ -5,7 +5,6 @@
 ## Onboarding
 
 * [End User Guide](onboarding/end-user-guide/README.md)
-  * [Recommended Pathway](onboarding/end-user-guide/recommended-pathway.md)
   * [Legacy Pathway](onboarding/end-user-guide/legacy-pathway.md)
 
 ## Administration
