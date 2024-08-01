@@ -58,7 +58,7 @@
       * [Internal Subnets](reference-architecture/service-delivery/orchestration/network-plane/internal-subnets.md)
       * [Carrier Uplinks](reference-architecture/service-delivery/orchestration/network-plane/carrier-uplinks.md)
     * [Virtual Machine Plane](reference-architecture/service-delivery/orchestration/virtual-machine-plane.md)
-      * [Virtual Machine](reference-architecture/service-delivery/orchestration/virtual-machine-plane/virtual-machine.md)
+      * [Virtual Machine](reference-architecture/service-delivery/orchestration/virtual-machine-plane/hypervisor.md)
       * [Streaming Agent](reference-architecture/service-delivery/orchestration/virtual-machine-plane/streaming-agent.md)
       * [Default Build](reference-architecture/service-delivery/orchestration/virtual-machine-plane/default-build.md)
     * [Orchestration Plane](reference-architecture/service-delivery/orchestration/orchestration-plane/README.md)
@@ -74,13 +74,13 @@
     * [Hardware Keys](reference-architecture/security/digital-layer/hardware-keys.md)
     * [Security Auditing and Logging](reference-architecture/security/digital-layer/security-auditing-and-logging.md)
   * [Standards](reference-architecture/security/standards/README.md)
-    * [ISO27001](reference-architecture/security/standards/iso27001.md)
-    * [Vulnerability Disclosure Programme](reference-architecture/security/standards/vulnerability-disclosure-programme.md)
+    * [ISO27001](corporate-governance/iso27001.md)
+    * [Vulnerability Disclosure Programme](reference-architecture/security/vulnerability-disclosure-programme.md)
 
 ## Corporate Governance&#x20;
 
 * [Supply Chain Management](corporate-governance/supply-chain-management/README.md)
-  * [Carbon Neutrality](corporate-governance/supply-chain-management/carbon-neutrality.md)
+  * [Carbon Neutrality](corporate-governance/carbon-neutrality.md)
   * [Partners](corporate-governance/supply-chain-management/partners.md)
 * [R\&D Standards](corporate-governance/r-and-d-standards/README.md)
   * [Our Approach to Engineering](corporate-governance/r-and-d-standards/our-approach-to-engineering.md)

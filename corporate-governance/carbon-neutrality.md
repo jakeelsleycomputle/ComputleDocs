@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/solar.jpg
+cover: ../.gitbook/assets/solar.jpg
 coverY: -24
 ---
 
