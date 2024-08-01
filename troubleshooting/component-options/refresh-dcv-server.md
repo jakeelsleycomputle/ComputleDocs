@@ -1,6 +1,8 @@
 # Refresh DCV Server
 
-**First, ensure that you have a secondary access method. We recommend using Remote Desktop Connection.**
+**Prerequisite**
+
+Ensure that Remote Desktop is enabled and that you can connect to the machine. &#x20;
 
 {% hint style="info" %}
 Enable Remote Desktop by navigating to Settings > Remote Desktop Settings
@@ -8,10 +10,11 @@ Enable Remote Desktop by navigating to Settings > Remote Desktop Settings
 
 ***
 
-1. Enable Remote Desktop services on your Computle machine.&#x20;
-2. Connect to your Computle machine from a machine on the same network.&#x20;
-3. As an Administrator, launch PowerShell ISE.
-4. Copy the below code block and paste this into the PowerShell Script Pane.
+**Refresh DCV Server**
+
+1. VIa Remote Desktop, connect to your Computle machine.
+2. As an Administrator, launch PowerShell ISE.
+3. Paste the following code into the PowerShell script pane.
 
 ```sh
 $fileUrl = "https://d1uj6qtbmh3dt5.cloudfront.net/nice-dcv-server-x64-Release.msi"
