@@ -10,7 +10,9 @@
 **Network speed**
 
 * Each connecting user should have at least 10Mbps of download speed.&#x20;
-* For best performance, you should have less than 50ms of latency. This can be checked via the NICE DCV application > Cog > Streaming Mode.,
+* For best performance, you should have less than 50ms of latency. This can be checked via the NICE DCV application > Cog > Streaming Mode.
+
+***
 
 ## Testing
 

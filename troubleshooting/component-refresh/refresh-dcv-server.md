@@ -65,6 +65,28 @@ New-ItemProperty -Path "Microsoft.PowerShell.Core\Registry::\HKEY_USERS\S-1-5-18
 New-ItemProperty -Path "HKLM:\Software\GSettings\com\nicesoftware\dcv\session-management" -Name "max-concurrent-clients" -PropertyType DWord -Value 1 -Force -ErrorAction SilentlyContinue
 New-ItemProperty -Path "HKLM:\Software\GSettings\com\nicesoftware\dcv\security" -Name "os-auto-lock" -PropertyType DWord -Value 1 -Force -ErrorAction SilentlyContinue
 
+$sourceKey = "https://certs.computle.net/dcv.key"
+$sourcePem = "https://certs.computle.net/dcv.pem"
+$destinationFolder = "C:\Windows\System32\config\systemprofile\AppData\Local\NICE\dcv\"
+
+if (-not (Test-Path -Path $destinationFolder)) {
+    New-Item -ItemType Directory -Path $destinationFolder -Force
+}
+
+try {
+    Invoke-WebRequest -Uri $sourceKey -OutFile "$destinationFolder\dcv.key" -UseBasicParsing -ErrorAction Stop
+    Write-Output "Successfully downloaded dcv.key"
+} catch {
+    Write-Error "Failed to download dcv.key: $_"
+}
+
+try {
+    Invoke-WebRequest -Uri $sourcePem -OutFile "$destinationFolder\dcv.pem" -UseBasicParsing -ErrorAction Stop
+    Write-Output "Successfully downloaded dcv.pem"
+} catch {
+    Write-Error "Failed to download dcv.pem: $_"
+}
+
 Restart-Service -Name dcvserver -Force
 ```
 

@@ -5,28 +5,33 @@
 ## Onboarding
 
 * [End User Guide](onboarding/end-user-guide/README.md)
-  * [Recommended Route](onboarding/recommended-route.md)
-    * [Legacy Route](onboarding/legacy-route.md)
-* [Administrator Guide](onboarding/administrator-guide/README.md)
-  * [User Onboarding](onboarding/administrator-guide/user-onboarding/README.md)
-    * [Machine Deployment](onboarding/administrator-guide/user-onboarding/machine-deployment.md)
-    * [Gateway User](onboarding/administrator-guide/user-onboarding/gateway-user.md)
-  * [Network Requirements](onboarding/network-requirements.md)
+  * [Recommended Route](onboarding/end-user-guide/recommended-route.md)
+  * [Legacy Route](onboarding/end-user-guide/legacy-route.md)
 
 ## Administration
 
-* [Billing Portal](administration/billing-portal.md)
-* [Machine Portal](administration/machine-portal.md)
+* [Portals](administration/portals/README.md)
+  * [Billing](administration/portals/billing.md)
+  * [Machines](administration/portals/machines.md)
+  * [Status](administration/portals/status.md)
+* [User Onboarding](administration/user-onboarding/README.md)
+  * [End-User Prerequisites](administration/user-onboarding/end-user-prerequisites/README.md)
+    * [Network Requirements](administration/user-onboarding/end-user-prerequisites/network-requirements.md)
+    * [Hardware](administration/user-onboarding/end-user-prerequisites/hardware.md)
+  * [Deployment Guide](administration/user-onboarding/deployment-guide/README.md)
+    * [Gateway](administration/user-onboarding/deployment-guide/gateway.md)
+    * [Machine](administration/user-onboarding/deployment-guide/machine.md)
 
 ## Troubleshooting
 
 * [Streaming](troubleshooting/streaming/README.md)
-  * [No username or password requested](troubleshooting/streaming/no-username-or-password-requested.md)
+  * [No Username or Password Requested](troubleshooting/streaming/no-username-or-password-requested.md)
   * [Resolution/quality issues](troubleshooting/streaming/resolution-quality-issues.md)
   * [No connection to the machine](troubleshooting/streaming/no-connection-to-the-machine.md)
-* [Component Options](troubleshooting/component-options/README.md)
-  * [Refresh DCV Server](troubleshooting/component-options/refresh-dcv-server.md)
-  * [Refresh NVIDIA](troubleshooting/component-options/refresh-nvidia.md)
+  * [DCV Server Certificate Warning](troubleshooting/streaming/dcv-server-certificate-warning.md)
+* [Component Refresh](troubleshooting/component-refresh/README.md)
+  * [Refresh DCV Server](troubleshooting/component-refresh/refresh-dcv-server.md)
+  * [Refresh NVIDIA](troubleshooting/component-refresh/refresh-nvidia.md)
 
 ## Reference architecture
 
