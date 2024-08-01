@@ -81,6 +81,5 @@
 
 * [Supply Chain Management](corporate-governance/supply-chain-management/README.md)
   * [Carbon Neutrality](corporate-governance/carbon-neutrality.md)
-  * [Partners](corporate-governance/supply-chain-management/partners.md)
 * [R\&D Standards](corporate-governance/r-and-d-standards/README.md)
   * [Our Approach to Engineering](corporate-governance/r-and-d-standards/our-approach-to-engineering.md)
