@@ -2,6 +2,8 @@
 
 Some network security devices can interfere with Computle Licensing. Common issues include DNS resolution and port blocking. By default, Computle Licensing is checked every five minutes.&#x20;
 
+***
+
 **Network Resolution**
 
 Ensure that Computle Machine can resolve the following DNS records:
