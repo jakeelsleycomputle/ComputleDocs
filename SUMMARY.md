@@ -14,12 +14,16 @@
   * [Machines](administration/portals/machines.md)
   * [Status](administration/portals/status.md)
 * [User Onboarding](administration/user-onboarding/README.md)
-  * [End-User Prerequisites](administration/user-onboarding/end-user-prerequisites/README.md)
-    * [Network Requirements](administration/user-onboarding/end-user-prerequisites/network-requirements.md)
-    * [Hardware](administration/user-onboarding/end-user-prerequisites/hardware.md)
-  * [Deployment Guide](administration/user-onboarding/deployment-guide/README.md)
-    * [Gateway](administration/user-onboarding/deployment-guide/gateway.md)
-    * [Machine](administration/user-onboarding/deployment-guide/machine.md)
+  * [Deployment](administration/user-onboarding/deployment.md)
+  * [Administrator](administration/user-onboarding/administrator/README.md)
+    * [Gateway Deployment](administration/user-onboarding/administrator/gateway-deployment.md)
+    * [Machine Deployment](administration/user-onboarding/administrator/machine-deployment.md)
+  * [End-User](administration/user-onboarding/end-user/README.md)
+    * [End-User Prerequisites](administration/user-onboarding/end-user/end-user-prerequisites/README.md)
+      * [Network Requirements](administration/user-onboarding/end-user/end-user-prerequisites/network-requirements.md)
+      * [Hardware](administration/user-onboarding/end-user/end-user-prerequisites/hardware.md)
+    * [Unattended Installs](administration/user-onboarding/end-user/unattended-installs/README.md)
+      * [NICE DCV Client](administration/user-onboarding/end-user/unattended-installs/nice-dcv-client.md)
 
 ## Troubleshooting
 
