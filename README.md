@@ -25,7 +25,7 @@ layout:
 {% hint style="success" %}
 **Onboarding**
 
-For onboarding information as an end-user, head [here](onboarding/end-user-guide/).
+As an end-user, head [here](onboarding/end-user-guide/).
 {% endhint %}
 
 ***
