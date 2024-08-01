@@ -23,11 +23,12 @@
 
 ## Troubleshooting
 
-* [Streaming](troubleshooting/streaming/README.md)
-  * [No Username or Password Requested](troubleshooting/streaming/no-username-or-password-requested.md)
-  * [Resolution/quality issues](troubleshooting/streaming/resolution-quality-issues.md)
-  * [No connection to the machine](troubleshooting/streaming/no-connection-to-the-machine.md)
-  * [DCV Server Certificate Warning](troubleshooting/streaming/dcv-server-certificate-warning.md)
+* [Streaming Agent](troubleshooting/streaming-agent/README.md)
+  * [No Username or Password Requested](troubleshooting/streaming-agent/no-username-or-password-requested.md)
+  * [Resolution/quality issues](troubleshooting/streaming-agent/resolution-quality-issues.md)
+  * [No connection to the machine](troubleshooting/streaming-agent/no-connection-to-the-machine.md)
+  * [DCV Server Certificate Warning](troubleshooting/streaming-agent/dcv-server-certificate-warning.md)
+  * [License Warning](troubleshooting/streaming-agent/license-warning.md)
 * [Component Refresh](troubleshooting/component-refresh/README.md)
   * [Refresh DCV Server](troubleshooting/component-refresh/refresh-dcv-server.md)
   * [Refresh NVIDIA](troubleshooting/component-refresh/refresh-nvidia.md)
