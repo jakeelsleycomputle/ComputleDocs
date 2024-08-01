@@ -4,9 +4,14 @@
 
 ## Onboarding
 
-* [Recommended Route](onboarding/recommended-route.md)
-* [Legacy Route](onboarding/legacy-route.md)
-* [Network Requirements](onboarding/network-requirements.md)
+* [End User Guide](onboarding/end-user-guide/README.md)
+  * [Recommended Route](onboarding/end-user-guide/recommended-route/README.md)
+    * [Legacy Route](onboarding/end-user-guide/recommended-route/legacy-route.md)
+* [Administrator Guide](onboarding/administrator-guide/README.md)
+  * [User Onboarding](onboarding/administrator-guide/user-onboarding/README.md)
+    * [Machine Deployment](onboarding/administrator-guide/user-onboarding/machine-deployment.md)
+    * [Gateway User](onboarding/administrator-guide/user-onboarding/gateway-user.md)
+  * [Network Requirements](onboarding/administrator-guide/network-requirements.md)
 
 ## Administration
 
@@ -19,6 +24,9 @@
   * [No username or password requested](troubleshooting/streaming/no-username-or-password-requested.md)
   * [Resolution/quality issues](troubleshooting/streaming/resolution-quality-issues.md)
   * [No connection to the machine](troubleshooting/streaming/no-connection-to-the-machine.md)
+* [Component Options](troubleshooting/component-options/README.md)
+  * [Refresh DCV Server](troubleshooting/component-options/refresh-dcv-server.md)
+  * [Refresh NVIDIA](troubleshooting/component-options/refresh-nvidia.md)
 
 ## Reference architecture
 
@@ -41,7 +49,9 @@
     * [Hardware Upgrades](reference-architecture/service-delivery/hardware/hardware-upgrades.md)
   * [Orchestration](reference-architecture/service-delivery/orchestration/README.md)
     * [Network Plane](reference-architecture/service-delivery/orchestration/network-plane.md)
-    * [Virtual Machine Plane](reference-architecture/service-delivery/orchestration/virtual-machine-plane.md)
+    * [Virtual Machine Plane](reference-architecture/service-delivery/orchestration/virtual-machine-plane/README.md)
+      * [Machine Agents](reference-architecture/service-delivery/orchestration/virtual-machine-plane/machine-agents.md)
+      * [Default Build](reference-architecture/service-delivery/orchestration/virtual-machine-plane/default-build.md)
     * [Orchestration Plane](reference-architecture/service-delivery/orchestration/orchestration-plane.md)
 * [Security](reference-architecture/security/README.md)
   * [Physical Layer](reference-architecture/security/physical-layer/README.md)
