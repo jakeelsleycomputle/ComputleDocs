@@ -82,13 +82,12 @@
     * [Zero Trust Architecture](reference-architecture/security/digital-layer/zero-trust-architecture.md)
     * [Hardware Keys](reference-architecture/security/digital-layer/hardware-keys.md)
     * [Security Auditing and Logging](reference-architecture/security/digital-layer/security-auditing-and-logging.md)
-  * [Standards](reference-architecture/security/standards/README.md)
-    * [ISO27001](corporate-governance/iso27001.md)
-    * [Vulnerability Disclosure Programme](reference-architecture/security/vulnerability-disclosure-programme.md)
 
 ## Corporate Governance&#x20;
 
 * [Supply Chain Management](corporate-governance/supply-chain-management/README.md)
   * [Carbon Neutrality](corporate-governance/carbon-neutrality.md)
-* [R\&D Standards](corporate-governance/r-and-d-standards/README.md)
-  * [Our Approach to Engineering](corporate-governance/r-and-d-standards/our-approach-to-engineering.md)
+* [Standards](corporate-governance/standards/README.md)
+  * [ISO 27001 Security Controls](corporate-governance/standards/iso-27001-security-controls.md)
+  * [Vulnerability Disclosure Programme](corporate-governance/standards/vulnerability-disclosure-programme.md)
+  * [Our Approach to Engineering](corporate-governance/standards/our-approach-to-engineering.md)
