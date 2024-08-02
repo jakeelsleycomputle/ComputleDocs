@@ -40,5 +40,35 @@ if (-not (Test-Path $RegistryPath)) {
 }
 
 Set-ItemProperty -Path $RegistryPath -Name $Name -Value $Value
+```
 
+***
+
+## Resolution
+
+**Default**
+
+Computle supports quad-4K displays by default with a maximum resolution of 4096\*4096 per monitor.&#x20;
+
+**Ultra-Wide Support**
+
+Ultra-wide monitor users may be required to amend their display configuration if they are unable to enter full screen mode. To do so:&#x20;
+
+1. Set `enable-client-resize` to 0:
+
+```
+dcv set-config-param --session session-id enable-client-resize=0
+```
+
+2. Set a custom layout for the current session:
+
+```
+dcv set-display-layout --session session-id 2560x1440+0+0,2560x1440+2560+0
+```
+
+3. Connect to the session, switch to full screen, and check if the layout is correct.
+4. If the layout is satisfactory, make it permanent:
+
+```
+dcv set-config-param --session session-id console-session-default-layout=2560x1440+0+0,2560x1440+2560+0
 ```
