@@ -90,4 +90,5 @@
 * [Standards](corporate-governance/standards/README.md)
   * [ISO 27001 Security Controls](corporate-governance/standards/iso-27001-security-controls.md)
   * [Vulnerability Disclosure Programme](corporate-governance/standards/vulnerability-disclosure-programme.md)
-  * [Our Approach to Engineering](corporate-governance/standards/our-approach-to-engineering.md)
+* [Computle Ethos](corporate-governance/computle-ethos/README.md)
+  * [Our Approach to Engineering](corporate-governance/computle-ethos/our-approach-to-engineering.md)
