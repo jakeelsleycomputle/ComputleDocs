@@ -6,6 +6,7 @@
 
 * [End User Guide](onboarding/end-user-guide/README.md)
   * [Legacy Pathway](onboarding/end-user-guide/legacy-pathway.md)
+* [iPad/Tablet](onboarding/ipad-tablet.md)
 
 ## Administration
 
