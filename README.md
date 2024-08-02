@@ -2,12 +2,7 @@
 description: >-
   For support, please contact your account manager directly, or via
   gethelp@computle.com.
-cover: .gitbook/assets/workstationwide.jpg
-coverY: -89.93998309382926
 layout:
-  cover:
-    visible: true
-    size: full
   title:
     visible: true
   description:
