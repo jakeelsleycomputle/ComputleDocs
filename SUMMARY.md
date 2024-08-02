@@ -7,10 +7,9 @@
 * [End User Guide](onboarding/end-user-guide/README.md)
   * [Legacy Pathway](onboarding/end-user-guide/legacy-pathway.md)
 * [Client Deployment](onboarding/client-deployment/README.md)
-  * [iPad/Tablet](onboarding/client-deployment/ipad-tablet.md)
   * [Windows/Mac](onboarding/client-deployment/windows-mac/README.md)
-    * [Unattended Installs](onboarding/client-deployment/windows-mac/unattended-installs/README.md)
-      * [NICE DCV Client](onboarding/client-deployment/windows-mac/unattended-installs/nice-dcv-client.md)
+    * [Unattended Install](onboarding/client-deployment/windows-mac/unattended-install.md)
+  * [iPad/Tablet](onboarding/client-deployment/ipad-tablet.md)
 
 ## Administration
 
