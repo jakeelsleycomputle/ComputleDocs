@@ -50,7 +50,7 @@ Set-ItemProperty -Path $RegistryPath -Name $Name -Value $Value
 
 Computle supports quad-4K displays by default with a maximum resolution of 4096\*4096 per monitor.&#x20;
 
-**Ultra-Wide Support**
+**Ultra-Wide Support (5120x1440)**
 
 Ultra-wide monitor users may be required to amend their display configuration if they are unable to enter full screen mode. To do so:&#x20;
 
