@@ -5,4 +5,5 @@ coverY: 70
 
 # End User Guide
 
-As an end-user, we recomment you start [here](broken-reference).&#x20;
+If you are a Computle Gateway user, head here.&#x20;
+

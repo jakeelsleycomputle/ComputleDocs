@@ -5,6 +5,7 @@
 ## Onboarding
 
 * [End User Guide](onboarding/end-user-guide/README.md)
+  * [Connect via Computle Gateway](onboarding/end-user-guide/connect-via-computle-gateway.md)
   * [Legacy Pathway](onboarding/end-user-guide/legacy-pathway.md)
 * [Client Deployment](onboarding/client-deployment/README.md)
   * [Windows/Mac](onboarding/client-deployment/windows-mac/README.md)
