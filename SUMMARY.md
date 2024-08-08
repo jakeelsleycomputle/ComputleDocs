@@ -4,13 +4,8 @@
 
 ## Onboarding
 
-* [End User Guide](onboarding/end-user-guide/README.md)
-  * [Connect via Computle Gateway](onboarding/end-user-guide/connect-via-computle-gateway.md)
-  * [Legacy Pathway](onboarding/end-user-guide/legacy-pathway.md)
-* [Client Deployment](onboarding/client-deployment/README.md)
-  * [Windows/Mac](onboarding/client-deployment/windows-mac/README.md)
-    * [Unattended Install](onboarding/client-deployment/windows-mac/unattended-install.md)
-  * [iPad/Tablet](onboarding/client-deployment/ipad-tablet.md)
+* [End User Guide](onboarding/end-user-guide.md)
+* [Administrator Guide](onboarding/administrator-guide.md)
 
 ## Administration
 
@@ -19,14 +14,16 @@
   * [Machines](administration/portals/machines.md)
   * [Status](administration/portals/status.md)
 * [User Onboarding](administration/user-onboarding/README.md)
-  * [Deployment](administration/user-onboarding/deployment.md)
   * [Administrator](administration/user-onboarding/administrator/README.md)
     * [Gateway Deployment](administration/user-onboarding/administrator/gateway-deployment.md)
     * [Machine Deployment](administration/user-onboarding/administrator/machine-deployment.md)
-  * [End-User](administration/user-onboarding/end-user/README.md)
-    * [End-User Prerequisites](administration/user-onboarding/end-user/end-user-prerequisites/README.md)
-      * [Network Requirements](administration/user-onboarding/end-user/end-user-prerequisites/network-requirements.md)
-      * [Hardware](administration/user-onboarding/end-user/end-user-prerequisites/hardware.md)
+    * [Client Deployment](administration/user-onboarding/administrator/client-deployment/README.md)
+      * [Windows/Mac](administration/user-onboarding/administrator/client-deployment/windows-mac/README.md)
+        * [Unattended Install](administration/user-onboarding/administrator/client-deployment/windows-mac/unattended-install.md)
+      * [iPad/Tablet](administration/user-onboarding/administrator/client-deployment/ipad-tablet.md)
+  * [End-User Prerequisites](administration/user-onboarding/end-user-prerequisites/README.md)
+    * [Network Requirements](administration/user-onboarding/end-user-prerequisites/network-requirements.md)
+    * [Hardware](administration/user-onboarding/end-user-prerequisites/hardware.md)
 
 ## Troubleshooting
 
