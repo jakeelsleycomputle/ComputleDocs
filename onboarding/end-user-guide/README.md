@@ -2,7 +2,7 @@
 description: >-
   This guide is intended for end users looking to access their Computle Machine.
   If you are an administrator, please follow the Administrator Guide.
-cover: ../.gitbook/assets/animation-studio-1.jpg
+cover: ../../.gitbook/assets/animation-studio-1.jpg
 coverY: 70
 ---
 
@@ -41,7 +41,7 @@ Ensure that your administrator has shared a Computle Gateway token with you.&#x2
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -49,7 +49,7 @@ Ensure that your administrator has shared a Computle Gateway token with you.&#x2
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -58,7 +58,7 @@ Ensure that your administrator has shared a Computle Gateway token with you.&#x2
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -66,7 +66,7 @@ Ensure that your administrator has shared a Computle Gateway token with you.&#x2
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -74,7 +74,7 @@ Ensure that your administrator has shared a Computle Gateway token with you.&#x2
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -97,13 +97,13 @@ If you receive a file name error, ensure that there are no spaces in your token 
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -111,7 +111,7 @@ If you receive a file name error, ensure that there are no spaces in your token 
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -119,7 +119,7 @@ If you receive a file name error, ensure that there are no spaces in your token 
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -127,7 +127,7 @@ If you receive a file name error, ensure that there are no spaces in your token 
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -135,7 +135,7 @@ If you receive a file name error, ensure that there are no spaces in your token 
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -143,7 +143,7 @@ If you receive a file name error, ensure that there are no spaces in your token 
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -157,7 +157,7 @@ On Windows, search your Start Menu, and on Mac, search your Applications folder.
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -167,7 +167,7 @@ In Hostname, enter the Computer name provided by your administrator.
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -176,7 +176,7 @@ In Hostname, enter the Computer name provided by your administrator.
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -187,7 +187,7 @@ In Login, enter the login name provided by your administrator.\
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -205,7 +205,7 @@ When you connect again, click the down arrow to retrive your saved machine(s).
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

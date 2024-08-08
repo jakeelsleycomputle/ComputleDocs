@@ -1,4 +1,4 @@
-# NICE DCV Client
+# Unattended Install
 
 This PowerShell script will automatically download and install the latest version of the NICE DCV client.
 
