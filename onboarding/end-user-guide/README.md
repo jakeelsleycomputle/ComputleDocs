@@ -34,7 +34,7 @@ Ensure that your administrator has shared a Computle Gateway token with you.&#x2
 
 1. Download WireGuard client to your device.
 
-* [Windows](https://download.wireguard.com/windows-client/wireguard-installer.exe)
+* [Windows](https://download.wireguard.com/windows-client/wireguard-amd64-0.5.3.msi)
 * [Mac](https://itunes.apple.com/us/app/wireguard/id1451685025?ls=1\&mt=12)
 
 2. Launch the downloaded file.
