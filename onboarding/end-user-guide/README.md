@@ -149,7 +149,7 @@ If you receive a file name error, ensure that there are no spaces in your token 
 
 ***
 
-## Stage 3 of 3: Install NICE DCV
+## Stage 3 of 3: Launch NICE DCV
 
 1. **Launch NICE DCV**
 
