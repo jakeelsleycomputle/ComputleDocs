@@ -8,8 +8,6 @@ coverY: 70
 
 # End User Guide
 
-***
-
 {% hint style="info" %}
 **Time Required**
 
@@ -41,7 +39,7 @@ Ensure that your administrator has shared a Computle Gateway token with you.&#x2
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -74,11 +72,11 @@ Ensure that your administrator has shared a Computle Gateway token with you.&#x2
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-8. Proceed to Stage 2 of 3.
+6. Proceed to Stage 2 of 3.
 
 {% hint style="info" %}
 If you receive a file name error, ensure that there are no spaces in your token file's name, or extra numbers. For example, if you downloaded the file multiple times, delete all copies, and re-download the token.&#x20;
