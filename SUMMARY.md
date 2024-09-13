@@ -61,7 +61,7 @@
     * [Hardware Upgrades](reference-architecture/service-delivery/hardware/hardware-upgrades.md)
   * [Network Plane](reference-architecture/service-delivery/network-plane/README.md)
     * [Public Endpoints](reference-architecture/service-delivery/network-plane/public-endpoints.md)
-    * [Internal Subnets](reference-architecture/service-delivery/network-plane/internal-subnets.md)
+    * [Global Subnet Ranges](reference-architecture/service-delivery/network-plane/global-subnet-ranges.md)
     * [Carrier Uplinks](reference-architecture/service-delivery/network-plane/carrier-uplinks.md)
   * [Orchestration](reference-architecture/service-delivery/orchestration/README.md)
     * [Virtual Machine Plane](reference-architecture/service-delivery/orchestration/virtual-machine-plane.md)
