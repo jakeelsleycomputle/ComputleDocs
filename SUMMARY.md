@@ -40,26 +40,6 @@
   * [Refresh DCV Server](troubleshooting/component-refresh/refresh-dcv-server.md)
   * [Refresh NVIDIA](troubleshooting/component-refresh/refresh-nvidia.md)
 
-***
-
-* [Service Delivery](service-delivery/README.md)
-  * [Hardware](service-delivery/hardware/README.md)
-    * [Hardware Design](service-delivery/hardware/hardware-design.md)
-    * [Hardware Upgrades](service-delivery/hardware/hardware-upgrades.md)
-  * [Network Plane](service-delivery/network-plane/README.md)
-    * [Public Endpoints](service-delivery/network-plane/public-endpoints.md)
-    * [Global Subnet Ranges](service-delivery/network-plane/global-subnet-ranges.md)
-    * [Carrier Uplinks](service-delivery/network-plane/carrier-uplinks.md)
-  * [Orchestration](service-delivery/orchestration/README.md)
-    * [Virtual Machine Plane](service-delivery/orchestration/virtual-machine-plane/README.md)
-      * [Virtual Machine](service-delivery/orchestration/virtual-machine-plane/virtual-machine.md)
-      * [Streaming Agent](service-delivery/orchestration/virtual-machine-plane/streaming-agent.md)
-      * [Default Build](service-delivery/orchestration/virtual-machine-plane/default-build.md)
-    * [Orchestration Plane](service-delivery/orchestration/orchestration-plane/README.md)
-      * [Machine Agents](service-delivery/orchestration/orchestration-plane/machine-agents.md)
-  * [Shared Responsibility Model](service-delivery/shared-responsibility-model.md)
-  * [Security](service-delivery/security.md)
-
 ## Reference architecture
 
 * [Tenant-Level Configuration](reference-architecture/tenant-level-configuration/README.md)
@@ -78,6 +58,23 @@
 
 ## Corporate Governance&#x20;
 
+* [Service Delivery](corporate-governance/service-delivery/README.md)
+  * [Hardware](corporate-governance/service-delivery/hardware/README.md)
+    * [Hardware Design](corporate-governance/service-delivery/hardware/hardware-design.md)
+    * [Hardware Upgrades](corporate-governance/service-delivery/hardware/hardware-upgrades.md)
+  * [Network Plane](corporate-governance/service-delivery/network-plane/README.md)
+    * [Public Endpoints](corporate-governance/service-delivery/network-plane/public-endpoints.md)
+    * [Global Subnet Ranges](corporate-governance/service-delivery/network-plane/global-subnet-ranges.md)
+    * [Carrier Uplinks](corporate-governance/service-delivery/network-plane/carrier-uplinks.md)
+  * [Orchestration](corporate-governance/service-delivery/orchestration/README.md)
+    * [Virtual Machine Plane](corporate-governance/service-delivery/orchestration/virtual-machine-plane/README.md)
+      * [Virtual Machine](corporate-governance/service-delivery/orchestration/virtual-machine-plane/virtual-machine.md)
+      * [Streaming Agent](corporate-governance/service-delivery/orchestration/virtual-machine-plane/streaming-agent.md)
+      * [Default Build](corporate-governance/service-delivery/orchestration/virtual-machine-plane/default-build.md)
+    * [Orchestration Plane](corporate-governance/service-delivery/orchestration/orchestration-plane/README.md)
+      * [Machine Agents](corporate-governance/service-delivery/orchestration/orchestration-plane/machine-agents.md)
+  * [Shared Responsibility Model](corporate-governance/service-delivery/shared-responsibility-model.md)
+  * [Security](corporate-governance/service-delivery/security.md)
 * [Supply Chain Management](corporate-governance/supply-chain-management/README.md)
   * [Carbon Neutrality](corporate-governance/carbon-neutrality.md)
 * [Standards](corporate-governance/standards/README.md)
