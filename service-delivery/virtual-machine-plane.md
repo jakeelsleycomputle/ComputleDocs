@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/cad.jpg
+coverY: 199.07652399481194
+---
+
 # Virtual Machine Plane
 
 ## Baremetal Hardware

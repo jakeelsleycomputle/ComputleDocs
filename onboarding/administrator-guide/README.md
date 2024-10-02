@@ -1,3 +1,8 @@
+---
+cover: ../../.gitbook/assets/iStock-973715544.jpg
+coverY: 0
+---
+
 # Administrator Guide
 
 To access Computle, you require both a Computle Gateway account, and a Computle Machine.

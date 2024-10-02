@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/iStock-1188002056.jpg
+coverY: 103.33630686886708
+---
+
 # Network Plane
 
 ## tenantPublicIP
