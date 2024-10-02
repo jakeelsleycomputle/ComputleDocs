@@ -40,6 +40,26 @@
   * [Refresh DCV Server](troubleshooting/component-refresh/refresh-dcv-server.md)
   * [Refresh NVIDIA](troubleshooting/component-refresh/refresh-nvidia.md)
 
+***
+
+* [Service Delivery](service-delivery/README.md)
+  * [Hardware](service-delivery/hardware/README.md)
+    * [Hardware Design](service-delivery/hardware/hardware-design.md)
+    * [Hardware Upgrades](service-delivery/hardware/hardware-upgrades.md)
+  * [Network Plane](service-delivery/network-plane/README.md)
+    * [Public Endpoints](service-delivery/network-plane/public-endpoints.md)
+    * [Global Subnet Ranges](service-delivery/network-plane/global-subnet-ranges.md)
+    * [Carrier Uplinks](service-delivery/network-plane/carrier-uplinks.md)
+  * [Orchestration](service-delivery/orchestration/README.md)
+    * [Virtual Machine Plane](service-delivery/orchestration/virtual-machine-plane/README.md)
+      * [Virtual Machine](service-delivery/orchestration/virtual-machine-plane/virtual-machine.md)
+      * [Streaming Agent](service-delivery/orchestration/virtual-machine-plane/streaming-agent.md)
+      * [Default Build](service-delivery/orchestration/virtual-machine-plane/default-build.md)
+    * [Orchestration Plane](service-delivery/orchestration/orchestration-plane/README.md)
+      * [Machine Agents](service-delivery/orchestration/orchestration-plane/machine-agents.md)
+  * [Shared Responsibility Model](service-delivery/shared-responsibility-model.md)
+  * [Security](service-delivery/security.md)
+
 ## Reference architecture
 
 * [Tenant-Level Configuration](reference-architecture/tenant-level-configuration/README.md)
@@ -55,23 +75,6 @@
       * [Site-to-Site Connectivity](reference-architecture/tenant-level-configuration/network-access/tenant-options/site-to-site-connectivity/README.md)
         * [Cisco Meraki](reference-architecture/tenant-level-configuration/network-access/tenant-options/site-to-site-connectivity/cisco-meraki.md)
         * [WireGuard](reference-architecture/tenant-level-configuration/network-access/tenant-options/site-to-site-connectivity/wireguard.md)
-* [Service Delivery](reference-architecture/service-delivery/README.md)
-  * [Hardware](reference-architecture/service-delivery/hardware/README.md)
-    * [Hardware Design](reference-architecture/service-delivery/hardware/hardware-design.md)
-    * [Hardware Upgrades](reference-architecture/service-delivery/hardware/hardware-upgrades.md)
-  * [Network Plane](reference-architecture/service-delivery/network-plane/README.md)
-    * [Public Endpoints](reference-architecture/service-delivery/network-plane/public-endpoints.md)
-    * [Global Subnet Ranges](reference-architecture/service-delivery/network-plane/global-subnet-ranges.md)
-    * [Carrier Uplinks](reference-architecture/service-delivery/network-plane/carrier-uplinks.md)
-  * [Orchestration](reference-architecture/service-delivery/orchestration/README.md)
-    * [Virtual Machine Plane](reference-architecture/service-delivery/orchestration/virtual-machine-plane.md)
-      * [Virtual Machine](reference-architecture/service-delivery/orchestration/virtual-machine-plane/hypervisor.md)
-      * [Streaming Agent](reference-architecture/service-delivery/orchestration/virtual-machine-plane/streaming-agent.md)
-      * [Default Build](reference-architecture/service-delivery/orchestration/virtual-machine-plane/default-build.md)
-    * [Orchestration Plane](reference-architecture/service-delivery/orchestration/orchestration-plane/README.md)
-      * [Machine Agents](reference-architecture/service-delivery/orchestration/orchestration-plane/machine-agents.md)
-  * [Shared Responsibility Model](reference-architecture/service-delivery/shared-responsibility-model.md)
-  * [Security](reference-architecture/service-delivery/security.md)
 
 ## Corporate Governance&#x20;
 
