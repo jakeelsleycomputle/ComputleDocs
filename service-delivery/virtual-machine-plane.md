@@ -1,6 +1,6 @@
 ---
-cover: ../.gitbook/assets/cad.jpg
-coverY: 199.07652399481194
+cover: ../.gitbook/assets/iStock-1094979582.jpg
+coverY: 183
 ---
 
 # Virtual Machine Plane
