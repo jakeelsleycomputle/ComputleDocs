@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/iStock-1291584234.jpg
+cover: ../.gitbook/assets/iStock-1291584234.jpg
 coverY: 1165
 layout:
   cover:
@@ -46,7 +46,7 @@ In traditional computing setups, workstations are physically located in offices 
 **Computle:**
 
 * Computle manages the network connections within its data centres, ensuring workstations and virtualized infrastructure are connected to the internet.
-* Computle provides and operates [Computle Gateway](../../reference-architecture/tenant-level-configuration/network-access/tenant-defaults/computle-gateway/) VPN services (excluding user provisioning).
+* Computle provides and operates [Computle Gateway](../reference-architecture/tenant-level-configuration/network-access/tenant-defaults/computle-gateway/) VPN services (excluding user provisioning).
 * Manages upstream providers and peering relationships, floating public IP addresses, IP address assignment, public DNS management, and tenant namespaces.
 
 **You or your technical support provider:**

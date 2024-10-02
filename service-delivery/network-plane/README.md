@@ -7,7 +7,7 @@ Tenants are assigned public IP addresses for each region. Whilst these IPs are d
 ## Public Endpoint
 
 {% hint style="info" %}
-As of August 2024, we are depreciating public access to tenant-level resources. Going forward, users will be required to access tenant resources via [_Computle Gateway_](../../../administration/user-onboarding/administrator/gateway-deployment.md), or another network access product, such as VPN, or Zero Trust solutions. _Computle Gateway_ forms part of our Tenant Defaults offering, enabled for all new deployments, and delivered in phases for existing users.
+As of August 2024, we are depreciating public access to tenant-level resources. Going forward, users will be required to access tenant resources via [_Computle Gateway_](../gateway-deployment.md), or another network access product, such as VPN, or Zero Trust solutions. _Computle Gateway_ forms part of our Tenant Defaults offering, enabled for all new deployments, and delivered in phases for existing users.
 {% endhint %}
 
 Gateway users will access their resources via `gatewayID.region.tenantID.prd.computle.net` endpoint.&#x20;
