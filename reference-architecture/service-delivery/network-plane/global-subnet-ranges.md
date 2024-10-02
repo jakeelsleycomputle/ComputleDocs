@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Global Subnet Ranges
 
 We utilise Carrier-Grade Network Address Translation (CGNAT) for internal IP ranges, covering Computle Machines, and Computle Gateway devices. All devices operate within the 100.X.X.X/10) range. CGNAT ensures that our internal network addresses remain distinct from external or public IP addresses allowing customers to integrate Computle with existing infrastructure without unexpected routing impacts.

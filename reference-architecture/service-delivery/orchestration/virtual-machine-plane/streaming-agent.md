@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Streaming Agent
 
 ### NICE DCV

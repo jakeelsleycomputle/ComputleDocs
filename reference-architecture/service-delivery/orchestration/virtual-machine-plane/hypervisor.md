@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Virtual Machine
 
 ### **Baremetal Hardware**

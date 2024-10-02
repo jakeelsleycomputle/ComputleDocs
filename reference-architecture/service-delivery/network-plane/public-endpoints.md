@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Public Endpoints
 
 ## tenantPublicIP

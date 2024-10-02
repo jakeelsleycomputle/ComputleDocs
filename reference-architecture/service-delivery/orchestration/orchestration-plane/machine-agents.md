@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Machine Agents
 
 ## Active: Qemu-guest-agent

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Default Build
 
 Below you can find a breakdown of all image-specific configurations supplied in Computle's default images.
