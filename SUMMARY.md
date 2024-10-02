@@ -70,16 +70,8 @@
       * [Default Build](reference-architecture/service-delivery/orchestration/virtual-machine-plane/default-build.md)
     * [Orchestration Plane](reference-architecture/service-delivery/orchestration/orchestration-plane/README.md)
       * [Machine Agents](reference-architecture/service-delivery/orchestration/orchestration-plane/machine-agents.md)
-* [Security](reference-architecture/security/README.md)
-  * [Physical Layer](reference-architecture/security/physical-layer/README.md)
-    * [Data Centres](reference-architecture/security/physical-layer/data-centres.md)
-    * [Host Isolation](reference-architecture/security/physical-layer/host-isolation.md)
-    * [Site Isolation](reference-architecture/security/physical-layer/site-isolation.md)
-  * [Digital Layer](reference-architecture/security/digital-layer/README.md)
-    * [Tenant Isolation](reference-architecture/security/digital-layer/tenant-isolation.md)
-    * [Zero Trust Architecture](reference-architecture/security/digital-layer/zero-trust-architecture.md)
-    * [Hardware Keys](reference-architecture/security/digital-layer/hardware-keys.md)
-    * [Security Auditing and Logging](reference-architecture/security/digital-layer/security-auditing-and-logging.md)
+  * [Shared Responsibility Model](reference-architecture/service-delivery/shared-responsibility-model.md)
+  * [Security](reference-architecture/service-delivery/security.md)
 
 ## Corporate Governance&#x20;
 

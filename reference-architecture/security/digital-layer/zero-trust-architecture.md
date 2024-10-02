@@ -1,3 +1,0 @@
-# Zero Trust Architecture
-
-Computle operates on the principle of "never trust, always verify," ensuring that no user or device is granted unrestricted access by default. Our ZTA implementation involves rigorous identity verification through multi-factor authentication (MFA) and robust identity and access management (IAM) systems. We enforce the principle of least privilege access, limiting access rights to the minimum required for each user or device. Network micro-segmentation is employed to create isolated segments, reducing the lateral movement potential of threats. Continuous monitoring and policy-based access control help us detect and respond to anomalies in real-time.
