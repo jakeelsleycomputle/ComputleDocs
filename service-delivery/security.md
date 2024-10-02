@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/iStock-529418686.jpg
+coverY: 0
+---
+
 # Security
 
 ## Data Centres
