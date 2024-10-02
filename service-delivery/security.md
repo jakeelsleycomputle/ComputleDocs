@@ -50,7 +50,7 @@ Security auditing and logging are essential components of Computle's security ap
 
 ***
 
-### NICE DCV
+## NICE DCV
 
 NICE DCV employs robust security mechanisms to ensure the security of data in transit between the DCV server and the client. &#x20;
 
