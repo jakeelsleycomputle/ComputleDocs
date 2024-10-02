@@ -1,6 +1,6 @@
 # Table of contents
 
-* [📖 Welcome to Computle Docs](README.md)
+* [Welcome to Computle Docs](README.md)
 
 ## Onboarding
 
