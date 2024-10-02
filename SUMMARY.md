@@ -7,26 +7,17 @@
 * [End User Guide](onboarding/end-user-guide/README.md)
   * [iPad/Tablet](onboarding/end-user-guide/ipad-tablet.md)
   * [Network Requirements](onboarding/end-user-guide/network-requirements.md)
-* [Administrator Guide](onboarding/administrator-guide.md)
+  * [Unattended Install](onboarding/end-user-guide/unattended-install.md)
+  * [Hardware](onboarding/end-user-guide/hardware.md)
+* [Administrator Guide](onboarding/administrator-guide/README.md)
+  * [Gateway Deployment](onboarding/administrator-guide/gateway-deployment.md)
+  * [Portals](onboarding/administrator-guide/portals.md)
 
 ## Service Delivery
 
-* [Portals](service-delivery/portals.md)
-* [Gateway Deployment](service-delivery/gateway-deployment.md)
-* [Hardware](service-delivery/hardware.md)
-* [Unattended Install](service-delivery/unattended-install.md)
-* [Network Plane](service-delivery/network-plane/README.md)
-  * [Public Endpoints](service-delivery/network-plane/public-endpoints.md)
-  * [Global Subnet Ranges](service-delivery/network-plane/global-subnet-ranges.md)
-  * [Carrier Uplinks](service-delivery/network-plane/carrier-uplinks.md)
-* [Orchestration](service-delivery/orchestration/README.md)
-  * [Virtual Machine Plane](service-delivery/orchestration/virtual-machine-plane/README.md)
-    * [Virtual Machine](service-delivery/orchestration/virtual-machine-plane/virtual-machine.md)
-    * [Streaming Agent](service-delivery/orchestration/virtual-machine-plane/streaming-agent.md)
-    * [Default Build](service-delivery/orchestration/virtual-machine-plane/default-build.md)
-  * [Orchestration Plane](service-delivery/orchestration/orchestration-plane/README.md)
-    * [Machine Agents](service-delivery/orchestration/orchestration-plane/machine-agents.md)
 * [Shared Responsibility Model](service-delivery/shared-responsibility-model.md)
+* [Network Plane](service-delivery/network-plane.md)
+* [Virtual Machine Plane](service-delivery/virtual-machine-plane.md)
 * [Security](service-delivery/security.md)
 
 ## Troubleshooting

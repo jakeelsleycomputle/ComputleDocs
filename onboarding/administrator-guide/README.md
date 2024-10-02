@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Administrator Guide
 
 To access Computle, you require both a Computle Gateway account, and a Computle Machine.
@@ -10,6 +6,6 @@ Computle Gateway acts as a network tunnel enabling you to access your tenant res
 
 **To get started, choose your desired pathway:**
 
-* If you have not already onboarded a user into Computle Gateway, follow [these ](../service-delivery/gateway-deployment.md)instructions.&#x20;
+* If you have not already onboarded a user into Computle Gateway, follow [these ](gateway-deployment.md)instructions.&#x20;
 * If you have enrolled a user into Computle Gateway, create a machine [here](broken-reference).&#x20;
 
