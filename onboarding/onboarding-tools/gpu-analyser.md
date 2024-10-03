@@ -1,14 +1,12 @@
 # GPU Analyser
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Computle's GPU Analyser</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
-## Overview
-
-Computle GPU Analyser is a powerful free tool designed to help organisations monitor and analyse GPU usage across their workstations. By providing detailed insights into how different users or personas utilize GPU resources, it enables team leads and IT administrators to make informed decisions when planning workstation specifications and subscriptions.
+### Computle GPU Analyser is a powerful free tool designed to help organisations monitor and analyse GPU usage across their workstations. By providing detailed insights into how different users or personas utilize GPU resources, it enables team leads and IT administrators to make informed decisions when planning a migration to Computle.
 
 ## Features
 
-* **Real-Time GPU Monitoring**: Track GPU utilisation, memory usage, and power draw in real-time.
+* **Real-Time GPU Monitoring**: Track GPU utilisation in real-time.
 * **Historical Data Access**: View historical GPU performance data to spot trends over time.
 * **System Information Collection**: Gather detailed system specs, including CPU, RAM, GPU type, and operating system.
 * **Web-Based Dashboard**: Visualise GPU performance metrics through our intuitive web interface.
@@ -51,10 +49,9 @@ The data collected includes:
 1. **Download the Installer**:
 
 {% hint style="info" %}
-**Windows**&#x20;
+**Installer:** [Computle\_GPU\_Analyser\_x64\_2024.09.01.4.exe](https://gpuanalyser.computle.net/installer/Computle\_GPU\_Analyser\_x64\_2024.09.01.4.exe)
 
-* **Installer:** [Computle\_GPU\_Analyser\_x64\_2024.09.01.4.exe](https://gpuanalyser.computle.net/installer/Computle\_GPU\_Analyser\_x64\_2024.09.01.4.exe)
-* **sha256sum** e6d5269291bf48ccbcde31b8a56c13fd5cab547d9ee161c60776a9b046ad1f7a
+**sha256sum** e6d5269291bf48ccbcde31b8a56c13fd5cab547d9ee161c60776a9b046ad1f7a
 {% endhint %}
 
 2. **Run the Installer**:
@@ -78,15 +75,17 @@ The agent will start running in the background upon successful installation. Aft
 
 ## Using the web dashboard
 
-Access the web dashboard here:
+Access the web dashboard and enter your serial:
 
 {% hint style="info" %}
 [Web dashboard](https://gpuanalyser.computle.net)
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption><p>Computle GPU Analyser</p></figcaption></figure>
 
-#### Navigating the Dashboard
+***
+
+## Using the dashboard
 
 1. **Machine Selection**:
    * Use the **"Select Machine"** dropdown to choose a workstation or user persona.
@@ -100,14 +99,14 @@ Access the web dashboard here:
 4. **System Information**:
    * Access detailed hardware and system specs for the selected machine.
 
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+
 ***
 
-### Troubleshooting
-
-#### Common Issues
+## Troubleshooting&#x20;
 
 * **No Data Displayed**:
-  * Ensure the agent is running on the workstation. You can verify this by going to Services and then looking for Computle GPU Analyser. Ensure that the status shows as Running.&#x20;
+  * Ensure the agent is running on the workstation. You can verify this by going to Services and then looking for _Computle GPU Analyser_. Ensure that the status shows as Running.&#x20;
   * Verify that the machine has an active internet connection.
   * Check firewall settings to allow outbound connections to Computle's servers. `gpuanalyser.computle.net`
 * **Agent Not Starting**:
@@ -116,23 +115,14 @@ Access the web dashboard here:
 * **Incorrect System Information**:
   * The agent collects system info daily; discrepancies may resolve after 24 hours.
   * Ensure the workstation's date and time settings are correct.
-
-#### Log file
-
-Logs are stored in `C:\ProgramData\GPUAnalyser\logs`.
+* Log file
+  * Logs are stored in `C:\ProgramData\GPUAnalyser\logs`.
 
 ***
 
-### FAQs
+## FAQs
 
-#### Is the GPU Analyser resource-intensive?
+* **Is the GPU Analyser resource-intensive?** No, the agent is designed to be lightweight and operates with minimal impact on system performance.&#x20;
+* **How often is data collected?** Data is collected every second and then aggregated into hourly averages.&#x20;
+* **Do I need to remain logged in?** No, the application runs as a service.&#x20;
 
-No, the agent is designed to be lightweight and operates with minimal impact on system performance.
-
-#### How often is data collected?
-
-Data is collected every second and then aggregated into hourly averages.&#x20;
-
-#### How is user privacy protected?
-
-The agent collects only hardware and performance metrics, not personal user data or activity logs.
