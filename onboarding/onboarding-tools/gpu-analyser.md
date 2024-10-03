@@ -1,6 +1,6 @@
 ---
-cover: ../../.gitbook/assets/RTX-5000-Dark-KV-FINAL.png
-coverY: 0
+cover: ../../.gitbook/assets/gpu.png
+coverY: 60
 ---
 
 # GPU Analyser
