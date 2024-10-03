@@ -4,6 +4,10 @@
 
 ### Computle GPU Analyser is a powerful free tool designed to help organisations monitor and analyse GPU usage across their workstations. By providing detailed insights into how different users utilise GPU resources, it enables team IT administrators to make informed decisions when planning a migration to Computle.
 
+{% hint style="info" %}
+Access the demo **here**
+{% endhint %}
+
 ## Features
 
 * **Real-Time GPU Monitoring**: Track GPU utilisation in real-time.
