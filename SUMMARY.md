@@ -12,6 +12,8 @@
 * [Administrator Guide](onboarding/administrator-guide/README.md)
   * [Gateway Deployment](onboarding/administrator-guide/gateway-deployment.md)
   * [Portals](onboarding/administrator-guide/portals.md)
+* [Onboarding Tools](onboarding/onboarding-tools/README.md)
+  * [GPU Analyser](onboarding/onboarding-tools/gpu-analyser.md)
 
 ## Service Delivery
 
