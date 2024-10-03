@@ -230,7 +230,7 @@ In traditional computing setups, workstations are physically located in offices 
 
 **Computle:**
 
-* Computle maintains [SLAs](shared-responsibility-model.md#slas) covering the availability and uptime of hosted workstations in its data centres.
+* Computle maintains SLAs covering the availability and uptime of hosted workstations in its data centres.
 
 **You or your technical support provider:**
 
