@@ -1,8 +1,3 @@
----
-cover: ../../.gitbook/assets/gpu.png
-coverY: 60
----
-
 # GPU Analyser
 
 <figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
