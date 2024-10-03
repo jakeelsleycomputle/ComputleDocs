@@ -2,7 +2,7 @@
 
 <figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
-### Computle GPU Analyser is a powerful free tool designed to help organisations monitor and analyse GPU usage across their workstations. By providing detailed insights into how different users or personas utilize GPU resources, it enables team leads and IT administrators to make informed decisions when planning a migration to Computle.
+### Computle GPU Analyser is a powerful free tool designed to help organisations monitor and analyse GPU usage across their workstations. By providing detailed insights into how different users utilise GPU resources, it enables team IT administrators to make informed decisions when planning a migration to Computle.
 
 ## Features
 
@@ -88,8 +88,7 @@ Access the web dashboard and enter your serial:
 ## Using the dashboard
 
 1. **Machine Selection**:
-   * Use the **"Select Machine"** dropdown to choose a workstation or user persona.
-   * Machines are identified by their hostnames or assigned labels.
+   * Use the **"Select Machine"** dropdown to choose a workstation.
 2. **Time Range Selection**:
    * Choose from predefined time ranges (e.g., past 24 hours, 7 days, 30 days) or set a custom range.
 3. **Viewing Charts**:
