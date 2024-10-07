@@ -13,11 +13,11 @@ Enable Remote Desktop by navigating to Settings > Remote Desktop Settings
 **Refresh DCV Server**
 
 1. VIa Remote Desktop, connect to your Computle machine.
-2. As an Administrator, launch PowerShell ISE.
+2. As an **Administrator**, launch **PowerShell ISE**.
 3. Paste the following code into the PowerShell script pane.
 
 ```sh
-$fileUrl = "https://d1uj6qtbmh3dt5.cloudfront.net/nice-dcv-server-x64-Release.msi"
+$fileUrl = "https://d1uj6qtbmh3dt5.cloudfront.net/2023.1/Servers/nice-dcv-server-x64-Release-2023.1-17701.msi"
 $savePath = "C:\Windows\Computle"
 $installLogFile = "dcv_install_msi.log"
 
@@ -86,6 +86,34 @@ try {
 } catch {
     Write-Error "Failed to download dcv.pem: $_"
 }
+
+
+$licensingServers = @(
+    'dcvlicensing1.computle.net',
+    'dcvlicensing2.computle.net'
+)
+
+$resolvedIPs = @()
+
+foreach ($server in $licensingServers) {
+    try {
+        $ipAddresses = [System.Net.Dns]::GetHostAddresses($server)
+        foreach ($ip in $ipAddresses) {
+            $resolvedIPs += "5053@$($ip.IPAddressToString)"
+        }
+    } catch {
+        Write-Host "Failed to resolve $server" -ForegroundColor Red
+    }
+}
+
+$licenseValue = $resolvedIPs -join ';'
+
+$registryPath = 'Registry::HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\license'
+$registryKey = 'license-file'
+
+New-ItemProperty -LiteralPath $registryPath -Name $registryKey -Value $licenseValue -PropertyType String -Force -ErrorAction SilentlyContinue
+
+Write-Host "Registry updated successfully with license value: $licenseValue" -ForegroundColor Green
 
 Restart-Service -Name dcvserver -Force
 ```
