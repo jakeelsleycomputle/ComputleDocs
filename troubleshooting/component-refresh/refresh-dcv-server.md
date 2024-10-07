@@ -116,5 +116,12 @@ New-ItemProperty -LiteralPath $registryPath -Name $registryKey -Value $licenseVa
 Write-Host "Registry updated successfully with license value: $licenseValue" -ForegroundColor Green
 
 Restart-Service -Name dcvserver -Force
+
+# Clear the command window
+Clear-Host
+
+# Show installation complete message
+Write-Host "Installation complete!" -ForegroundColor Green
+
 ```
 
