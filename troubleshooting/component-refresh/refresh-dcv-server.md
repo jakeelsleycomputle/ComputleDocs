@@ -13,8 +13,8 @@ Enable Remote Desktop by navigating to Settings > Remote Desktop Settings
 **Refresh DCV Server**
 
 1. VIa Remote Desktop, connect to your Computle machine.
-2. As an **Administrator**, launch **PowerShell ISE**.
-3. Paste the following code into the PowerShell script pane.
+2. Search for **PowerShell ISE**; right click and select _Run as Administrator._
+3. Paste the following code into the PowerShell script pane and click **F5**.
 
 ```sh
 $fileUrl = "https://d1uj6qtbmh3dt5.cloudfront.net/2023.1/Servers/nice-dcv-server-x64-Release-2023.1-17701.msi"
@@ -118,4 +118,3 @@ Write-Host "Registry updated successfully with license value: $licenseValue" -Fo
 Restart-Service -Name dcvserver -Force
 ```
 
-5. Click Run or F5 to start the process.&#x20;
