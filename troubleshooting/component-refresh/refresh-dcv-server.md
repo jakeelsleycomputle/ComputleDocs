@@ -59,9 +59,7 @@ if(!(Test-Path -LiteralPath "Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\c
 New-ItemProperty -LiteralPath 'Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\license' -Name 'license-file' -Value '5053@dcvlicensing1.computle.net;5053@dcvlicensing2.computle.net' -PropertyType String -Force -ErrorAction SilentlyContinue
 New-ItemProperty -LiteralPath 'Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\connectivity' -Name 'enable-quic-frontend' -Value 0 -PropertyType DWord -Force -ErrorAction SilentlyContinue
 New-ItemProperty -LiteralPath 'Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\session-management\automatic-console-session' -Name 'owner' -Value 'computle' -PropertyType String -Force -ErrorAction SilentlyContinue
-New-ItemProperty -Path 'Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\connectivity' -Name 'idle-timeout' -Value 0 -PropertyType DWord -Force -ErrorAction SilentlyContinue
-New-ItemProperty -Path "Microsoft.PowerShell.Core\Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\display" -Name layout-managers -PropertyType STRING -Value "['nvapi', 'amd', 'dod', 'winapi']" -ErrorAction SilentlyContinue
-New-ItemProperty -Path "Microsoft.PowerShell.Core\Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\display" -Name framebuffer-readers -PropertyType STRING -Value "['desktopduplication', 'gdi']" -ErrorAction SilentlyContinue
+New-ItemProperty -Path 'Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\connectivity' -Name 'idle-timeout' -Value 0 -PropertyType DWord -Force -ErrorAction
 New-ItemProperty -Path "HKLM:\Software\GSettings\com\nicesoftware\dcv\session-management" -Name "max-concurrent-clients" -PropertyType DWord -Value 1 -Force -ErrorAction SilentlyContinue
 New-ItemProperty -Path "HKLM:\Software\GSettings\com\nicesoftware\dcv\security" -Name "os-auto-lock" -PropertyType DWord -Value 1 -Force -ErrorAction SilentlyContinue
 
