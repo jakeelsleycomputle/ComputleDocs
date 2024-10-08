@@ -14,6 +14,7 @@
   * [Portals](onboarding/administrator-guide/portals.md)
   * [Computle Device](onboarding/administrator-guide/computle-device.md)
   * [Machine Portal](onboarding/administrator-guide/machine-portal.md)
+  * [Machine Assignment](onboarding/administrator-guide/machine-assignment.md)
 * [Onboarding Tools](onboarding/onboarding-tools/README.md)
   * [GPU Analyser](onboarding/onboarding-tools/gpu-analyser.md)
 
@@ -26,6 +27,7 @@
   * [Network Plane](service-delivery/service-delivery-architecture/network-plane.md)
   * [IDAM Providers](service-delivery/service-delivery-architecture/idam-providers.md)
   * [Storage Providers](service-delivery/service-delivery-architecture/storage-providers.md)
+  * [Computle Broker](service-delivery/service-delivery-architecture/computle-broker.md)
 * [Service Operations](service-delivery/service-operations/README.md)
   * [Shared Responsibility Model](service-delivery/service-operations/shared-responsibility-model.md)
   * [Security at Computle](service-delivery/service-operations/security-at-computle.md)
