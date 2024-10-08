@@ -48,14 +48,71 @@ The data collected includes:
 * **Administrator Access**: Required for installation on each workstation.
 * **Internet Connection**: Necessary for data uploads to Computle's servers.
 
-#### Installation Steps
+#### Unattended Installation&#x20;
+
+PowerShell
+
+```
+# Computle GPU Analyser Silent Installation Script
+
+# Product Key
+$productKey = "PUT_YOUR_KEY_HERE"
+
+if (-not $productKey) {
+    exit 1
+}
+
+$installerUrl = "https://gpuanalyser.computle.net/installer/Computle_GPU_Analyser_x64_2024.09.01.5.exe"
+$installerPath = "$env:TEMP\Computle_GPU_Analyser_x64_2024.09.01.5.exe"
+
+Invoke-WebRequest -Uri $installerUrl -OutFile $installerPath
+
+if (-not (Test-Path $installerPath)) {
+    exit 1
+}
+
+Start-Process -FilePath $installerPath -ArgumentList "/S", "/ProductKey=$productKey" -Wait
+
+```
+
+3. Verify the data on the web dashboard:
+
+{% hint style="info" %}
+[Web dashboard](https://gpuanalyser.computle.net)
+{% endhint %}
+
+***
+
+**MSI**
 
 1. **Download the Installer**:
 
 {% hint style="info" %}
-**Installer:** [Computle\_GPU\_Analyser\_x64\_2024.09.01.4.exe](https://gpuanalyser.computle.net/installer/Computle\_GPU\_Analyser\_x64\_2024.09.01.4.exe)
+**Installer:** [Computle\_GPU\_Analyser\_x64\_2024.09.01.5.exe](../../)
 
-**sha256sum** e6d5269291bf48ccbcde31b8a56c13fd5cab547d9ee161c60776a9b046ad1f7a
+**sha256sum** 4396d5e4cdfb05c1572cbc4ae8e5e239fc50028f4484a27017b429487365ed08
+{% endhint %}
+
+2. Deploy the MSI with the following arguments:
+
+`Computle_GPU_Analyser_x64_2024.09.01.5.exe /S /ProductKey=KEY`
+
+3. Verify the data on the web dashboard:
+
+{% hint style="info" %}
+[Web dashboard](https://gpuanalyser.computle.net)
+{% endhint %}
+
+***
+
+#### Manual Installation&#x20;
+
+1. **Download the Installer**:
+
+{% hint style="info" %}
+**Installer:** [Computle\_GPU\_Analyser\_x64\_2024.09.01.5.exe](../../)
+
+**sha256sum** 4396d5e4cdfb05c1572cbc4ae8e5e239fc50028f4484a27017b429487365ed08
 {% endhint %}
 
 2. **Run the Installer**:
