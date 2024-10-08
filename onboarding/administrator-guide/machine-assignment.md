@@ -33,3 +33,46 @@ The **Computle Broker Agent** helps you manage machine assignments by dynamicall
    * The new user assignment will now be synced.
 4. **Sync Interval:**
    * The updated assignment is automatically synced every **5 minutes** to ensure that all machines and users are up to date. This means that after making a change, the new user assignment will take effect on the machine after the next sync cycle.
+
+***
+
+## **Restoring Previous Versions**
+
+If you need to revert to an older assignment configuration, you can restore a previous version using the **Browse Versions** feature.
+
+1. **Open the Modify Assignments Window:**
+   * Right-click the **Computle Broker Agent** icon in the tray.
+   * Select **Modify Assignments** from the menu.
+2. **Browse Versions:**
+   * In the **Modify Assignments** window, click the **Browse Versions** button on the right.
+   * A new window will appear, listing historical versions of the assignment configurations by date.
+3. **Select and Restore:**
+   * Scroll through the list and choose the version you want to restore.
+   * Select the desired date and confirm the restoration.
+   * The machine assignments will now be reverted to how they were on that specific date.
+4. **Save and Sync:**
+   * After restoring a previous version, the updated assignment list will be automatically synced to the system within **5 minutes**.
+
+***
+
+## **Viewing Latest Log Files**
+
+This feature allows administrators to access log files, which can be helpful for tracking changes or troubleshooting issues.
+
+1. **Right-Click the Tray Icon:**
+   * Right-click the **Computle Broker Agent** icon in the system tray.
+2. **Select “View Latest Log File”:**
+   * From the menu, click **View Latest Log File**.
+   * This will open the most recent log file in your default text editor, displaying any recent activity, changes, or errors related to machine assignments.
+
+***
+
+## **Refreshing the Interface**
+
+If you make changes or want to check for updates immediately, you can manually refresh the assignment interface.
+
+1. **Right-Click the Tray Icon:**
+   * Right-click the **Computle Broker Agent** icon.
+2. **Select “Refresh”:**
+   * Click **Refresh** from the menu.
+   * This will reload the current machine assignments and ensure the latest data is displayed.

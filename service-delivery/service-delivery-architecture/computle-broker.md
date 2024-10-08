@@ -1,6 +1,6 @@
 # Computle Broker
 
-The **Computle Broker Agent** helps you manage machine assignments by dynamically updating based on the device's hostname and assigned user. &#x20;
+The **Computle Broker Agent** helps you manage machine assignments by dynamically updating based on the device's hostname and assigned user.  Computle Broker is available free of charge to Computle customers.
 
 ***
 
@@ -26,60 +26,45 @@ Administrators can access a simple interface where they can assign machines. Wit
 
 </div>
 
-**To modify an assignment:**
+***
 
-1. **Open the Modify Assignments Window:**
-   * Right-click on the **Computle Broker Agent** icon in the system tray.
-   * From the menu, select **Modify Assignments**.
-2. **Update Assigned User:**
-   * In the window, you will see a table with the columns for **Machine Name**, **Assigned User**, and **IP/DNS**.
-   * To change the user, click the **Assigned User** field next to the machine you wish to update.
-   * Enter the new user in the following format: `domain\username`
-3. **Save Changes:**
-   * After editing the user assignment, click the **Save** button on the right side of the window.
-   * The new user assignment will now be synced.
-4. **Sync Interval:**
-   * The updated assignment is automatically synced every **5 minutes** to ensure that all machines and users are up to date. This means that after making a change, the new user assignment will take effect on the machine after the next sync cycle.
+## End User Experience
+
+Connecting to your assigned machine is easy. Simply enter your username, and your assigned machine is automatically presented.
+
+<div align="left">
+
+<figure><img src="https://blog.computle.com/content/images/2024/09/image-2-1-1.png" alt="" height="549" width="403"><figcaption><p>Computle Client App</p></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://blog.computle.com/content/images/2024/09/image-3-1-1-1.png" alt="" height="549" width="404"><figcaption></figcaption></figure>
+
+</div>
 
 ***
 
-## **Restoring Previous Versions**
+## **Security and API Key Authentication**
 
-If you need to revert to an older assignment configuration, you can restore a previous version using the **Browse Versions** feature.
+Each tenant is assigned a unique API key, which is used to authenticate access to their machines and data. All communications between the Computle Broker Agent and our servers are encrypted using HTTPS, ensuring that data in transit is secure. API keys ensure that only authorized users can interact with the system.
 
-1. **Open the Modify Assignments Window:**
-   * Right-click the **Computle Broker Agent** icon in the tray.
-   * Select **Modify Assignments** from the menu.
-2. **Browse Versions:**
-   * In the **Modify Assignments** window, click the **Browse Versions** button on the right.
-   * A new window will appear, listing historical versions of the assignment configurations by date.
-3. **Select and Restore:**
-   * Scroll through the list and choose the version you want to restore.
-   * Select the desired date and confirm the restoration.
-   * The machine assignments will now be reverted to how they were on that specific date.
-4. **Save and Sync:**
-   * After restoring a previous version, the updated assignment list will be automatically synced to the system within **5 minutes**.
+Tenant data is fully isolated, with each tenant’s information stored in a dedicated, separate environment to prevent cross-access between tenants. This ensures that machine assignments and other sensitive information remain secure and exclusive to each tenant.
 
 ***
 
-## **Viewing Latest Log Files**
+## Service Resiliency&#x20;
 
-This feature allows administrators to access log files, which can be helpful for tracking changes or troubleshooting issues.
+**High Availability**
 
-1. **Right-Click the Tray Icon:**
-   * Right-click the **Computle Broker Agent** icon in the system tray.
-2. **Select “View Latest Log File”:**
-   * From the menu, click **View Latest Log File**.
-   * This will open the most recent log file in your default text editor, displaying any recent activity, changes, or errors related to machine assignments.
+Computle's infrastructure is designed with high availability in mind, ensuring that our services remain operational even in the event of hardware failures or network issues. Each component of our system, from storage to compute, is built with redundancy and failover mechanisms to maintain uptime. This architecture helps provide continuous access to machine assignments and ensures that the Computle Broker Agent can perform without interruption.
+
+**Caching for Reliability**
+
+In the event that the app is unable to download the latest assignment file due to a network issue or API unavailability, the app intelligently caches the last known good file. This ensures that users can continue to work with their assigned machines even during temporary disruptions. As soon as connectivity is restored, the app will automatically attempt to download the latest file, maintaining seamless operation without user intervention.\
+
 
 ***
 
-## **Refreshing the Interface**
-
-If you make changes or want to check for updates immediately, you can manually refresh the assignment interface.
-
-1. **Right-Click the Tray Icon:**
-   * Right-click the **Computle Broker Agent** icon.
-2. **Select “Refresh”:**
-   * Click **Refresh** from the menu.
-   * This will reload the current machine assignments and ensure the latest data is displayed.
+##
