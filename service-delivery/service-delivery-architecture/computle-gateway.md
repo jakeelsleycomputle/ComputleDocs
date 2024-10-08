@@ -1,5 +1,9 @@
 # Computle Gateway
 
+{% hint style="info" %}
+If you are an administrator looking to onboard a user into Computle Gateway for SMEs, head [here](../../onboarding/administrator-guide/computle-gateway-for-smes.md).
+{% endhint %}
+
 **Computle Gateway** is our free network access solution, offering secure, low-latency, and high-performance encrypted connections for both SMEs and Enterprises. Built for **High Availability (HA)**, Computle Gateway ensures that users can always access their resources reliably.
 
 **Low Latency and Always-On Connection**
