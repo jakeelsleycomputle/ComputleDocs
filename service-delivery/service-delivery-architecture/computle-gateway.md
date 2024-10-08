@@ -14,12 +14,15 @@ Computle Gateway uses **end-to-end encryption**, securing all data from the clie
 
 ## **Versions of Computle Gateway**
 
-1. [**Computle Gateway for SMEs**](../../onboarding/administrator-guide/computle-gateway-for-smes.md):
-   * **Free** version with self-service VPN management.
-   * Provides secure access to company resources without requiring additional infrastructure.
-2. **Computle Gateway for Enterprise**:
-   * **£5 per user/month** with added **Single Sign-On (SSO)** and **Multi-Factor Authentication (MFA)**.
-   * Enterprise-grade security features for larger businesses needing tighter access control and enhanced management capabilities.
+**Computle Gateway for SMEs**:
+
+* **Free** version with self-service VPN management.
+* Provides secure access to company resources without requiring additional infrastructure.
+
+**Computle Gateway for Enterprise**:
+
+* **£5 per user/month** with added **Single Sign-On (SSO)** and **Multi-Factor Authentication (MFA)**.
+* Enterprise-grade security features for larger businesses needing tighter access control and enhanced management capabilities.
 
 Both versions include a **self-service panel** where users can manage VPN connections, troubleshoot access issues, and add or remove devices as needed.
 
@@ -66,6 +69,8 @@ The **Enterprise version** of Computle Gateway offers advanced security through 
      * **Redirect URI**: `https://gateway.computle.com/callback`.
 7. **Test the Integration:**
    * Access Computle Gateway and authenticate using your Azure AD credentials.
+
+***
 
 ### **Integration: On-Premises AD via ADFS**
 
