@@ -4,6 +4,20 @@ description: >-
   If you are an administrator, please follow the Administrator Guide.
 cover: ../../.gitbook/assets/animation-studio-1.jpg
 coverY: 70
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
 # End User Guide
