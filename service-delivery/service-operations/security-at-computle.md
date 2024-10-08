@@ -1,9 +1,15 @@
 ---
-cover: ../.gitbook/assets/iStock-529418686.jpg
+cover: ../../.gitbook/assets/iStock-529418686.jpg
 coverY: 0
 ---
 
-# Security
+# Security at Computle
+
+## Security at Computle
+
+At Computle, we ensure that that both physical and digital protections are in place to safeguard critical infrastructure and sensitive data. We implement a multi-layered approach across several domains to provide our customers with confidence in the integrity and privacy of their operations.
+
+***
 
 ## Data Centres
 
@@ -15,7 +21,7 @@ Only authorized personnel with the appropriate credentials are granted entry to 
 
 ## Host Isolation
 
-Each physical host in our infrastructure is dedicated exclusively to running a single Computle machine instance for a customer. This approach guarantees that a customer's workload operates in complete isolation, with exclusive access to the underlying hardware resources. By dedicating each host to one client, we eliminate the risk of data co-mingling and resource contention. This strict isolation enhances data security and privacy, minimizing the potential impact of security incidents on neighboring instances.&#x20;
+Each physical host in our infrastructure is dedicated exclusively to running a single Computle machine instance for a customer. This approach guarantees that a customer's workload operates in complete isolation, with exclusive access to the underlying hardware resources. By dedicating each host to one client, we eliminate the risk of data co-mingling and resource contention. This strict isolation enhances data security and privacy, minimizing the potential impact of security incidents on neighbouring instances.&#x20;
 
 ***
 

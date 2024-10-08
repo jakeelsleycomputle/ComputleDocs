@@ -11,6 +11,6 @@ Computle Gateway acts as a network tunnel enabling you to access your tenant res
 
 **To get started, choose your desired pathway:**
 
-* If you have not already onboarded a user into Computle Gateway, follow [these ](gateway-deployment.md)instructions.&#x20;
+* If you have not already onboarded a user into Computle Gateway, follow [these ](computle-gateway-for-smes.md)instructions.&#x20;
 * If you have enrolled a user into Computle Gateway, create a machine [here](portals.md).&#x20;
 

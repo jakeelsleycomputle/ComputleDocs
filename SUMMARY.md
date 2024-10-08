@@ -10,17 +10,26 @@
   * [Unattended Install](onboarding/end-user-guide/unattended-install.md)
   * [Hardware](onboarding/end-user-guide/hardware.md)
 * [Administrator Guide](onboarding/administrator-guide/README.md)
-  * [Gateway Deployment](onboarding/administrator-guide/gateway-deployment.md)
+  * [Computle Gateway for SMEs](onboarding/administrator-guide/computle-gateway-for-smes.md)
   * [Portals](onboarding/administrator-guide/portals.md)
+  * [Computle Device](onboarding/administrator-guide/computle-device.md)
+  * [Machine Portal](onboarding/administrator-guide/machine-portal.md)
 * [Onboarding Tools](onboarding/onboarding-tools/README.md)
   * [GPU Analyser](onboarding/onboarding-tools/gpu-analyser.md)
 
 ## Service Delivery
 
-* [Shared Responsibility Model](service-delivery/shared-responsibility-model.md)
-* [Network Plane](service-delivery/network-plane.md)
-* [Virtual Machine Plane](service-delivery/virtual-machine-plane.md)
-* [Security](service-delivery/security.md)
+* [Service Delivery Architecture](service-delivery/service-delivery-architecture/README.md)
+  * [Machine Plane](service-delivery/service-delivery-architecture/machine-plane.md)
+  * [Telemetry and Monitoring at Computle](service-delivery/service-delivery-architecture/telemetry-and-monitoring-at-computle.md)
+  * [Computle Gateway](service-delivery/service-delivery-architecture/computle-gateway.md)
+  * [Network Plane](service-delivery/service-delivery-architecture/network-plane.md)
+  * [IDAM Providers](service-delivery/service-delivery-architecture/idam-providers.md)
+  * [Storage Providers](service-delivery/service-delivery-architecture/storage-providers.md)
+* [Service Operations](service-delivery/service-operations/README.md)
+  * [Shared Responsibility Model](service-delivery/service-operations/shared-responsibility-model.md)
+  * [Security at Computle](service-delivery/service-operations/security-at-computle.md)
+  * [Maintenance of Computle Infrastructure](service-delivery/service-operations/maintenance-of-computle-infrastructure.md)
 
 ## Troubleshooting
 
@@ -55,10 +64,10 @@
 
 ## Corporate Governance&#x20;
 
-* [Supply Chain Management](corporate-governance/supply-chain-management/README.md)
-  * [Carbon Neutrality](corporate-governance/carbon-neutrality.md)
+* [Supply Chain Management](corporate-governance/supply-chain-management.md)
 * [Standards](corporate-governance/standards/README.md)
   * [ISO 27001 Security Controls](corporate-governance/standards/iso-27001-security-controls.md)
   * [Vulnerability Disclosure Programme](corporate-governance/standards/vulnerability-disclosure-programme.md)
 * [Computle Ethos](corporate-governance/computle-ethos/README.md)
   * [Our Approach to Engineering](corporate-governance/standards/our-approach-to-engineering.md)
+* [Carbon Neutrality](corporate-governance/carbon-neutrality.md)
