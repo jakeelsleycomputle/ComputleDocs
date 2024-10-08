@@ -75,7 +75,8 @@ Start-Process -FilePath $installerPath -ArgumentList "/S", "/ProductKey=$product
 
 ```
 
-3. Verify the data on the web dashboard:
+3. Reboot the machine.
+4. Verify the data on the web dashboard:
 
 {% hint style="info" %}
 [Web dashboard](https://gpuanalyser.computle.net)
@@ -97,7 +98,8 @@ Start-Process -FilePath $installerPath -ArgumentList "/S", "/ProductKey=$product
 
 `Computle_GPU_Analyser_x64_2024.09.01.5.exe /S /ProductKey=KEY`
 
-3. Verify the data on the web dashboard:
+3. Reboot the machine.
+4. Verify the data on the web dashboard:
 
 {% hint style="info" %}
 [Web dashboard](https://gpuanalyser.computle.net)
