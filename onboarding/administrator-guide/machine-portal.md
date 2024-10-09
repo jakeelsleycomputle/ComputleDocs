@@ -43,7 +43,7 @@ If you haven't received this information, or require further assistance, please 
 
 ## **Image deployment**
 
-You can reimage Computle Machines using the Rebuild button. [Image ](machine-portal.md#image-deployment)information can be found here.
+You can reimage Computle Machines using the Rebuild button. [Image ](https://docs.computle.com/service-delivery/service-delivery-architecture/machine-plane#image-management)information can be found here.
 
 **Steps:**
 
