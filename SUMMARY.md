@@ -18,8 +18,8 @@
   * [Miscellaneous](onboarding/administrator-guide/miscellaneous/README.md)
     * [Billing Portal](onboarding/administrator-guide/miscellaneous/billing-portal.md)
     * [Service Status](onboarding/administrator-guide/miscellaneous/service-status.md)
-* [Onboarding Tools](onboarding/onboarding-tools/README.md)
-  * [GPU Analyser](onboarding/onboarding-tools/gpu-analyser.md)
+* [Migrating to Computle](onboarding/migrating-to-computle/README.md)
+  * [GPU Analyser](onboarding/migrating-to-computle/gpu-analyser.md)
 
 ## Service Delivery
 
