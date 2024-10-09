@@ -2,7 +2,7 @@
 
 Computle Device is a proprietary offering that provides seamless connectivity to your assigned machine. The device is locked down and remtotely managed and comes with **5-years** of servicing as standard.&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Easy login
 
@@ -14,7 +14,7 @@ This assignment can be manged from the Computle Agent.
 
 _Pre-credentials_
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 _Post-credentials_
 
