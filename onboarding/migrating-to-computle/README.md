@@ -53,7 +53,7 @@ For more information, head [here](../../service-delivery/service-operations/shar
 {% hint style="info" %}
 **Best Endeavor Assistance**
 
-All services here are provided free, on a best-endeavours basis. Additional costs may apply if the services rendered are onerous.
+All services here are provided free, on a best-endeavours basis. Additional costs may apply if the services rendered are extensive or complex.
 {% endhint %}
 
 ### **User and Identity Management** <a href="#user-and-identity-management" id="user-and-identity-management"></a>
