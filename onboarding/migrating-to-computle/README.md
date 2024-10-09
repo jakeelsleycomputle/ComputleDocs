@@ -1,6 +1,6 @@
 ---
-cover: ../../.gitbook/assets/IT-professionals.jpg
-coverY: 455
+cover: ../../.gitbook/assets/iStock-1251518064.jpg
+coverY: 173
 layout:
   cover:
     visible: true
