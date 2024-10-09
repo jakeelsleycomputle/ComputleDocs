@@ -47,9 +47,9 @@
   * [DCV Server License Warning](troubleshooting/streaming-agent/dcv-server-license-warning.md)
   * [USB Passthrough](troubleshooting/streaming-agent/usb-passthrough.md)
   * [WebAuthn Redirection/FIDO Keys](troubleshooting/streaming-agent/webauthn-redirection-fido-keys.md)
-* [Component Refresh](troubleshooting/component-refresh/README.md)
-  * [Refresh DCV Server](troubleshooting/component-refresh/refresh-dcv-server.md)
-  * [Refresh NVIDIA](troubleshooting/component-refresh/refresh-nvidia.md)
+* [Component Reinstallation](troubleshooting/component-reinstallation/README.md)
+  * [Reinstall DCV Server](troubleshooting/component-reinstallation/reinstall-dcv-server.md)
+  * [Reinstall NVIDIA](troubleshooting/component-reinstallation/reinstall-nvidia.md)
 
 ## Reference architecture
 
