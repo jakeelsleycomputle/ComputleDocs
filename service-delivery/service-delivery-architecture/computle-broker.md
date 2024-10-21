@@ -103,7 +103,7 @@ Computle Agent runs on the target machine and handles the automatic allocation.
 
 **Unattended installation**
 
-Computle\_Agent\_x64\_2024.09.01.0.exe /S /USERNAME="YourUsername" /PASSWORD="YourPassword" /TENANT\_UUID="YourTenantUUID" /ACCEPT\_TERMS
+`Computle_Agent_x64_2024.09.01.0.exe /S /USERNAME="YourUsername" /PASSWORD="YourPassword" /TENANT_UUID="YourTenantUUID" /ACCEPT_TERMS`
 
 
 
