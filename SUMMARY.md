@@ -15,26 +15,10 @@
   * [Computle Device](onboarding/administrator-guide/computle-device.md)
   * [Machine Portal](onboarding/administrator-guide/machine-portal.md)
   * [Machine Assignment](onboarding/administrator-guide/machine-assignment.md)
-  * [Miscellaneous](onboarding/administrator-guide/miscellaneous/README.md)
-    * [Billing Portal](onboarding/administrator-guide/miscellaneous/billing-portal.md)
-    * [Service Status](onboarding/administrator-guide/miscellaneous/service-status.md)
+  * [Billing Portal](onboarding/administrator-guide/billing-portal.md)
+  * [Service Status](onboarding/administrator-guide/service-status.md)
 * [Migrating to Computle](onboarding/migrating-to-computle/README.md)
   * [GPU Analyser](onboarding/migrating-to-computle/gpu-analyser.md)
-
-## Service Delivery
-
-* [Service Delivery Architecture](service-delivery/service-delivery-architecture/README.md)
-  * [Machine Plane](service-delivery/service-delivery-architecture/machine-plane.md)
-  * [Telemetry and Monitoring at Computle](service-delivery/service-delivery-architecture/telemetry-and-monitoring-at-computle.md)
-  * [Computle Gateway](service-delivery/service-delivery-architecture/computle-gateway.md)
-  * [Network Plane](service-delivery/service-delivery-architecture/network-plane.md)
-  * [IDAM Providers](service-delivery/service-delivery-architecture/idam-providers.md)
-  * [Storage Providers](service-delivery/service-delivery-architecture/storage-providers.md)
-  * [Computle Broker](service-delivery/service-delivery-architecture/computle-broker.md)
-* [Service Operations](service-delivery/service-operations/README.md)
-  * [Shared Responsibility Model](service-delivery/service-operations/shared-responsibility-model.md)
-  * [Security at Computle](service-delivery/service-operations/security-at-computle.md)
-  * [Maintenance of Computle Infrastructure](service-delivery/service-operations/maintenance-of-computle-infrastructure.md)
 
 ## Troubleshooting
 
@@ -50,6 +34,21 @@
 * [Component Reinstallation](troubleshooting/component-reinstallation/README.md)
   * [Reinstall DCV Server](troubleshooting/component-reinstallation/reinstall-dcv-server.md)
   * [Reinstall NVIDIA](troubleshooting/component-reinstallation/reinstall-nvidia.md)
+
+## Service Delivery
+
+* [Service Delivery Architecture](service-delivery/service-delivery-architecture/README.md)
+  * [Machine Plane](service-delivery/service-delivery-architecture/machine-plane.md)
+  * [Telemetry and Monitoring at Computle](service-delivery/service-delivery-architecture/telemetry-and-monitoring-at-computle.md)
+  * [Computle Gateway](service-delivery/service-delivery-architecture/computle-gateway.md)
+  * [Network Plane](service-delivery/service-delivery-architecture/network-plane.md)
+  * [IDAM Providers](service-delivery/service-delivery-architecture/idam-providers.md)
+  * [Storage Providers](service-delivery/service-delivery-architecture/storage-providers.md)
+  * [Computle Broker](service-delivery/service-delivery-architecture/computle-broker.md)
+* [Service Operations](service-delivery/service-operations/README.md)
+  * [Shared Responsibility Model](service-delivery/service-operations/shared-responsibility-model.md)
+  * [Security at Computle](service-delivery/service-operations/security-at-computle.md)
+  * [Maintenance of Computle Infrastructure](service-delivery/service-operations/maintenance-of-computle-infrastructure.md)
 
 ## Reference architecture
 

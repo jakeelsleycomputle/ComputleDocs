@@ -2,6 +2,10 @@
 
 The **Computle Broker Agent** helps you manage machine assignments by dynamically updating based on the device's hostname and assigned user.  Computle Broker is available free of charge to Computle customers.
 
+{% hint style="warning" %}
+Computle Broker requires an existing VPN solution such as [Computle Gateway for SMEs. ](../../onboarding/administrator-guide/computle-gateway-for-smes.md)
+{% endhint %}
+
 ***
 
 ## Broker Agent <a href="#broker-agent" id="broker-agent"></a>
@@ -67,4 +71,45 @@ In the event that the app is unable to download the latest assignment file due t
 
 ***
 
-##
+## Installation Guide
+
+{% hint style="success" %}
+Ensure that you have your API credentials before installing Computle Broker.&#x20;
+{% endhint %}
+
+{% hint style="warning" %}
+Computle Broker requires the pre-installation of [NICE DCV](../../troubleshooting/component-reinstallation/reinstall-dcv-server.md).
+{% endhint %}
+
+### Computle Client
+
+Computle Client runs on the user's device and provides easy access to your Computle machine.
+
+{% hint style="info" %}
+[Computle\_Client\_x64\_2024.09.01.0.exe](https://downloads.oncomputle.com/Computle\_Client\_x64\_2024.09.01.0.exe)
+{% endhint %}
+
+**Unattended installation**
+
+`Computle_Client_x64_2024.09.01.0.exe /S /USERNAME=YourUsername /PASSWORD=YourPassword /TENANT=YourTenantUUID /AGREETERMS`
+
+### Computle Agent
+
+Computle Agent runs on the target machine and handles the automatic allocation.
+
+{% hint style="info" %}
+
+{% endhint %}
+
+
+
+**Unattended installation**
+
+Computle\_Agent\_x64\_2024.09.01.0.exe /S /USERNAME="YourUsername" /PASSWORD="YourPassword" /TENANT\_UUID="YourTenantUUID" /ACCEPT\_TERMS
+
+
+
+
+
+
+
