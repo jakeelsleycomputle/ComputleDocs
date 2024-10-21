@@ -73,7 +73,7 @@ In the event that the app is unable to download the latest assignment file due t
 
 ## Installation Guide
 
-{% hint style="success" %}
+{% hint style="warning" %}
 Ensure that you have your API credentials before installing Computle Broker.&#x20;
 {% endhint %}
 
@@ -98,10 +98,8 @@ Computle Client runs on the user's device and provides easy access to your Compu
 Computle Agent runs on the target machine and handles the automatic allocation.
 
 {% hint style="info" %}
-
+[Computle\_Agent\_x64\_2024.09.01.0.exe](https://downloads.oncomputle.com/Computle\_Agent\_x64\_2024.09.01.0.exe)
 {% endhint %}
-
-
 
 **Unattended installation**
 
