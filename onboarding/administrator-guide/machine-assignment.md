@@ -1,6 +1,8 @@
 # Machine Assignment
 
-The **Computle Broker Agent** helps you manage machine assignments by dynamically updating based on the device's hostname and assigned user. &#x20;
+{% hint style="info" %}
+The **Computle Broker Agent** helps you manage machine assignments by dynamically updating based on the device's hostname and assigned user.  For installation details, [head here. ](../../service-delivery/service-delivery-architecture/computle-broker.md)
+{% endhint %}
 
 ## **To modify an assignment:**
 
