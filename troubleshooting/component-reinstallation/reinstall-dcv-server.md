@@ -30,7 +30,7 @@ if (-not (Test-Path -Path $savePath)) {
 Invoke-WebRequest -Uri $fileUrl -OutFile "$savePath\nice-dcv-server-x64-Release.msi"
 
 $msiFile = Join-Path -Path $savePath -ChildPath "nice-dcv-server-x64-Release.msi"
-Start-Process msiexec.exe -ArgumentList "/i `"$msiFile`" ADDLOCAL=ALL /quiet /norestart /l*v `"$installLogFile`" -Wait
+Start-Process msiexec.exe -ArgumentList "/i `"$msiFile`" ADDLOCAL=ALL /quiet /norestart /l*v `"$installLogFile`"" -Wait
 
 if(!(Test-Path -LiteralPath "Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\license")) {  
     New-Item "Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\license" -Force -ErrorAction SilentlyContinue 
@@ -60,15 +60,18 @@ if (-not (Test-Path -Path $destinationFolder)) {
 
 try {
     Invoke-WebRequest -Uri $sourceKey -OutFile "$destinationFolder\dcv.key" -UseBasicParsing -ErrorAction Stop
+    Write-Output "Successfully downloaded dcv.key"
 } catch {
     Write-Error "Failed to download dcv.key: $_"
 }
 
 try {
     Invoke-WebRequest -Uri $sourcePem -OutFile "$destinationFolder\dcv.pem" -UseBasicParsing -ErrorAction Stop
+    Write-Output "Successfully downloaded dcv.pem"
 } catch {
     Write-Error "Failed to download dcv.pem: $_"
 }
+
 
 $licensingServers = @(
     'dcvlicensing1.computle.net',
@@ -95,10 +98,16 @@ $registryKey = 'license-file'
 
 New-ItemProperty -LiteralPath $registryPath -Name $registryKey -Value $licenseValue -PropertyType String -Force -ErrorAction SilentlyContinue
 
+Write-Host "Registry updated successfully with license value: $licenseValue" -ForegroundColor Green
+
 Restart-Service -Name dcvserver -Force
 
+# Clear the command window
 Clear-Host
+
+# Show installation complete message
 Write-Host "Installation complete!" -ForegroundColor Green
+
 
 ```
 
