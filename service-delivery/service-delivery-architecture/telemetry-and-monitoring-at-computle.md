@@ -11,9 +11,7 @@ At Computle, we maintain continuous **24/7 telemetry** across our entire infrast
 * **Disk**: Disk partitions, usage statistics, and file system health to detect potential storage issues.
 * **GPU Information**: Active monitoring of GPU utilisation, thermal performance, power draw, and memory usage.&#x20;
 * **Network**: Interface details, traffic statistics, and potential anomalies like high latency or packet loss.
-* **Processes**: Monitoring of running processes, resource consumption, and identification of rogue or resource-hungry tasks.
-* **Disk Status**: Continuous health checks for filesystem integrity and consistency.
-* **Resource Configuration**: Information on allocated resources such as virtual devices and overall resource distribution.
+* **Disk Status**: Continuous health checks.
 
 This allows us to quickly identify and resolve potential issues before they affect performance.
 
