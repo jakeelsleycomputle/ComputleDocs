@@ -1,10 +1,6 @@
----
-hidden: true
----
-
 # End User Guide (Canary Release)
 
-This guide is intended for end users looking to access their Computle Machine using the **Canary Release**. If you are an administrator, please follow the Administrator Guide.
+his guide is intended for end users looking to access their Computle Machine using the **Canary Release**. If you are an administrator, please follow the Administrator Guide.
 
 {% hint style="info" %}
 **Time Required**
@@ -82,126 +78,35 @@ If you receive a file name error, ensure that there are no spaces in your token 
 
 ***
 
-## Stage 2 of 3: Install NICE DCV
+## Stage 2 of 3: Install Computle Client
 
-1. Download NICE DCV:
+1. Download Computle Client for Windows:
 
-* [Windows](https://d1uj6qtbmh3dt5.cloudfront.net/nice-dcv-client-Release.msi)
-* [Mac](https://d1uj6qtbmh3dt5.cloudfront.net/nice-dcv-viewer.x86\_64.dmg)
+{% hint style="info" %}
+[Computle\_Client\_x64\_2024.09.01.0.exe](https://downloads.oncomputle.com/Computle\_Client\_x64\_2024.09.01.0.exe)
+{% endhint %}
 
-2. Launch the downloaded file.
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-3. Read the EULA&#x20;
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-4. Select the X dropdown and click **"Will be installed on local hard drive"**
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-5. Click Next
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-6. Click Install
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-7. **Windows Users Only**: Install the latest [Microsoft Visual C++ Redistributable](https://aka.ms/vs/17/release/vc\_redist.x64.exe).
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+2. Enter your tenant UUID, username, and password.&#x20;
+3. Read the EULA
+4. Click Install
 
 ***
 
-## Stage 3 of 3: Launch NICE DCV
+## Stage 3 of 3: Launch Computle Client
 
-1. **Launch NICE DCV**
-
-On Windows, search your Start Menu, and on Mac, search your Applications folder.
+1. Launch Computle Client
+2. Click on Settings and ensure that the tenant name matches your organisation.
+3. Connecting to your assigned machine is easy. Simply enter your username, and your assigned machine is automatically presented.
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://blog.computle.com/content/images/2024/09/image-2-1-1.png" alt="" height="549" width="403"><figcaption><p>Computle Client App</p></figcaption></figure>
 
 </div>
 
-2. **Enter your Computer name**
-
-In Hostname, enter the Computer name provided by your administrator.
-
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-3. Click _Connect._
-4. If promoted, click Trust and Connect
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-4. **Enter your username**
-
-In Login, enter the login name provided by your administrator.\
-
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-5. **Enter your password**
-
-In Password, enter the password provided by your administrator.\
-\
-Then, click OK.
-
-***
-
-## Tip
-
-When you connect again, click the down arrow to retrive your saved machine(s).
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://blog.computle.com/content/images/2024/09/image-3-1-1-1.png" alt="" height="549" width="404"><figcaption></figcaption></figure>
 
 </div>
 
