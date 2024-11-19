@@ -24,7 +24,7 @@ Ensure that your administrator has shared a Computle Gateway token with you.&#x2
 
 ## Stage 1 of 3: Install Computle Gateway
 
-1. Download Computle Client client to your device.
+1. Download WireGuard client to your device.
 
 * [Windows](https://download.wireguard.com/windows-client/wireguard-amd64-0.5.3.msi)
 
