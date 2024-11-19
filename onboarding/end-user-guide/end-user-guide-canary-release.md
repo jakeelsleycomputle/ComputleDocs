@@ -22,7 +22,7 @@ Ensure that your administrator has shared a Computle Gateway token with you.&#x2
 
 ***
 
-## Stage 1 of 3: Install Computle Client
+## Stage 1 of 3: Install Computle Gateway
 
 1. Download Computle Client client to your device.
 
