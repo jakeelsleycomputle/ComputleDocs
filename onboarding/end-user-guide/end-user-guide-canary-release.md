@@ -1,6 +1,6 @@
 # End User Guide (Canary Release)
 
-his guide is intended for end users looking to access their Computle Machine using the **Canary Release**. If you are an administrator, please follow the Administrator Guide.
+This guide is intended for end users looking to access their Computle Machine using the **Canary Release**. If you are an administrator, please follow the Administrator Guide.
 
 {% hint style="info" %}
 **Time Required**
