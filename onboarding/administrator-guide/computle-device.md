@@ -4,6 +4,25 @@ Computle Device is a proprietary offering that provides seamless connectivity to
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
+### Specifications
+
+* Intel 12th Generation CPU with integrated graphics.&#x20;
+* 16GB DDR4 memory.&#x20;
+* Windows 11 Professional in a locked-down state.&#x20;
+* Display Outputs:&#x20;
+  * 1 x DisplayPort
+  * 1 x HDMI
+  * Support for DisplayPort daisy chaining on selective monitors.&#x20;
+* 4x rear USB
+* 2x front USB
+* Realtek 1Gb Ethernet&#x20;
+* Realtek 7.1 Surround Sound High Definition Audio CODEC\*
+* 12v power adapter.&#x20;
+
+***
+
+## Features
+
 ### Easy login
 
 **Connecting to Computle is easy:** Simply enter your credentials and click Connect.
