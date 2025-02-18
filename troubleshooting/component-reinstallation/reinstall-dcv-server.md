@@ -16,10 +16,10 @@ Enable Remote Desktop by navigating to Settings > Remote Desktop Settings
 2. Search for **PowerShell ISE**; right click and select _Run as Administrator._
 3. Paste the following code into the PowerShell script pane and click **F5**.
 
-```sh
+```mathml
 # Copyright Computle.com - Computle Reinstall DCV Server
 
-$fileUrl = "https://d1uj6qtbmh3dt5.cloudfront.net/2023.1/Servers/nice-dcv-server-x64-Release-2023.1-17701.msi"
+$fileUrl = "https://d1uj6qtbmh3dt5.cloudfront.net/nice-dcv-client-Release.msi"
 $savePath = "C:\Windows\Computle"
 $installLogFile = "dcv_install_msi.log"
 
@@ -107,6 +107,8 @@ Clear-Host
 
 # Show installation complete message
 Write-Host "Installation complete!" -ForegroundColor Green
+
+
 
 
 ```
