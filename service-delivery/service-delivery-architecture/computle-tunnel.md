@@ -1,7 +1,5 @@
 # Computle Tunnel
 
-## Computle Tunnel
-
 ### Overview
 
 Computle Tunnel is a WireGuard-based site-to-site tunnel service that provides secure, encrypted connections between customer environments and Computle infrastructure. Leveraging the high-performance WireGuard protocol, Computle Tunnel offers a software-defined approach to secure networking, eliminating the need for traditional hardware VPNs or complex firewall configurations.
