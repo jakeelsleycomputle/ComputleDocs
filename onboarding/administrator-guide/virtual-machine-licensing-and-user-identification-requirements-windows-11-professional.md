@@ -38,7 +38,7 @@ THIS DOCUMENT IS FOR INFORMATIONAL PURPOSES ONLY AND REFLECTS THE AUTHOR’S INT
 
 ·         It goes onto say “Windows 11 licensed solely through your OEM device generally does not include virtualization entitlements, with some exceptions. Please see your OEM license agreement for more details.”
 
-OUR INTERPRETATION
+## OUR INTERPRETATION
 
 ·                     Computle provides a Windows 11 Professional OEM license per workstation.
 
