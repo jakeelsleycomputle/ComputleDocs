@@ -17,6 +17,7 @@
   * [Machine Assignment](onboarding/administrator-guide/machine-assignment.md)
   * [Billing Portal](onboarding/administrator-guide/billing-portal.md)
   * [Service Status](onboarding/administrator-guide/service-status.md)
+  * [Virtual Machine Licensing and User Identification Requirements (Windows 11 Professional)](onboarding/administrator-guide/virtual-machine-licensing-and-user-identification-requirements-windows-11-professional.md)
 * [Migrating to Computle](onboarding/migrating-to-computle/README.md)
   * [GPU Analyser](onboarding/migrating-to-computle/gpu-analyser.md)
 
