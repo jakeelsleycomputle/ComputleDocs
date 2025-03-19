@@ -86,9 +86,13 @@ Computle Tunnel is powered by a robust Windows service application that manages 
 
 1. Computle provisions tunnel endpoints within your tenant namespace
 2. Configuration files are generated for each site you need to connect
-3. Software clients are deployed to your on-premises equipment
+3. Software clients are deployed to Windows Server/Windows 11 instances on a per VLAN basis
 4. Outbound connections establish the initial tunnel
 5. Encrypted routes are automatically configured between sites
+
+{% hint style="info" %}
+Each VLAN requires a Windows Server/Windows 11 instance that hosts the Computle Tunnel Service. This then communicates with the Computle infrastructure and routes your local traffic. We suggest 2vCPUs and 4GB RAM as a minimum.&#x20;
+{% endhint %}
 
 No complex firewall configurations or port forwarding rules are required. The software establishes outbound connections using standard HTTPS ports (443), enabling the tunnel to function in environments with restrictive security policies.
 
