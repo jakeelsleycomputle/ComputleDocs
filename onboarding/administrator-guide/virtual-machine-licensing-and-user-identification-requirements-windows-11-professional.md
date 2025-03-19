@@ -48,7 +48,7 @@ THIS DOCUMENT IS FOR INFORMATIONAL PURPOSES ONLY AND REFLECTS THE AUTHOR’S INT
 
 ·                     Clients are permitted to perform disaster recovery operations, which grants them physical access to their workstations as needed.
 
-·                     Based on our interpretation of Microsoft’s licensing terms:
+**Based on our interpretation of Microsoft’s licensing terms:**
 
 o   The primary assigned user may access their designated workstation remotely for up to 365 days before requiring reassignment.
 
