@@ -44,6 +44,7 @@
   * [Network Plane](service-delivery/service-delivery-architecture/network-plane.md)
   * [IDAM Providers](service-delivery/service-delivery-architecture/idam-providers.md)
   * [Storage Providers](service-delivery/service-delivery-architecture/storage-providers.md)
+  * [Computle Tunnel](service-delivery/service-delivery-architecture/computle-tunnel.md)
   * [Computle Broker](service-delivery/service-delivery-architecture/computle-broker.md)
 * [Service Operations](service-delivery/service-operations/README.md)
   * [Shared Responsibility Model](service-delivery/service-operations/shared-responsibility-model.md)
