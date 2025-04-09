@@ -4,12 +4,12 @@
 
 ## Onboarding
 
-* [End User Guide](onboarding/end-user-guide/README.md)
-  * [iPad/Tablet](onboarding/end-user-guide/ipad-tablet.md)
-  * [Network Requirements](onboarding/end-user-guide/network-requirements.md)
-  * [Unattended Install](onboarding/end-user-guide/unattended-install.md)
-  * [Hardware](onboarding/end-user-guide/hardware.md)
-  * [End User Guide (Canary Release)](onboarding/end-user-guide/end-user-guide-canary-release.md)
+* [Computle - End User Guide](onboarding/computle-end-user-guide/README.md)
+  * [iPad/Tablet](onboarding/computle-end-user-guide/ipad-tablet.md)
+  * [Network Requirements](onboarding/computle-end-user-guide/network-requirements.md)
+  * [Unattended Install](onboarding/computle-end-user-guide/unattended-install.md)
+  * [Hardware](onboarding/computle-end-user-guide/hardware.md)
+  * [End User Guide (Canary Release)](onboarding/computle-end-user-guide/end-user-guide-canary-release.md)
 * [Administrator Guide](onboarding/administrator-guide/README.md)
   * [Computle Gateway for SMEs](onboarding/administrator-guide/computle-gateway-for-smes.md)
   * [Computle Device](onboarding/administrator-guide/computle-device.md)
