@@ -20,7 +20,7 @@ layout:
     visible: false
 ---
 
-# End User Guide
+# Computle - End User Guide
 
 {% hint style="info" %}
 **Time Required**
@@ -51,44 +51,24 @@ Ensure that your administrator has shared a Computle Gateway token with you.&#x2
 
 2. Launch the downloaded file.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 2. Install WireGuard
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 3. Launch WireGuard
 4. Click "Import tunnel(s) from file".
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 5. Select the token that your administrator sent to you and click Open.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 6. Click Activate.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure></div>
 
 6. Proceed to Stage 2 of 3.
 
@@ -103,61 +83,33 @@ If you receive a file name error, ensure that there are no spaces in your token 
 1. Download NICE DCV:
 
 * [Windows](https://d1uj6qtbmh3dt5.cloudfront.net/nice-dcv-client-Release.msi)
-* [Mac](https://d1uj6qtbmh3dt5.cloudfront.net/nice-dcv-viewer.x86\_64.dmg)
+* [Mac](https://d1uj6qtbmh3dt5.cloudfront.net/nice-dcv-viewer.x86_64.dmg)
 
 2. Launch the downloaded file.
 
-<div align="left">
+<div align="left"><figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 3. Read the EULA&#x20;
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure></div>
 
 4. Select the X dropdown and click **"Will be installed on local hard drive"**
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 5. Click Next
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure></div>
 
 6. Click Install
 
-<div align="left">
+<div align="left"><figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+7. **Windows Users Only**: Install the latest [Microsoft Visual C++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe).
 
-</div>
-
-7. **Windows Users Only**: Install the latest [Microsoft Visual C++ Redistributable](https://aka.ms/vs/17/release/vc\_redist.x64.exe).
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
@@ -167,41 +119,25 @@ If you receive a file name error, ensure that there are no spaces in your token 
 
 On Windows, search your Start Menu, and on Mac, search your Applications folder.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure></div>
 
 2. **Enter your Computer name**
 
 In Hostname, enter the Computer name provided by your administrator.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure></div>
 
 3. Click _Connect._
 4. If promoted, click Trust and Connect
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure></div>
 
 4. **Enter your username**
 
 In Login, enter the login name provided by your administrator.\
 
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure></div>
 
 5. **Enter your password**
 
@@ -215,11 +151,7 @@ Then, click OK.
 
 When you connect again, click the down arrow to retrive your saved machine(s).
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 

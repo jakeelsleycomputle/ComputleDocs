@@ -89,7 +89,7 @@ Start-Process -FilePath $installerPath -ArgumentList "/S", "/ProductKey=$product
 1. **Download the Installer**:
 
 {% hint style="info" %}
-**Installer:** [Computle\_GPU\_Analyser\_x64\_2024.09.01.5.exe](https://gpuanalyser.computle.net/installer/Computle\_GPU\_Analyser\_x64\_2024.09.01.5.exe)
+**Installer:** [Computle\_GPU\_Analyser\_x64\_2024.09.01.5.exe](https://gpuanalyser.computle.net/installer/Computle_GPU_Analyser_x64_2024.09.01.5.exe)
 
 **sha256sum** 4396d5e4cdfb05c1572cbc4ae8e5e239fc50028f4484a27017b429487365ed08
 {% endhint %}
@@ -112,7 +112,7 @@ Start-Process -FilePath $installerPath -ArgumentList "/S", "/ProductKey=$product
 1. **Download the Installer**:
 
 {% hint style="info" %}
-**Installer:** [Computle\_GPU\_Analyser\_x64\_2024.09.01.5.exe](https://gpuanalyser.computle.net/installer/Computle\_GPU\_Analyser\_x64\_2024.09.01.5.exe)
+**Installer:** [Computle\_GPU\_Analyser\_x64\_2024.09.01.5.exe](https://gpuanalyser.computle.net/installer/Computle_GPU_Analyser_x64_2024.09.01.5.exe)
 
 **sha256sum** 4396d5e4cdfb05c1572cbc4ae8e5e239fc50028f4484a27017b429487365ed08
 {% endhint %}
@@ -122,7 +122,7 @@ Start-Process -FilePath $installerPath -ArgumentList "/S", "/ProductKey=$product
 * Double-click the installer file.
 * Follow the on-screen prompts.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 

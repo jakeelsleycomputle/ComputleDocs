@@ -30,44 +30,24 @@ Ensure that your administrator has shared a Computle Gateway token with you.&#x2
 
 2. Launch the downloaded file.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 2. Install WireGuard
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 3. Launch WireGuard
 4. Click "Import tunnel(s) from file".
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 5. Select the token that your administrator sent to you and click Open.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 6. Click Activate.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure></div>
 
 6. Proceed to Stage 2 of 3.
 
@@ -82,7 +62,7 @@ If you receive a file name error, ensure that there are no spaces in your token 
 1. Download Computle Client for Windows:
 
 {% hint style="info" %}
-[Computle\_Client\_x64\_2024.09.01.0.exe](https://downloads.oncomputle.com/Computle\_Client\_x64\_2024.09.01.0.exe)
+[Computle\_Client\_x64\_2024.09.01.0.exe](https://downloads.oncomputle.com/Computle_Client_x64_2024.09.01.0.exe)
 {% endhint %}
 
 2. Enter your tenant UUID, username, and password.&#x20;
@@ -97,17 +77,9 @@ If you receive a file name error, ensure that there are no spaces in your token 
 2. Click on Settings and ensure that the tenant name matches your organisation.
 3. Connecting to your assigned machine is easy. Simply enter your username, and your assigned machine is automatically presented.
 
-<div align="left">
+<div align="left"><figure><img src="https://blog.computle.com/content/images/2024/09/image-2-1-1.png" alt="" height="549" width="403"><figcaption><p>Computle Client App</p></figcaption></figure></div>
 
-<figure><img src="https://blog.computle.com/content/images/2024/09/image-2-1-1.png" alt="" height="549" width="403"><figcaption><p>Computle Client App</p></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://blog.computle.com/content/images/2024/09/image-3-1-1-1.png" alt="" height="549" width="404"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://blog.computle.com/content/images/2024/09/image-3-1-1-1.png" alt="" height="549" width="404"><figcaption></figcaption></figure></div>
 
 ***
 

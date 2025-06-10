@@ -77,3 +77,7 @@
 * [Computle Ethos](corporate-governance/computle-ethos/README.md)
   * [Our Approach to Engineering](corporate-governance/standards/our-approach-to-engineering.md)
 * [Carbon Neutrality](corporate-governance/carbon-neutrality.md)
+
+## Account Administration
+
+* [Direct Debit Set Up](account-administration/direct-debit-set-up.md)
