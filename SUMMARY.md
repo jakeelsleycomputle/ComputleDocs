@@ -2,6 +2,12 @@
 
 * [Welcome to Computle Docs](README.md)
 
+## Computle Client
+
+* [Computle Client v3 (Release Candidate)](computle-client/computle-client-v3-release-candidate/README.md)
+  * [Computle Client: Entra ID](computle-client/computle-client-v3-release-candidate/computle-client-entra-id.md)
+  * [Computle Client: Application Architecture](computle-client/computle-client-v3-release-candidate/computle-client-application-architecture.md)
+
 ## Onboarding
 
 * [Computle - End User Guide](onboarding/computle-end-user-guide/README.md)
