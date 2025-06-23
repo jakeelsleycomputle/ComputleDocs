@@ -2,6 +2,7 @@
 description: >-
   This guide explains how to enable microphone redirection on Computle
   workstations using Mechdyne TGX and the Teradici Virtual Audio Driver.
+hidden: true
 ---
 
 # Enable Microphone Input

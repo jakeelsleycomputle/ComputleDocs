@@ -6,57 +6,6 @@ description: >-
 
 # Enable USB Redirection
 
-### Manual Configuration
-
-#### Step 1: Open Configuration File
-
-Open PowerShell as Administrator and edit the USB configuration file:
-
-```powershell
-notepad C:\ProgramData\Mechdyne\TGX\usbConfig.ini
-```
-
-#### Step 2: Configure USB Classes
-
-Replace the contents with the following configuration to enable all USB device classes:
-
-```ini
-[Class]
-Unspecified=true
-Audio=true
-Communications=true
-Hid=true
-Pid=true
-Image=true
-Printer=true
-MassStorage=true
-Hub=true
-CdcData=true
-SmartCard=true
-Security=true
-Video=true
-Phdc=true
-Av=true
-Billboard=true
-UsbCBridge=true
-Diagnostic=true
-Wireless=true
-Miscellaneous=true
-Application=true
-Vendor=true
-
-[Whitelist]
-
-[Blacklist]
-```
-
-#### Step 3: Save and Restart
-
-1. Save the file.
-2. Restart your Computle workstation.
-
-***
-
 ### Automated Setup
 
 For easier deployment, use the PowerShell script below to automatically configure USB redirection.
@@ -132,9 +81,7 @@ Wireless=true
 Miscellaneous=true
 Application=true
 Vendor=true
-
 [Whitelist]
-
 [Blacklist]
 "@
 
@@ -147,11 +94,71 @@ if ($tgxServices) {
     }
 }
 
+Write-Host "Computle workstation USB redirection setup completed successfully!" -ForegroundColor Green
+
 if (!$Force) {
-    Write-Host "Computle workstation USB redirection setup completed successfully!" -ForegroundColor Green
-    $reboot = Read-Host "Restart computer? (y/n)"
+    $reboot = Read-Host "Restart computer now to complete setup? (y/n)"
     if ($reboot -eq 'y' -or $reboot -eq 'Y') {
         Restart-Computer -Force
+    } else {
+        Write-Host "Please restart your computer manually to complete the USB redirection setup." -ForegroundColor Yellow
     }
+} else {
+    Write-Host "Setup complete. Please restart your computer manually to complete the USB redirection setup." -ForegroundColor Yellow
 }
 ```
+
+***
+
+### Manual Configuration
+
+#### Step 1: Open Configuration File
+
+Open PowerShell as Administrator and edit the USB configuration file:
+
+```powershell
+notepad C:\ProgramData\Mechdyne\TGX\usbConfig.ini
+```
+
+#### Step 2: Configure USB Classes
+
+Replace the contents with the following configuration to enable all USB device classes:
+
+```ini
+[Class]
+Unspecified=true
+Audio=true
+Communications=true
+Hid=true
+Pid=true
+Image=true
+Printer=true
+MassStorage=true
+Hub=true
+CdcData=true
+SmartCard=true
+Security=true
+Video=true
+Phdc=true
+Av=true
+Billboard=true
+UsbCBridge=true
+Diagnostic=true
+Wireless=true
+Miscellaneous=true
+Application=true
+Vendor=true
+
+[Whitelist]
+
+[Blacklist]
+```
+
+#### Step 3: Save and Restart
+
+1. Save the file.
+2. Restart your Computle workstation.
+
+***
+
+###
