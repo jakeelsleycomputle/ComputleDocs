@@ -68,9 +68,10 @@ For easier deployment, use the PowerShell script below to automatically configur
 
 #### Usage
 
-1. Download the setup script
-2. Right-click and "Run with PowerShell" as Administrator
-3. Follow any prompts to restart services
+1. Copy the setup script
+2. Open PowerShell ISE as Administrator
+3. Paste the script into the white window
+4. Click the green run button, or press the F5 key
 
 ```powershell
 # Computle Workstation TGX USB Redirection Setup Script
