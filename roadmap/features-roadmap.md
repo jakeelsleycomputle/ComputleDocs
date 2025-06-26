@@ -79,24 +79,3 @@
 | **Platforms**   | <p>• Windows (RC ready)<br>• macOS (coming soon)<br>• Linux</p>                        |
 | **Security**    | <p>• Automatic WireGuard VPN<br>• Encrypted credentials<br>• Secure tunnel service</p> |
 | **Connections** | <p>• RDP (Windows)<br>• TGX<br>• DCV</p>                                               |
-
-***
-
-### 🔒 Entra ID Requirements
-
-| **Permission**       | **Purpose**              |
-| -------------------- | ------------------------ |
-| `User.Read.All`      | Read user profiles       |
-| `Group.Read.All`     | Read group memberships   |
-| `Directory.Read.All` | Sync directory structure |
-
-***
-
-### 💻 System Requirements
-
-| **Component**      | **Requirements**                        |
-| ------------------ | --------------------------------------- |
-| **Client OS**      | Windows 10/11, macOS 12+, Ubuntu 20.04+ |
-| **Browsers**       | Chrome, Edge, Firefox, Safari (latest)  |
-| **Portal Backend** | Node.js, MongoDB, Redis                 |
-| **Network**        | HTTPS, WireGuard VPN support            |
