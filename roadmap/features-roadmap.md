@@ -1,7 +1,5 @@
 # Features Roadmap
 
-##
-
 ### 📅 Release Schedule
 
 #### ⚡ Next 2 Weeks - Release Candidates
