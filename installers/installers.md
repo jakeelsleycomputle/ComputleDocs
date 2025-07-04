@@ -2,9 +2,7 @@
 
 #### Co**mputle Client v3**
 
-**Windows**
-
-[https://softwaredownloads.oncomputle.com/ComputleClientV3\_Setup\_3.0.6.7.exe](https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.6.7.exe)
+<a href="https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.6.8.exe" class="button primary">Windows</a>
 
 {% hint style="info" %}
 To install silently, use /S.
