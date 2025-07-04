@@ -31,5 +31,5 @@ Windows: [https://softwaredownloads.oncomputle.com/wireguard-x86-0.5.3.msi](http
 {% hint style="info" %}
 **Computle Client v3.0.6.1**
 
-Windows: [https://softwaredownloads.oncomputle.com/ComputleClientV3\_Setup\_3.0.6.5.exe](https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.6.5.exe)&#x20;
+Windows: [https://softwaredownloads.oncomputle.com/ComputleClientV3\_Setup\_3.0.6.7.exe](https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.6.7.exe)
 {% endhint %}
