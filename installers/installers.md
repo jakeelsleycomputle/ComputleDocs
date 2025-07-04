@@ -1,10 +1,6 @@
----
-description: Computle component-level installers.
-cover: ../.gitbook/assets/iStock-1142855625.jpg
-coverY: 0
----
-
 # Installers
+
+## Component Installers
 
 {% hint style="info" %}
 **Mechdyne TGX**
@@ -23,13 +19,21 @@ MacOS: [https://softwaredownloads.oncomputle.com/nice-dcv-viewer-2024.0.8004.x86
 {% endhint %}
 
 {% hint style="info" %}
-**Computle Client v3 (Release Candidate)**
-
-Windows: [https://softwaredownloads.oncomputle.com/ComputleClientV3\_Setup\_3.0.5.1.exe](https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.5.1.exe)&#x20;
-{% endhint %}
-
-{% hint style="info" %}
 **WireGuard**
 
 Windows: [https://softwaredownloads.oncomputle.com/wireguard-x86-0.5.3.msi](https://softwaredownloads.oncomputle.com/wireguard-x86-0.5.3.msi)
 {% endhint %}
+
+## Computle Client Installer
+
+{% hint style="info" %}
+**Computle Client v3.**
+
+Windows:&#x20;
+
+* EXE: [https://softwaredownloads.oncomputle.com/ComputleClientV3\_Setup\_3.0.5.2.exe](https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.5.2.exe)
+* MSI: [https://softwaredownloads.oncomputle.com/ComputleClientV3\_3.0.6.1.msi](https://softwaredownloads.oncomputle.com/ComputleClientV3_3.0.6.1.msi)&#x20;
+
+
+{% endhint %}
+
