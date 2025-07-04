@@ -2,9 +2,7 @@
 
 #### Co**mputle Client v3**
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.6.8.exe">https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.6.8.exe</a></td><td><a href="../.gitbook/assets/Windows.png">Windows.png</a></td></tr><tr><td></td><td></td><td><a href="../.gitbook/assets/MacOS.png">MacOS.png</a></td></tr></tbody></table>
-
-<a href="https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.6.8.exe" class="button primary">Windows x64</a>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.6.8.exe">https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.6.8.exe</a></td><td><a href="../.gitbook/assets/Windows.png">Windows.png</a></td></tr><tr><td></td><td></td><td><a href="../.gitbook/assets/MacOS.png">MacOS.png</a></td></tr></tbody></table>
 
 {% hint style="info" %}
 To install silently, use /S.
