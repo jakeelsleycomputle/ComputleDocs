@@ -27,7 +27,7 @@ Windows: [https://softwaredownloads.oncomputle.com/wireguard-x86-0.5.3.msi](http
 ## Computle Client Installer
 
 {% hint style="info" %}
-**Computle Client v3.**
+**Computle Client v3.0.6.1**
 
 Windows:&#x20;
 
