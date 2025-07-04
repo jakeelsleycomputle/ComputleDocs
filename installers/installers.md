@@ -26,7 +26,7 @@ To install silently, use /S.
 
 ***
 
-**WireGuard**
+#### **WireGuard**
 
 <a href="https://softwaredownloads.oncomputle.com/wireguard-x86-0.5.3.msi" class="button primary">Windows x64</a>
 
