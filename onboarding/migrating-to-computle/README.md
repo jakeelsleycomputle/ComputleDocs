@@ -1,20 +1,6 @@
 ---
 cover: ../../.gitbook/assets/iStock-1251518064.jpg
 coverY: 173
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Migrating to Computle

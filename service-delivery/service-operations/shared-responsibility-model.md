@@ -1,20 +1,6 @@
 ---
 cover: ../../.gitbook/assets/iStock-1291584234.jpg
 coverY: 1165
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Shared Responsibility Model

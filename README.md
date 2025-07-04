@@ -1,16 +1,5 @@
 ---
 description: For support, please contact your account manager.
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Welcome to Computle Docs

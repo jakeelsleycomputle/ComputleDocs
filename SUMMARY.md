@@ -96,3 +96,7 @@
 ## Roadmap
 
 * [Features Roadmap](roadmap/features-roadmap.md)
+
+## Insatllers
+
+* [Installers](insatllers/installers.md)
