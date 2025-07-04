@@ -31,8 +31,8 @@ Windows: [https://softwaredownloads.oncomputle.com/wireguard-x86-0.5.3.msi](http
 
 Windows:&#x20;
 
-* EXE: [https://softwaredownloads.oncomputle.com/ComputleClientV3\_Setup\_3.0.5.2.exe](https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.5.2.exe)
-* MSI: [https://softwaredownloads.oncomputle.com/ComputleClientV3\_3.0.6.1.msi](https://softwaredownloads.oncomputle.com/ComputleClientV3_3.0.6.1.msi)&#x20;
+* EXE: [https://softwaredownloads.oncomputle.com/ComputleClientV3\_Setup\_3.0.6.1.exe](https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.6.1.exe)
+* MSI: [https://softwaredownloads.oncomputle.com/ComputleClientV3\_3.0.6.1.msi](https://softwaredownloads.oncomputle.com/ComputleClientV3_3.0.6.1.msi)
 
 
 {% endhint %}
