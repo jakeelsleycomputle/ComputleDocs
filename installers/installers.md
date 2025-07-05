@@ -2,7 +2,7 @@
 
 ## Co**mputle Client v3**
 
-<table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.6.8.exe">https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.6.8.exe</a></td><td><a href="../.gitbook/assets/Windows.png">Windows.png</a></td></tr><tr><td></td><td></td><td><a href="../.gitbook/assets/MacOSComingSoon.pn.png">MacOSComingSoon.pn.png</a></td></tr><tr><td></td><td><a href="../computle-client/computle-client-v3-release-candidate/computle-client-entra-id.md">computle-client-entra-id.md</a></td><td><a href="../.gitbook/assets/Documentation.png">Documentation.png</a></td></tr></tbody></table>
+<table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.6.8.exe">https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.6.8.exe</a></td><td><a href="../.gitbook/assets/Windows.png">Windows.png</a></td></tr><tr><td></td><td></td><td><a href="../.gitbook/assets/MacOSComingSoon.pn.png">MacOSComingSoon.pn.png</a></td></tr></tbody></table>
 
 {% hint style="success" %}
 **Computle Client installs:**
@@ -12,6 +12,10 @@
 * Mechdyne TGX, enabling 5k display support.&#x20;
 * NICE DCV, enabling 4k display support.&#x20;
 * Microsoft C++ Redistributable.
+{% endhint %}
+
+{% hint style="info" %}
+**Documentation:** View documentation for Computle Client [here](../computle-client/computle-client-v3-release-candidate/computle-client-entra-id.md).
 {% endhint %}
 
 {% hint style="info" %}
