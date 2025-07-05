@@ -2,6 +2,10 @@
 
 * [Welcome to Computle Docs](README.md)
 
+## Installers
+
+* [Installers](installers/installers.md)
+
 ## Computle Client
 
 * [Computle Client v3 (Release Candidate)](computle-client/computle-client-v3-release-candidate/README.md)
@@ -96,7 +100,3 @@
 ## Roadmap
 
 * [Features Roadmap](roadmap/features-roadmap.md)
-
-## Installers
-
-* [Installers](installers/installers.md)
