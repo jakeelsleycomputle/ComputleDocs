@@ -4,6 +4,30 @@
 
 <table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.6.8.exe">https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.6.8.exe</a></td><td><a href="../.gitbook/assets/Windows.png">Windows.png</a></td></tr><tr><td></td><td></td><td><a href="../.gitbook/assets/MacOSComingSoon.pn.png">MacOSComingSoon.pn.png</a></td></tr></tbody></table>
 
+{% hint style="success" %}
+**Computle Client installs:**
+
+* Computle Client, which provides Entra ID authentication.&#x20;
+* WireGuard, to facilitate a point-to-point tunnel.
+* Mechdyne TGX, enabling 5k display support.&#x20;
+* NICE DCV, enabling 4k display support.&#x20;
+* Microsoft C++ Redistributable.
+{% endhint %}
+
+{% hint style="info" %}
+**Computle Client system requirements:**
+
+* Windows 10/11.
+* 850MB of available storage.
+* Internet access.&#x20;
+
+***
+
+* **For 1080p support:** A 4 core CPU with 5Mbps bandwidth.&#x20;
+* **For dual 1080p support:** A 4 core CPU with UDH graphics with 15Mbps bandwidth.&#x20;
+* **For dual 4k support and dual 5k support:** An eight core GPU with Iris XE graphics with 50Mbps bandwidth.
+{% endhint %}
+
 {% hint style="info" %}
 To install silently, run: _ComputleClientV3\_Setup\_3.0.6.8.exe /S._ The installation will take around 15 minutes.&#x20;
 {% endhint %}
