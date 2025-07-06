@@ -31,7 +31,7 @@
 {% hint style="info" %}
 **Silent Installation:**
 
-To install silently, run: _ComputleClientV3\_Setup\_3.0.6.9.exe /S._ The installation will take around 15 minutes.&#x20;
+To install silently, run: _ComputleClientV3\_Setup\_3.0.6.1.exe /S._ The installation will take around 15 minutes.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
