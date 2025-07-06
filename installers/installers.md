@@ -19,7 +19,7 @@
 {% endhint %}
 
 {% hint style="info" %}
-**Computle Client system requirements:**
+**System requirements:**
 
 * Windows 10/11.
 * 850MB of available storage.
@@ -33,7 +33,7 @@
 {% endhint %}
 
 {% hint style="info" %}
-To install silently, run: _ComputleClientV3\_Setup\_3.0.6.9.exe /S._ The installation will take around 15 minutes.&#x20;
+**Silent Installation:** To install silently, run: _ComputleClientV3\_Setup\_3.0.6.9.exe /S._ The installation will take around 15 minutes.&#x20;
 {% endhint %}
 
 ***
