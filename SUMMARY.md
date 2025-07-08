@@ -100,3 +100,7 @@
 ## Roadmap
 
 * [Features Roadmap](roadmap/features-roadmap.md)
+
+## Validations
+
+* [Entra ID Sync with On-Premise Active Directory: Validating Seamless File Share Access](validations/entra-id-sync-with-on-premise-active-directory-validating-seamless-file-share-access.md)
