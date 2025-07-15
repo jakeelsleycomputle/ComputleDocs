@@ -49,6 +49,7 @@
 * [Component Reinstallation](troubleshooting/component-reinstallation/README.md)
   * [Reinstall DCV Server](troubleshooting/component-reinstallation/reinstall-dcv-server.md)
   * [Reinstall NVIDIA](troubleshooting/component-reinstallation/reinstall-nvidia.md)
+* [Build Scripts](troubleshooting/build-scripts.md)
 
 ## Service Delivery
 
