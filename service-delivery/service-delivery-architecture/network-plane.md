@@ -86,3 +86,30 @@ Customers utilising distributed storage solutions like _Panzura_ can leverage Co
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Computle Mesh Network Example</p></figcaption></figure>
 
+***
+
+### Site-to-Site VPN support
+
+Computle supports multiple site-to-site VPN options for secure connectivity between customer locations and tenant namespaces:
+
+**IPsec-based solutions**:
+
+* **VyOS**: Open-source routing platform deployed as a Computle Machine
+* **pfSense**: Firewall and VPN appliance available as a pre-configured image
+
+**Physical appliances**:
+
+* **Meraki**: Physical Meraki security appliances at customer sites
+
+#### Remote endpoint requirements
+
+To establish successful VPN connectivity with Computle environments, remote endpoints must support:
+
+* **IKE versions**: IKEv1 or IKEv2
+* **Encryption**: AES-128/256-CBC, AES-128/256-GCM
+* **Integrity**: SHA1, SHA256, SHA384, SHA512
+* **DH groups**: 2, 5, 14-21
+* **PFS**: Optional but recommended
+* **NAT traversal**: Required for endpoints behind NAT
+
+All VPN solutions terminate through dedicated endpoints at `vpn.region.tenantID.prd.computle.net`. VPN appliances are provisioned with 1Gbps dedicated interfaces and operate within tenant namespace isolation boundaries.
