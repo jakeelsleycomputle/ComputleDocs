@@ -94,12 +94,13 @@ Computle supports multiple site-to-site VPN options for secure connectivity betw
 
 **IPsec-based solutions**:
 
-* **VyOS**: Open-source routing platform deployed as a Computle Machine
-* **pfSense**: Firewall and VPN appliance available as a pre-configured image
+* VyOS
+* pfSense&#x20;
 
 **Physical appliances**:
 
-* **Meraki**: Physical Meraki security appliances at customer sites
+* **Meraki**: Physical Meraki security appliances &#x20;
+* Other hardware products.
 
 #### Remote endpoint requirements
 
@@ -109,7 +110,11 @@ To establish successful VPN connectivity with Computle environments, remote endp
 * **Encryption**: AES-128/256-CBC, AES-128/256-GCM
 * **Integrity**: SHA1, SHA256, SHA384, SHA512
 * **DH groups**: 2, 5, 14-21
-* **PFS**: Optional but recommended
-* **NAT traversal**: Required for endpoints behind NAT
 
-All VPN solutions terminate through dedicated endpoints at `vpn.region.tenantID.prd.computle.net`. VPN appliances are provisioned with 1Gbps dedicated interfaces and operate within tenant namespace isolation boundaries.
+#### Pricing
+
+We do not charge for Site-to-Site VPNs.
+
+#### Performance
+
+VPN appliances are provisioned with 1Gbps dedicated interfaces and operate within tenant namespace isolation boundaries.
