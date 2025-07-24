@@ -1,7 +1,7 @@
 # Computle Client: Entra ID
 
 {% hint style="warning" %}
-This is a Release Candidate. The release may have bugs and unexpected actions.
+Version 3 is a Release Candidate.&#x20;
 {% endhint %}
 
 ## Get Started: Login with Microsoft
