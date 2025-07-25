@@ -71,7 +71,7 @@ Users from Entra ID are now available in Computle for machine assignment and acc
 
 ***
 
-### Required permissions
+## Requied Permissions
 
 #### Computle OAuth 2.0 (Portal Login)
 
