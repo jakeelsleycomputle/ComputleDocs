@@ -1,36 +1,6 @@
 # Computle Client v3: Enterprise App Registration
 
-## Computle Entra ID Setup
-
-### Overview
-
-Directory Sync automatically syncs Entra ID users to Computle, enabling machine assignment to users.
-
-### Enterprise Applications
-
-#### Computle OAuth 2.0 (Portal Login)
-
-Used for user authentication to access the app and portal:
-
-| Permission    | Type      | Description                   |
-| ------------- | --------- | ----------------------------- |
-| **email**     | Delegated | View users' email address     |
-| **openid**    | Delegated | Sign users in                 |
-| **profile**   | Delegated | View users' basic profile     |
-| **User.Read** | Delegated | Sign in and read user profile |
-
-#### Computle OAuth 2.0 (Tenant Sync)
-
-Used for directory synchronization with these Microsoft Graph permissions:
-
-| Permission               | Type        | Description                   |
-| ------------------------ | ----------- | ----------------------------- |
-| **Directory.Read.All**   | Application | Read directory data           |
-| **Group.Read.All**       | Application | Read all groups               |
-| **GroupMember.Read.All** | Application | Read all group memberships    |
-| **User.Read.All**        | Application | Read all users' full profiles |
-
-> **Microsoft Graph API** enables applications to access Microsoft 365 data and intelligence through a unified REST API endpoint.
+Computle Client uses OAth 2.0 to authenticate users against your existing iDP, such as Entra ID. Additionally, Directory Sync automatically syncs Entra ID users to Computle, enabling machine assignment to users.
 
 ## Step 1: Computle Client Login Setup
 
@@ -98,3 +68,31 @@ If approval is required, you will need to repeat these steps **in full** once pe
 ### You're set
 
 Users from Entra ID are now available in Computle for machine assignment and access management.
+
+***
+
+### Required permissions
+
+#### Computle OAuth 2.0 (Portal Login)
+
+Used for user authentication to access the app and portal:
+
+| Permission    | Type      | Description                   |
+| ------------- | --------- | ----------------------------- |
+| **email**     | Delegated | View users' email address     |
+| **openid**    | Delegated | Sign users in                 |
+| **profile**   | Delegated | View users' basic profile     |
+| **User.Read** | Delegated | Sign in and read user profile |
+
+#### Computle OAuth 2.0 (Tenant Sync)
+
+Used for directory synchronization with these Microsoft Graph permissions:
+
+| Permission               | Type        | Description                   |
+| ------------------------ | ----------- | ----------------------------- |
+| **Directory.Read.All**   | Application | Read directory data           |
+| **Group.Read.All**       | Application | Read all groups               |
+| **GroupMember.Read.All** | Application | Read all group memberships    |
+| **User.Read.All**        | Application | Read all users' full profiles |
+
+> **Microsoft Graph API** enables applications to access Microsoft 365 data and intelligence through a unified REST API endpoint.
