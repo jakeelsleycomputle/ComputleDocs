@@ -73,9 +73,11 @@ Admin approval may be required, See [Microsoft Learn](https://learn.microsoft.co
 * Navigate to [**Directory Sync**](https://portal.computle.com/directory-sync) in sidebar
 * Click **"Grant Admin Consent"** button,
 
-<figure><img src="../.gitbook/assets/Screenshot_25-7-2025_1212_portal.computle.com.jpeg" alt=""><figcaption></figcaption></figure>
+{% hint style="warning" %}
+If approval is required, you will need to repeat these steps **in full** once permission is granted. The sync process will fail otherwise.
+{% endhint %}
 
-* Follow the on-screen instructions. This enables the Computle OAth 2.0 (Tenant Sync) application to read your Entra ID user groups and user profiles.
+<figure><img src="../.gitbook/assets/Screenshot_25-7-2025_1212_portal.computle.com.jpeg" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Screenshot_25-7-2025_1233_login.microsoftonline.com.jpeg" alt=""><figcaption></figcaption></figure>
 
