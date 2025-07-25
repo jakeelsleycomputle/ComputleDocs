@@ -11,6 +11,7 @@
 * [Computle Client v3 (Release Candidate)](computle-client/computle-client-v3-release-candidate/README.md)
   * [Computle Client: Entra ID](computle-client/computle-client-v3-release-candidate/computle-client-entra-id.md)
   * [Computle Client: Application Architecture](computle-client/computle-client-v3-release-candidate/computle-client-application-architecture.md)
+* [Computle Client v3: Enterprise App Registration](computle-client/computle-client-v3-enterprise-app-registration.md)
 
 ## Onboarding
 
@@ -28,7 +29,6 @@
   * [Billing Portal](onboarding/administrator-guide/billing-portal.md)
   * [Service Status](onboarding/administrator-guide/service-status.md)
   * [Virtual Machine Licensing and User Identification Requirements (Windows 11 Professional)](onboarding/administrator-guide/virtual-machine-licensing-and-user-identification-requirements-windows-11-professional.md)
-  * [Computle Client v3: Enterprise App Registration](onboarding/administrator-guide/computle-client-v3-enterprise-app-registration.md)
 * [Migrating to Computle](onboarding/migrating-to-computle/README.md)
   * [GPU Analyser](onboarding/migrating-to-computle/gpu-analyser.md)
 

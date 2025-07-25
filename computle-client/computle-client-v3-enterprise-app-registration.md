@@ -38,7 +38,7 @@ Used for directory synchronization with these Microsoft Graph permissions:
 
 #### 1. Download and Install
 
-* Download [Computle Client](../../installers/installers.md)
+* Download [Computle Client](../installers/installers.md)
 * Follow installation steps
 
 #### 2. Login Process
@@ -73,25 +73,25 @@ Admin approval may be required, See [Microsoft Learn](https://learn.microsoft.co
 * Navigate to [**Directory Sync**](https://portal.computle.com/directory-sync) in sidebar
 * Click **"Grant Admin Consent"** button,
 
-<figure><img src="../../.gitbook/assets/Screenshot_25-7-2025_1212_portal.computle.com.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot_25-7-2025_1212_portal.computle.com.jpeg" alt=""><figcaption></figcaption></figure>
 
 * Follow the on-screen instructions. This enables the Computle OAth 2.0 (Tenant Sync) application to read your Entra ID user groups and user profiles.
 
-<figure><img src="../../.gitbook/assets/Screenshot_25-7-2025_1233_login.microsoftonline.com.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot_25-7-2025_1233_login.microsoftonline.com.jpeg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot_25-7-2025_1250_login.microsoftonline.com (1).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot_25-7-2025_1250_login.microsoftonline.com (1).jpeg" alt=""><figcaption></figcaption></figure>
 
 #### 2. Click Sync Now
 
 * Click **"Sync Now"** button to start synchronization
 
-<figure><img src="../../.gitbook/assets/Screenshot_25-7-2025_1317_portal.computle.com.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot_25-7-2025_1317_portal.computle.com.jpeg" alt=""><figcaption></figcaption></figure>
 
 #### 3. Verify Users
 
 * Check **Users** section to see synced accounts
 
-<figure><img src="../../.gitbook/assets/Screenshot_25-7-2025_1731_portal.computle.com.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot_25-7-2025_1731_portal.computle.com.jpeg" alt=""><figcaption></figcaption></figure>
 
 ### You're set
 
