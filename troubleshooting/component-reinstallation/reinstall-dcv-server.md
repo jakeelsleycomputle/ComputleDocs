@@ -72,7 +72,6 @@ try {
     Write-Error "Failed to download dcv.pem: $_"
 }
 
-
 $licensingServers = @(
     'dcvlicensing1.computle.net',
     'dcvlicensing2.computle.net'
@@ -100,13 +99,76 @@ New-ItemProperty -LiteralPath $registryPath -Name $registryKey -Value $licenseVa
 
 Write-Host "Registry updated successfully with license value: $licenseValue" -ForegroundColor Green
 
-Restart-Service -Name dcvserver -Force
+# Configure Computle DCV Permissions to allow any user to connect
+Write-Host "Configuring Computle DCV permissions..." -ForegroundColor Yellow
+
+$permissionsFilePath = "C:\Program Files\NICE\DCV\Server\conf\default.perm"
+
+# Check if the permissions file exists
+if (Test-Path $permissionsFilePath) {
+    # Create a backup of the original file
+    $backupPath = "$permissionsFilePath.backup.$(Get-Date -Format 'yyyyMMdd_HHmmss')"
+    try {
+        Copy-Item $permissionsFilePath $backupPath -Force
+        Write-Host "Permissions backup created: $backupPath" -ForegroundColor Green
+    }
+    catch {
+        Write-Warning "Failed to create permissions backup: $_"
+    }
+
+    # Define the new permissions content
+    $newPermissionsContent = @"
+[groups]
+mygroup1=dom\user1, user2
+
+[aliases]
+; create permission alias
+file-management=file-upload, file-download, clipboard-management
+
+[permissions]
+; Example to allow all users to connect
+%any% allow builtin
+
+; Example to allow users from osgroup YOUR_GROUP to connect
+;osgroup:YOUR_GROUP allow builtin
+
+; allow the predefined mygroup to connect
+;group:mygroup1 allow builtin
+"@
+
+    # Write the new content to the permissions file
+    try {
+        Set-Content -Path $permissionsFilePath -Value $newPermissionsContent -Encoding UTF8
+        Write-Host "Successfully updated Computle DCV permissions to allow any user" -ForegroundColor Green
+    }
+    catch {
+        Write-Warning "Failed to update permissions file: $_"
+    }
+} else {
+    Write-Warning "Computle DCV permissions file not found at: $permissionsFilePath"
+}
 
 # Clear the command window
 Clear-Host
 
 # Show installation complete message
 Write-Host "Installation complete!" -ForegroundColor Green
+Write-Host "Computle DCV Server has been installed and configured with:" -ForegroundColor Cyan
+Write-Host "- License servers configured" -ForegroundColor White
+Write-Host "- SSL certificates downloaded" -ForegroundColor White
+Write-Host "- Permissions set to allow any user (%any%) to connect" -ForegroundColor White
+
+# Final step: Restart Computle DCV Server service
+Write-Host "`nFinal step: Restarting Computle DCV Server service..." -ForegroundColor Yellow
+try {
+    Restart-Service -Name dcvserver -Force -ErrorAction Stop
+    Write-Host "Computle DCV Server service restarted successfully!" -ForegroundColor Green
+} catch {
+    Write-Warning "Failed to restart Computle DCV Server service: $_"
+    Write-Host "Please manually restart the service using: Restart-Service dcvserver" -ForegroundColor Yellow
+}
+
+Write-Host "`nComputle DCV Server setup is now complete and ready for connections!" -ForegroundColor Green
 
 
 
