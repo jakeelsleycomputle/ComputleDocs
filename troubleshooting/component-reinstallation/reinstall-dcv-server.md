@@ -19,6 +19,7 @@ Enable Remote Desktop by navigating to Settings > Remote Desktop Settings
 ```mathml
 # Copyright Computle.com - Computle Reinstall DCV Server
 
+
 $fileUrl = "https://d1uj6qtbmh3dt5.cloudfront.net/2024.0/Servers/nice-dcv-server-x64-Release-2024.0-19030.msi"
 $savePath = "C:\Windows\Computle"
 $installLogFile = "dcv_install_msi.log"
@@ -113,20 +114,11 @@ if (Test-Path $permissionsFilePath) {
         Write-Warning "Failed to create permissions backup: $_"
     }
 
-    $newPermissionsContent = @"
-[groups]
-mygroup1=dom\user1, user2
-
-[aliases]
-file-management=file-upload, file-download, clipboard-management
-
-[permissions]
-%any% allow builtin
-"@
-
     try {
-        Set-Content -Path $permissionsFilePath -Value $newPermissionsContent -Encoding UTF8
-        Write-Host "Successfully updated Computle DCV permissions to allow any user" -ForegroundColor Green
+        $content = Get-Content $permissionsFilePath -Raw
+        $content = $content -replace '(?m)^; %owner% allow builtin', '%owner% allow builtin'
+        Set-Content -Path $permissionsFilePath -Value $content -Encoding ASCII -NoNewline
+        Write-Host "Successfully updated Computle DCV permissions to allow owner" -ForegroundColor Green
     }
     catch {
         Write-Warning "Failed to update permissions file: $_"
@@ -141,7 +133,7 @@ Write-Host "Installation complete!" -ForegroundColor Green
 Write-Host "Computle DCV Server has been installed and configured with:" -ForegroundColor Cyan
 Write-Host "- License servers configured" -ForegroundColor White
 Write-Host "- SSL certificates downloaded" -ForegroundColor White
-Write-Host "- Permissions set to allow any user (%any%) to connect" -ForegroundColor White
+Write-Host "- Permissions set to allow owner (%owner%) to connect" -ForegroundColor White
 
 Write-Host "`nSetting DCV Server to Automatic (Delayed Start)..." -ForegroundColor Yellow
 try {
@@ -162,4 +154,7 @@ try {
 }
 
 Write-Host "`nComputle DCV Server setup is now complete and ready for connections!" -ForegroundColor Green
+
+
+
 ```
