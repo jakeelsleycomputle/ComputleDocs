@@ -77,10 +77,10 @@ This service is not recommended for shared data, such as drawing files.
 
 With Computle, you only pay for the deployed storage. There are no extra charges associated with the running of storage appliances such as Panzura.
 
-| Storage tier                | All-location pricing  |
-| --------------------------- | --------------------- |
-| Archive (HDDs)              | £10 per TB/per month  |
-| Standard (NVMes)            | £100 per TB/per month |
-| Archive (HDDs) (Cross-Site) | £15 per TB/per month  |
-| Standard (NVMes)            | £150 per TB/per month |
+| Storage tier                  | All-location pricing  |
+| ----------------------------- | --------------------- |
+| Archive (HDDs)                | £10 per TB/per month  |
+| Standard (NVMes)              | £100 per TB/per month |
+| Archive (HDDs) (Cross-Site)   | £15 per TB/per month  |
+| Standard (NVMes) (Cross-Site) | £150 per TB/per month |
 
