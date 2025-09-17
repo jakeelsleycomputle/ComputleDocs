@@ -1,4 +1,4 @@
-# Twinmotion crashes when performing renders
+# Twinmotion crashes when exporting high-resolution renders
 
 {% hint style="info" %}
 Created from [EpicGames](https://dev.epicgames.com/documentation/en-us/unreal-engine/how-to-fix-a-gpu-driver-crash-when-using-unreal-engine?application_version=5.0) documentation.&#x20;
@@ -6,7 +6,7 @@ Created from [EpicGames](https://dev.epicgames.com/documentation/en-us/unreal-en
 
 ### Issue:&#x20;
 
-* Twinmotion crashes when performing renders
+* Twinmotion crashes when exporting high-resolution renders.
 * Twinmotion's crash log shows "GPU Crash Detected".
 * Twinmotion's crash log shows "GPU crash dump triggered".
 
@@ -14,7 +14,21 @@ Created from [EpicGames](https://dev.epicgames.com/documentation/en-us/unreal-en
 
 ***
 
-### Resolution:
+### Cause:
+
+Windows contains a Timeout Detection and Recovery protocol which detects response times from the graphics card. The default value is 2 seconds which conflicts with Twinmotion's timeout values, when performing time-consuming, high-resolution exports.
+
+***
+
+### Fix:
+
+**Increase the Windows timeout value to 60 seconds to align to Twinmotion's values.**
+
+{% hint style="danger" %}
+Perform these steps as an Administrator.&#x20;
+{% endhint %}
+
+**Steps**
 
 1.  Type '**run'** into the Windows operating system search bar. Open the **Run** application.
 

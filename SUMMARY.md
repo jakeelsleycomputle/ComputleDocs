@@ -52,7 +52,7 @@
   * [Reinstall NVIDIA](troubleshooting/component-reinstallation/reinstall-nvidia.md)
   * [Build Scripts](troubleshooting/component-reinstallation/build-scripts.md)
 * [Third Party Applications](troubleshooting/third-party-applications/README.md)
-  * [Twinmotion crashes when performing renders](troubleshooting/third-party-applications/twinmotion-crashes-when-performing-renders.md)
+  * [Twinmotion crashes when exporting high-resolution renders](troubleshooting/third-party-applications/twinmotion-crashes-when-exporting-high-resolution-renders.md)
   * [Intune/Entra ID and Computle, BitLocker](troubleshooting/third-party-applications/intune-entra-id-and-computle-bitlocker.md)
 
 ## Service Delivery
