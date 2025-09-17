@@ -52,7 +52,7 @@
   * [Reinstall NVIDIA](troubleshooting/component-reinstallation/reinstall-nvidia.md)
   * [Build Scripts](troubleshooting/component-reinstallation/build-scripts.md)
 * [Third Party Applications](troubleshooting/third-party-applications/README.md)
-  * [Twinmotion GPU Crash Detected / Twinmotion crashes when performing renders.](troubleshooting/third-party-applications/twinmotion-gpu-crash-detected-twinmotion-crashes-when-performing-renders..md)
+  * [Twinmotion crashes when performing renders](troubleshooting/third-party-applications/twinmotion-crashes-when-performing-renders.md)
 
 ## Service Delivery
 

@@ -1,12 +1,20 @@
-# Twinmotion GPU Crash Detected / Twinmotion crashes when performing renders.
+# Twinmotion crashes when performing renders
 
 {% hint style="info" %}
 Created from [EpicGames](https://dev.epicgames.com/documentation/en-us/unreal-engine/how-to-fix-a-gpu-driver-crash-when-using-unreal-engine?application_version=5.0) documentation.&#x20;
 {% endhint %}
 
-### Symptom: Twinmotion crashes when performing renders and/or displays "GPU Crash Detected" in the crash log.
+### Issue:&#x20;
+
+* Twinmotion crashes when performing renders
+* Twinmotion's crash log shows "GPU Crash Detected".
+* Twinmotion's crash log shows "GPU crash dump triggered".
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ***
+
+### Resolution:
 
 1.  Type '**run'** into the Windows operating system search bar. Open the **Run** application.
 
@@ -17,7 +25,7 @@ Created from [EpicGames](https://dev.epicgames.com/documentation/en-us/unreal-en
 
 
 
-    <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 3. Navigate to:&#x20;
 4.  `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers`.
 

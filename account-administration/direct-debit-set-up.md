@@ -28,7 +28,7 @@ Only the Billing Owner can log in to this page.
 
 7. Click _Bacs Direct Debit_ and complete the fields.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 8. Tick the authorisation field.
 

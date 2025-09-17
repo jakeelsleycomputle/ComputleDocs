@@ -37,7 +37,7 @@ Ensure that your administrator has shared a Computle Gateway token with you.&#x2
 
 2. Launch the downloaded file.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 2. Install WireGuard
 
