@@ -10,6 +10,10 @@ Created from [EpicGames](https://dev.epicgames.com/documentation/en-us/unreal-en
 * Twinmotion's crash log shows "GPU Crash Detected".
 * Twinmotion's crash log shows "GPU crash dump triggered".
 
+### Affected versions:
+
+* Twinmotion 2025.1.1 or newer.&#x20;
+
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ***
