@@ -51,7 +51,7 @@ You can reimage Computle Machines using the Rebuild button. [Image ](https://doc
 2. Select the image you wish to deploy.
 3. The image will deploy in around 30 seconds.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Computle Machine Re-Imaging</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Computle Machine Re-Imaging</p></figcaption></figure>
 
 ***
 

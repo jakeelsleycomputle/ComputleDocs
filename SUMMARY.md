@@ -50,7 +50,9 @@
 * [Component Reinstallation](troubleshooting/component-reinstallation/README.md)
   * [Reinstall DCV Server](troubleshooting/component-reinstallation/reinstall-dcv-server.md)
   * [Reinstall NVIDIA](troubleshooting/component-reinstallation/reinstall-nvidia.md)
-* [Build Scripts](troubleshooting/build-scripts.md)
+  * [Build Scripts](troubleshooting/component-reinstallation/build-scripts.md)
+* [Third Party Applications](troubleshooting/third-party-applications/README.md)
+  * [Twinmotion GPU Crash Detected / Twinmotion crashes when performing renders.](troubleshooting/third-party-applications/twinmotion-gpu-crash-detected-twinmotion-crashes-when-performing-renders..md)
 
 ## Service Delivery
 

@@ -9,11 +9,7 @@ coverY: 183
 
 Computle adopts a **Scale-Out Architecture**, where each customer is assigned dedicated resources, ensuring that workloads scale efficiently without compromising performance. To further enhance reliability, Computle follows a **Shared Nothing Architecture**, where each tenant operates independently on dedicated hardware, eliminating the risk of component failures impacting other users.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="551"><figcaption><p>Computle blade workstation v1</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (5) (1).png" alt="" width="551"><figcaption><p>Computle blade workstation v1</p></figcaption></figure></div>
 
 This is supported by **baremetal hardware** with a **Type 1 hypervisor**, with each hypervisor hosting one virtual machine. Each seat or user has full access to dedicated resources, including CPU, GPU, memory, and NVMe storage, ensuring maximum performance and efficiency. With **both physical and logical tenant isolation**, each hypervisor and its associated resources are dedicated exclusively to a specific tenant, guaranteeing secure and high-performance operations for every customer.&#x20;
 
