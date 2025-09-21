@@ -1,9 +1,10 @@
 # Assignment Agent
 
-
+{% hint style="danger" %}
+This is a BETA release.
+{% endhint %}
 
 ```
-iwr https://depres.oncomputle.com/Install-ComputleAgent.ps1 -OutFile C:/Install-ComputleAgent.ps1
-powershell -ExecutionPolicy Bypass -File C:/Install-ComputleAgent.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr 'https://depres.oncomputle.com/Install-ComputleAgent.ps1' -UseBasicParsing | iex"
 
 ```
