@@ -116,7 +116,7 @@ if (Test-Path $permissionsFilePath) {
 
     try {
         $content = Get-Content $permissionsFilePath -Raw
-        $content = $content -replace '(?m)^; %owner% allow builtin', '%owner% allow builtin'
+        $content = $content -replace '(?m)^; %owner% allow builtin', '%any% allow builtin'
         Set-Content -Path $permissionsFilePath -Value $content -Encoding ASCII -NoNewline
         Write-Host "Successfully updated Computle DCV permissions to allow owner" -ForegroundColor Green
     }
