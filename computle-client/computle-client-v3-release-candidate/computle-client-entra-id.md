@@ -1,7 +1,7 @@
 # Computle Client: Entra ID
 
 {% hint style="warning" %}
-Version 3 is a Release Candidate.&#x20;
+MacOS is a Release Candidate.&#x20;
 {% endhint %}
 
 ## Get Started: Login with Microsoft
@@ -9,7 +9,7 @@ Version 3 is a Release Candidate.&#x20;
 1. **Download Computle Client and follow the installation steps.**
 
 {% hint style="info" %}
-For Windows, click here.
+Installers can be found [here](../../installers/installers.md).
 {% endhint %}
 
 2. **Click Login with Microsoft** &#x20;
@@ -75,7 +75,7 @@ You can view the Diagnostics by heading to Settings > Diagnostics.
 ## Notes to Administrators
 
 {% hint style="warning" %}
-If you are not enrolled in the Release Candidate programme, you will receive an error message.
+If you are not enrolled, you will receive an error message.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
