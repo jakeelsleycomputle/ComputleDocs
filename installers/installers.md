@@ -17,7 +17,7 @@
 {% hint style="info" %}
 **System requirements:**
 
-* Windows 10/11.
+* Windows 10/11 or MacOS 12+ ARM.
 * 850MB of available storage.
 * Internet access.&#x20;
 
@@ -31,13 +31,19 @@
 {% hint style="info" %}
 **Silent Installation:**
 
-To install silently, run: _ComputleClientV3\_Setup\_3.0.6.1.exe /S._ The installation will take around 15 minutes.&#x20;
+To install silently, run: _ComputleClientV3\_Setup\_3.0.7.3.exe /S._ The installation will take around 15 minutes.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
 **Documentation:**&#x20;
 
 View documentation for Computle Client [here](../computle-client/computle-client-v3-release-candidate/computle-client-entra-id.md).
+{% endhint %}
+
+{% hint style="info" %}
+**Mac (Intel):**&#x20;
+
+Computle Client for Mac (Intel) can be downloaded [here](https://softwaredownloads.oncomputle.com/ComputleClient-3.0.7/ComputleClient-3.0.7-Intel.pkg).
 {% endhint %}
 
 ***
