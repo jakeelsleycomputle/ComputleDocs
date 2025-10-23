@@ -17,3 +17,19 @@ You can workaround this by using Computle Device, or by creating a shortcut that
 **On-Premise Active Directory**
 
 For on-premise Active Directory, you should use `DOMAIN\Username`.
+
+***
+
+**Connect Button Inactive**
+
+If you get an error where DCV does not connect, please install the latest [Microsoft Visual C++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe).
+
+Alternatively, you can use the web client, but note that performance will be reduced.
+
+***
+
+**No Session Available**
+
+Please ensure the [License Server](dcv-server-license-warning.md) details are set and that a user is assigned in `HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\session-management\automatic-console-session`.
+
+&#x20;
