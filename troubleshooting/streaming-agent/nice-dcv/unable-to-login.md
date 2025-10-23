@@ -32,4 +32,6 @@ Alternatively, you can use the web client, but note that performance will be red
 
 Please ensure the [License Server](dcv-server-license-warning.md) details are set and that a user is assigned in `HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\session-management\automatic-console-session`.
 
-&#x20;
+{% hint style="danger" %}
+DCV 2025 was released 22nd October 2025, with all Computle users running DCV 2024. Certain IT management platforms may identify this new version and automatically deploy it. Doing so results in “no session available” errors, blocking sign-in. This is caused by an unavailability of licensing for this specific release, which will be rectified when this version is production ready. Please do not upgrade unless specifically requested to do so. DCV has no automatic update mechanism, therefore, most users should not be impacted. However, if impacted, you must rollback to the production stable release, DCV 2024. Read more dcv[reinstall-dcv-server.md](../../component-reinstallation/reinstall-dcv-server.md "mention").
+{% endhint %}
