@@ -44,6 +44,7 @@
     * [WebAuthn Redirection/FIDO Keys](troubleshooting/streaming-agent/nice-dcv/webauthn-redirection-fido-keys.md)
     * [Resolution and Quality](troubleshooting/streaming-agent/nice-dcv/no-username-or-password-requested/resolution-and-quality.md)
     * [No Username or Password Requested](troubleshooting/streaming-agent/nice-dcv/no-username-or-password-requested/README.md)
+    * [Idle timeout](troubleshooting/streaming-agent/nice-dcv/idle-timeout.md)
   * [Mechdyne TGX](troubleshooting/streaming-agent/mechdyne-tgx/README.md)
     * [Enable USB Redirection](troubleshooting/streaming-agent/mechdyne-tgx/enable-usb-redirection.md)
     * [Enable Microphone Input](troubleshooting/streaming-agent/mechdyne-tgx/enable-microphone-input.md)
