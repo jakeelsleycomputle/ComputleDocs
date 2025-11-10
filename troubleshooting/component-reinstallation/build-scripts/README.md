@@ -36,7 +36,8 @@ Do not run this script unless requested. This is only to be used under a planned
 ## Set DCV Authentication to None
 
 ```
-$regPath = "Registry::HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\security"
+$authRegPath = "Registry::HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\security\authentication"
+$lockRegPath = "Registry::HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\security"
 
 # Get public IP
 $publicIP = (Invoke-RestMethod -Uri "https://api.ipify.org").Trim()
@@ -66,14 +67,25 @@ if ($portsOpen) {
     exit 1
 }
 
-if (-not (Test-Path $regPath)) {
-    New-Item -Path $regPath -Force | Out-Null
+# Create authentication registry path if it doesn't exist
+if (-not (Test-Path $authRegPath)) {
+    New-Item -Path $authRegPath -Force | Out-Null
 }
 
-# Create or set the authentication string value
-New-ItemProperty -Path $regPath -Name "authentication" -Value "none" -PropertyType String -Force | Out-Null
+# Create security registry path if it doesn't exist
+if (-not (Test-Path $lockRegPath)) {
+    New-Item -Path $lockRegPath -Force | Out-Null
+}
+
+# Set authentication to none
+Set-ItemProperty -Path $authRegPath -Name "(Default)" -Value "none"
+
+# Set os-auto-lock to enabled (1)
+New-ItemProperty -Path $lockRegPath -Name "os-auto-lock" -Value 1 -PropertyType DWORD -Force | Out-Null
 
 Restart-Service -Name "dcvserver" -Force
+
 Clear-Host
+
 "Authentication mode changed to none."
 ```
