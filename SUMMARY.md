@@ -8,10 +8,10 @@
 
 ## Computle Client
 
-* [Computle Client v3 (Release Candidate)](computle-client/computle-client-v3-release-candidate/README.md)
-  * [Computle Client: Entra ID](computle-client/computle-client-v3-release-candidate/computle-client-entra-id.md)
-  * [Computle Client: Application Architecture](computle-client/computle-client-v3-release-candidate/computle-client-application-architecture.md)
+* [Computle Client](computle-client/computle-client.md)
 * [Computle Client v3: Enterprise App Registration](computle-client/computle-client-v3-enterprise-app-registration.md)
+* [Changelog](computle-client/changelog.md)
+* [Computle Client: Application Architecture](computle-client/computle-client-application-architecture.md)
 
 ## Onboarding
 
