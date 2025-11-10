@@ -26,3 +26,53 @@ powercfg /change disk-timeout-dc 0
 powercfg /change monitor-timeout-ac 0
 powercfg /change monitor-timeout-dc 0
 ```
+
+***
+
+{% hint style="warning" %}
+Do not run this script unless requested. This is only to be used under a planned migration.
+{% endhint %}
+
+## Set DCV Authentication to None
+
+```
+$regPath = "Registry::HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\security\authentication"
+
+# Get public IP
+$publicIP = (Invoke-RestMethod -Uri "https://api.ipify.org").Trim()
+
+# Check if DCV ports are publicly accessible
+$portsOpen = $false
+for ($port = 8443; $port -le 8473; $port++) {
+    try {
+        $tcpClient = New-Object System.Net.Sockets.TcpClient
+        $connect = $tcpClient.BeginConnect($publicIP, $port, $null, $null)
+        $wait = $connect.AsyncWaitHandle.WaitOne(1000, $false)
+        
+        if ($wait -and $tcpClient.Connected) {
+            $portsOpen = $true
+            $tcpClient.Close()
+            break
+        }
+        $tcpClient.Close()
+    }
+    catch {
+        # Port not accessible, continue
+    }
+}
+
+if ($portsOpen) {
+    "You have not passed pre-requisites, please consult your account rep."
+    exit 1
+}
+
+if (-not (Test-Path $regPath)) {
+    New-Item -Path $regPath -Force | Out-Null
+}
+
+Set-ItemProperty -Path $regPath -Name "(Default)" -Value "none"
+
+Restart-Service -Name "dcvserver" -Force
+
+"Authentication mode changed to none."
+```
