@@ -36,7 +36,7 @@ Do not run this script unless requested. This is only to be used under a planned
 ## Set DCV Authentication to None
 
 ```
-$regPath = "Registry::HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\security\authentication"
+$regPath = "Registry::HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\security"
 
 # Get public IP
 $publicIP = (Invoke-RestMethod -Uri "https://api.ipify.org").Trim()
@@ -70,9 +70,10 @@ if (-not (Test-Path $regPath)) {
     New-Item -Path $regPath -Force | Out-Null
 }
 
-Set-ItemProperty -Path $regPath -Name "(Default)" -Value "none"
+# Create or set the authentication string value
+New-ItemProperty -Path $regPath -Name "authentication" -Value "none" -PropertyType String -Force | Out-Null
 
 Restart-Service -Name "dcvserver" -Force
-
+Clear-Host
 "Authentication mode changed to none."
 ```
