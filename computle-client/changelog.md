@@ -2,6 +2,23 @@
 
 All notable changes to the Computle Client will be documented in this file.
 
+### \[3.0.8] - 2025-11-11
+
+#### Added
+
+* Client now detects when you close the DCV viewer and terminates background processes automatically
+* DCV launches automatically after successful login
+* Client automatically detects when your machine assignment changes without requiring logout
+
+#### Changed
+
+* Timestamp-based log parsing for improved reliability across log rotations
+* Machine assignment polling occurs every 5 seconds&#x20;
+
+#### Fixed
+
+* Enhancaes made to telemetry collection and log exports.
+
 ### \[3.0.7] - 2025-10-29
 
 #### Added
