@@ -36,13 +36,10 @@ Do not run this script unless requested. This is only to be used under a planned
 ## Set DCV Authentication to None
 
 ```
-$authRegPath = "Registry::HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\security\authentication"
-$lockRegPath = "Registry::HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\security"
+$securityRegPath = "Registry::HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\security"
 
-# Get public IP
 $publicIP = (Invoke-RestMethod -Uri "https://api.ipify.org").Trim()
 
-# Check if DCV ports are publicly accessible
 $portsOpen = $false
 for ($port = 8443; $port -le 8473; $port++) {
     try {
@@ -58,34 +55,21 @@ for ($port = 8443; $port -le 8473; $port++) {
         $tcpClient.Close()
     }
     catch {
-        # Port not accessible, continue
     }
 }
-
 if ($portsOpen) {
     "You have not passed pre-requisites, please consult your account rep."
     exit 1
 }
 
-# Create authentication registry path if it doesn't exist
-if (-not (Test-Path $authRegPath)) {
-    New-Item -Path $authRegPath -Force | Out-Null
+if (-not (Test-Path $securityRegPath)) {
+    New-Item -Path $securityRegPath -Force | Out-Null
 }
 
-# Create security registry path if it doesn't exist
-if (-not (Test-Path $lockRegPath)) {
-    New-Item -Path $lockRegPath -Force | Out-Null
-}
+New-ItemProperty -Path $securityRegPath -Name "authentication" -Value "none" -PropertyType String -Force | Out-Null
 
-# Set authentication to none
-Set-ItemProperty -Path $authRegPath -Name "(Default)" -Value "none"
-
-# Set os-auto-lock to enabled (1)
-New-ItemProperty -Path $lockRegPath -Name "os-auto-lock" -Value 1 -PropertyType DWORD -Force | Out-Null
-
+New-ItemProperty -Path $securityRegPath -Name "os-auto-lock" -Value 1 -PropertyType DWORD -Force | Out-Null
 Restart-Service -Name "dcvserver" -Force
-
 Clear-Host
-
 "Authentication mode changed to none."
 ```
