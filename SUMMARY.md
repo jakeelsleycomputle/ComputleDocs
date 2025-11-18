@@ -10,8 +10,9 @@
 
 * [Computle Client](computle-client/computle-client.md)
 * [Computle Client v3: Enterprise App Registration](computle-client/computle-client-v3-enterprise-app-registration.md)
-* [Changelog](computle-client/changelog.md)
 * [Computle Client: Application Architecture](computle-client/computle-client-application-architecture.md)
+* [Changelog](computle-client/changelog.md)
+* [Computle Client v3.0.8 Migration Guide](computle-client/computle-client-v3.0.8-migration-guide.md)
 
 ## Onboarding
 
