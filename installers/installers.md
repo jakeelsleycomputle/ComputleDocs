@@ -1,11 +1,11 @@
 # Installers
 
-## Co**mputle Client v3**
+## Co**mputle Client**
 
-<table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.7.7.exe">https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.7.7.exe</a></td><td><a href="../.gitbook/assets/Windows.png">Windows.png</a></td></tr><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClient-3.0.7-ARM64.pkg">https://softwaredownloads.oncomputle.com/ComputleClient-3.0.7-ARM64.pkg</a></td><td><a href="../.gitbook/assets/MacOS.png">MacOS.png</a></td></tr></tbody></table>
+<table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClientV3_3.0.8_Setup.exe">https://softwaredownloads.oncomputle.com/ComputleClientV3_3.0.8_Setup.exe</a></td><td><a href="../.gitbook/assets/Windows.png">Windows.png</a></td></tr><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClient-3.0.8-ARM64.pkg">https://softwaredownloads.oncomputle.com/ComputleClient-3.0.8-ARM64.pkg</a></td><td><a href="../.gitbook/assets/MacOS.png">MacOS.png</a></td></tr></tbody></table>
 
 {% hint style="warning" %}
-**MacOS is release candidate. If DCV does not install, please manually run the DCV installer once Computle Client for Mac has been run.**&#x20;
+**MacOS is Release to Manufacturing and is undergoing field testing.**
 {% endhint %}
 
 {% hint style="info" %}
@@ -47,7 +47,7 @@ View documentation for Computle Client [here](../computle-client/computle-client
 {% hint style="info" %}
 **Mac (Intel):**&#x20;
 
-Computle Client for Mac (Intel) can be downloaded [here](https://softwaredownloads.oncomputle.com/ComputleClient-3.0.7-Intel.pkg).
+Computle Client for Mac (Intel) can be downloaded [here](https://softwaredownloads.oncomputle.com/ComputleClient-3.0.8-Intel.pkg).
 {% endhint %}
 
 ***
