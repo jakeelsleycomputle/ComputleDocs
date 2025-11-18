@@ -1,4 +1,4 @@
-# Computle Client v3.0.8 Migration Guide
+# Computle Client: Migration Guide (v3.0.8)
 
 ### Overview
 

@@ -41,7 +41,7 @@ To install silently, run: _ComputleClientV3\_3.0.8\_Setup.exe /S._ The installat
 {% hint style="info" %}
 **Documentation:**&#x20;
 
-View documentation for Computle Client [here](../computle-client/computle-client.md).
+View documentation for Computle Client [here](../computle-client/computle-client-overview.md).
 {% endhint %}
 
 {% hint style="info" %}
