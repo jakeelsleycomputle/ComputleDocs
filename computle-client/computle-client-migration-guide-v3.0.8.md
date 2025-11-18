@@ -1,7 +1,7 @@
 # Computle Client: Migration Guide (v3.0.8)
 
 {% hint style="danger" %}
-Computle Client v3.0.8 is only supported in the United Kingdom. Other locations will be added in 2026.
+Computle Client v3.0.8 is only supported for machines **hosted in the United Kingdom.** Other locations will be added in 2026.
 {% endhint %}
 
 ### Overview
