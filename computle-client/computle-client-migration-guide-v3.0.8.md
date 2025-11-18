@@ -254,7 +254,7 @@ Restart-Service -Name "dcvserver" -Force
 
 ***
 
-### Administrators
+### Computle Portal: Connecting to Machines
 
 Administrators can connect to all machines using the [Computle Portal ](https://portal.computle.com/)> Workstations > DCV.
 
