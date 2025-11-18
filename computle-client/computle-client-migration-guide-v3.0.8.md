@@ -34,7 +34,7 @@ This safeguard ensures machines cannot be accessed without authentication via th
 
 **Objective:** Deploy Computle Client v3.0.8 and verify compatibility
 
-**Owner:** Rachel/Logicle
+**Owner:** Client/MSP/IT
 
 **Steps:**
 
