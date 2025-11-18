@@ -5,6 +5,12 @@
 <table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClientV3_3.0.8_Setup.exe">https://softwaredownloads.oncomputle.com/ComputleClientV3_3.0.8_Setup.exe</a></td><td><a href="../.gitbook/assets/Windows.png">Windows.png</a></td></tr><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClient-3.0.8-ARM64.pkg">https://softwaredownloads.oncomputle.com/ComputleClient-3.0.8-ARM64.pkg</a></td><td><a href="../.gitbook/assets/MacOS.png">MacOS.png</a></td></tr></tbody></table>
 
 {% hint style="warning" %}
+**Silent Installation:**
+
+To install silently, run: _ComputleClientV3\_3.0.8\_Setup.exe /S._ The installation will take around 15 minutes.&#x20;
+{% endhint %}
+
+{% hint style="warning" %}
 **MacOS is Release to Manufacturing and is undergoing field testing.**
 {% endhint %}
 
@@ -30,12 +36,6 @@
 * **For 1080p support:** A 4 core CPU with 5Mbps bandwidth.&#x20;
 * **For dual 1080p support:** A 4 core CPU with UDH graphics with 15Mbps bandwidth.&#x20;
 * **For dual 4k support and dual 5k support:** An eight core GPU with Iris XE graphics with 50Mbps bandwidth.
-{% endhint %}
-
-{% hint style="info" %}
-**Silent Installation:**
-
-To install silently, run: _ComputleClientV3\_Setup\_3.0.7.3.exe /S._ The installation will take around 15 minutes.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
