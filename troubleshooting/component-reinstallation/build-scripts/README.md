@@ -73,3 +73,7 @@ Restart-Service -Name "dcvserver" -Force
 Clear-Host
 "Authentication mode changed to none."
 ```
+
+```
+irm "https://raw.githubusercontent.com/jakeelsleycomputle/ComputleDocs/July2024/Scripts/Enable-ComputleClientAuth.ps1" | iex
+```
