@@ -6,9 +6,13 @@ All notable changes to the Computle Client will be documented in this file.
 
 #### Fixed
 
-* DCV disconnect monitoring now reliably detects disconnections on repeated connections
+* Improved connection stability and reliability
 * Multi-monitor support now works correctly on Windows platforms
-* Standardized DCV viewer arguments across all platforms for consistent behavior
+* Enhanced automatic cleanup of temporary files
+
+#### Changed
+
+* Streamlined login experience with fewer notifications
 
 ### \[3.0.8] - 2025-11-11
 
