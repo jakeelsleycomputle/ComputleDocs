@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/iStock-1188002056.jpg
+cover: ../../.gitbook/assets/iStock-1188002056 (1).jpg
 coverY: 294.5084745762712
 ---
 
@@ -42,11 +42,11 @@ Routing within tenant namespaces is tightly controlled. Each tenant operates in 
 
 ***
 
-## **Security framework**&#x20;
+## **Security framework**
 
-We employ a comprehensive security framework that blocks all inbound access by default, ensuring that tenant machines are never directly exposed to the internet or external threats. Access to tenant resources is only available through the Computle Gateway, our per-tenant VPN service. The Gateway provides secure VPN access, ensuring that only authenticated users can connect to their assigned machines. All traffic passing through the Gateway is subject to access control policies at both the network and application layers.&#x20;
+We employ a comprehensive security framework that blocks all inbound access by default, ensuring that tenant machines are never directly exposed to the internet or external threats. Access to tenant resources is only available through the Computle Gateway, our per-tenant VPN service. The Gateway provides secure VPN access, ensuring that only authenticated users can connect to their assigned machines. All traffic passing through the Gateway is subject to access control policies at both the network and application layers.
 
-For customers requiring additional control over their network security, there is an option to deploy custom firewall appliances in front of Computle Machines. Customers can configure their firewall appliances to manage intrusion detection, traffic inspection, and logging policies, providing an extra layer of control in addition to Computle’s default security protections. This service is provided as an optional add-on with supported firewall images including Hyper-V and Linux KVM.&#x20;
+For customers requiring additional control over their network security, there is an option to deploy custom firewall appliances in front of Computle Machines. Customers can configure their firewall appliances to manage intrusion detection, traffic inspection, and logging policies, providing an extra layer of control in addition to Computle’s default security protections. This service is provided as an optional add-on with supported firewall images including Hyper-V and Linux KVM.
 
 ***
 
@@ -95,11 +95,11 @@ Computle supports multiple site-to-site VPN options for secure connectivity betw
 **IPsec-based solutions**:
 
 * VyOS
-* pfSense&#x20;
+* pfSense
 
 **Physical appliances**:
 
-* **Meraki**: Physical Meraki security appliances &#x20;
+* **Meraki**: Physical Meraki security appliances
 * Other hardware products.
 
 #### Remote endpoint requirements

@@ -1,6 +1,6 @@
 # GPU Analyser
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Computle GPU Analyser is a powerful free tool designed to help organisations monitor and analyse GPU usage across their workstations. By providing detailed insights into how different users utilise GPU resources, it enables IT administrators to make informed decisions when planning a migration to Computle.
 
@@ -41,14 +41,14 @@ The data collected includes:
 
 ***
 
-## Installation&#x20;
+## Installation
 
 #### Prerequisites
 
 * **Administrator Access**: Required for installation on each workstation.
 * **Internet Connection**: Necessary for data uploads to Computle's servers.
 
-#### Unattended Installation&#x20;
+#### Unattended Installation
 
 PowerShell
 
@@ -107,7 +107,7 @@ Start-Process -FilePath $installerPath -ArgumentList "/S", "/ProductKey=$product
 
 ***
 
-#### Manual Installation&#x20;
+#### Manual Installation
 
 1. **Download the Installer**:
 
@@ -130,7 +130,7 @@ Start-Process -FilePath $installerPath -ArgumentList "/S", "/ProductKey=$product
 
 3. **Completion**
 
-The agent will start running in the background upon successful installation. After closing the window, you can view the live results in the web dashboard.&#x20;
+The agent will start running in the background upon successful installation. After closing the window, you can view the live results in the web dashboard.
 
 <figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -161,14 +161,14 @@ Access the web dashboard and enter your serial:
 4. **System Information**:
    * Access detailed hardware and system specs for the selected machine.
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## Troubleshooting&#x20;
+## Troubleshooting
 
 * **No Data Displayed**:
-  * Ensure the agent is running on the workstation. You can verify this by going to Services and then looking for _Computle GPU Analyser_. Ensure that the status shows as Running.&#x20;
+  * Ensure the agent is running on the workstation. You can verify this by going to Services and then looking for _Computle GPU Analyser_. Ensure that the status shows as Running.
   * Verify that the machine has an active internet connection.
   * Check firewall settings to allow outbound connections to Computle's servers. `gpuanalyser.computle.net`
 * **Agent Not Starting**:
@@ -184,7 +184,6 @@ Access the web dashboard and enter your serial:
 
 ## FAQs
 
-* **Is the GPU Analyser resource-intensive?** No, the agent is designed to be lightweight and operates with minimal impact on system performance.&#x20;
-* **How often is data collected?** Data is collected every second and then aggregated into hourly averages.&#x20;
-* **Do I need to remain logged in?** No, the application runs as a service.&#x20;
-
+* **Is the GPU Analyser resource-intensive?** No, the agent is designed to be lightweight and operates with minimal impact on system performance.
+* **How often is data collected?** Data is collected every second and then aggregated into hourly averages.
+* **Do I need to remain logged in?** No, the application runs as a service.

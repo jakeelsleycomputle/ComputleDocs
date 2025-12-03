@@ -1,4 +1,4 @@
-# Computle Client
+# Computle Client: Overview
 
 ## Get Started: Login with Microsoft
 
@@ -8,9 +8,9 @@
 Installers can be found [here](../installers/installers.md).
 {% endhint %}
 
-2. **Click Login with Microsoft** &#x20;
+2. **Click Login with Microsoft**
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. **Enter your work email.**
 
@@ -32,11 +32,11 @@ Application consent must be granted for Computle Client to authenticate against 
 
 <figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
-6. **If requested, enrol in Microsoft Authenticator.**&#x20;
+6. **If requested, enrol in Microsoft Authenticator.**
 
 <figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
-7. **If requested, approve the sign in request on your mobile device.**&#x20;
+7. **If requested, approve the sign in request on your mobile device.**
 
 <figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
@@ -46,7 +46,7 @@ Application consent must be granted for Computle Client to authenticate against 
 
 9. **Once authenticated, you will be presented with your available machines.**
 
-<figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (55) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

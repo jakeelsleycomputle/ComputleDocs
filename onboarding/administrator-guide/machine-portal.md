@@ -11,10 +11,10 @@ Each customer gets access to a dedicated machine portal, enabling you to perform
 ## **Portal access**
 
 {% hint style="warning" %}
-As part of our tenant-defaults, access to this portal is available only via Computle Gateway, or another supported VPN/Zero Trust solutions.&#x20;
+As part of our tenant-defaults, access to this portal is available only via Computle Gateway, or another supported VPN/Zero Trust solutions.
 {% endhint %}
 
-By default, each tenant is provisioned with one user who has full administrative rights and access to the portal. Multi-Factor Authentication (MFA) is required.&#x20;
+By default, each tenant is provisioned with one user who has full administrative rights and access to the portal. Multi-Factor Authentication (MFA) is required.
 
 To access the portal, navigate to the unique URL provided to you, which typically follows the format:
 
@@ -28,15 +28,9 @@ If you haven't received this information, or require further assistance, please 
 
 ## **Machine controls**
 
-*   **Boot**: This button powers on the machine if it is currently powered off. Use this when you need to start a machine from a shutdown or powered-off state.
-
-
-*   **Shutdown**: Clicking this button safely powers down the machine.
-
-
-*   **Restart**: This button reboots the machine without powering it off completely.
-
-
+* **Boot**: This button powers on the machine if it is currently powered off. Use this when you need to start a machine from a shutdown or powered-off state.
+* **Shutdown**: Clicking this button safely powers down the machine.
+* **Restart**: This button reboots the machine without powering it off completely.
 * **Power Off**: This option forcibly turns off the machine, similar to cutting power to a physical system. This should only be used if the machine is unresponsive.
 
 ***
@@ -51,11 +45,11 @@ You can reimage Computle Machines using the Rebuild button. [Image ](https://doc
 2. Select the image you wish to deploy.
 3. The image will deploy in around 30 seconds.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Computle Machine Re-Imaging</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Computle Machine Re-Imaging</p></figcaption></figure>
 
 ***
 
-## **Console access**&#x20;
+## **Console access**
 
 The VNC section provides access to the machine’s virtual console, allowing administrators to connect to the machine as if they were physically present in front of it.
 
@@ -74,5 +68,3 @@ The VNC section provides access to the machine’s virtual console, allowing adm
 
 1. Click the **Reset Password** button.
 2. A new temporary password will be emailed to you.
-
-&#x20;

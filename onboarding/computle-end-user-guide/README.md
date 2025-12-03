@@ -11,19 +11,19 @@ coverY: 70
 {% hint style="info" %}
 **Time Required**
 
-Please allow 15 minutes.&#x20;
+Please allow 15 minutes.
 {% endhint %}
 
 {% hint style="info" %}
 **Your Own Device**
 
-This guide assumes that you are using your own device. If you are using Computle Device, or you are not sure, please ask your system administrator.&#x20;
+This guide assumes that you are using your own device. If you are using Computle Device, or you are not sure, please ask your system administrator.
 {% endhint %}
 
 {% hint style="warning" %}
 **Computle Gateway Token**
 
-Ensure that your administrator has shared a Computle Gateway token with you.&#x20;
+Ensure that your administrator has shared a Computle Gateway token with you.
 {% endhint %}
 
 ***
@@ -59,7 +59,7 @@ Ensure that your administrator has shared a Computle Gateway token with you.&#x2
 6. Proceed to Stage 2 of 3.
 
 {% hint style="info" %}
-If you receive a file name error, ensure that there are no spaces in your token file's name, or extra numbers. For example, if you downloaded the file multiple times, delete all copies, and re-download the token.&#x20;
+If you receive a file name error, ensure that there are no spaces in your token file's name, or extra numbers. For example, if you downloaded the file multiple times, delete all copies, and re-download the token.
 {% endhint %}
 
 ***
@@ -77,7 +77,7 @@ If you receive a file name error, ensure that there are no spaces in your token 
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
-3. Read the EULA&#x20;
+3. Read the EULA
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -116,12 +116,11 @@ In Hostname, enter the Computer name provided by your administrator.
 3. Click _Connect._
 4. If promoted, click Trust and Connect
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 4. **Enter your username**
 
-In Login, enter the login name provided by your administrator.\
-
+In Login, enter the login name provided by your administrator.\\
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -137,10 +136,10 @@ Then, click OK.
 
 When you connect again, click the down arrow to retrive your saved machine(s).
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
 **Gateway Privacy**
 
-Computle Gateway acts as a network tunnel enabling you to access your company resources. By default, Computle Gateway does not monitor, collect, or log data sent to network resources outside of your company resources. When you are not using Computle Gateway you are free to disconnect the client. However, during normal use, your internet and network traffic is routed to your home/office router.&#x20;
+Computle Gateway acts as a network tunnel enabling you to access your company resources. By default, Computle Gateway does not monitor, collect, or log data sent to network resources outside of your company resources. When you are not using Computle Gateway you are free to disconnect the client. However, during normal use, your internet and network traffic is routed to your home/office router.

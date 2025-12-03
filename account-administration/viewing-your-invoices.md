@@ -12,9 +12,9 @@ To set up a Direct Debit:
 Only the Billing Owner can log in to this page.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
 
-3. Open your emails.&#x20;
+3. Open your emails.
 4. Locate the email from Computle with the subject "_Your Customer Portal Login Link"_
 
 <figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
