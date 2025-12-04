@@ -46,6 +46,7 @@
     * [Resolution and Quality](troubleshooting/streaming-agent/nice-dcv/no-username-or-password-requested/resolution-and-quality.md)
     * [No Username or Password Requested](troubleshooting/streaming-agent/nice-dcv/no-username-or-password-requested/README.md)
     * [DCV Idle Timeout Reached](troubleshooting/streaming-agent/nice-dcv/dcv-idle-timeout-reached.md)
+    * [Allow Any User to Connect](troubleshooting/streaming-agent/nice-dcv/allow-any-user-to-connect.md)
   * [Mechdyne TGX](troubleshooting/streaming-agent/mechdyne-tgx/README.md)
     * [Enable USB Redirection](troubleshooting/streaming-agent/mechdyne-tgx/enable-usb-redirection.md)
     * [Enable Microphone Input](troubleshooting/streaming-agent/mechdyne-tgx/enable-microphone-input.md)
@@ -90,7 +91,7 @@
         * [Cisco Meraki](reference-architecture/tenant-level-configuration/network-access/tenant-options/site-to-site-connectivity/cisco-meraki.md)
         * [WireGuard](reference-architecture/tenant-level-configuration/network-access/tenant-options/site-to-site-connectivity/wireguard.md)
 
-## Corporate Governance&#x20;
+## Corporate Governance
 
 * [Supply Chain Management](corporate-governance/supply-chain-management.md)
 * [Standards](corporate-governance/standards/README.md)
