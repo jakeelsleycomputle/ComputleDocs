@@ -3,22 +3,45 @@
 # ============================================
 # SECTION 1: Install DCV Server
 # ============================================
+Write-Host "Downloading DCV Server installer..." -ForegroundColor Yellow
+
 $fileUrl = "https://d1uj6qtbmh3dt5.cloudfront.net/2024.0/Servers/nice-dcv-server-x64-Release-2024.0-19030.msi"
 $savePath = "C:\Windows\Computle"
-$installLogFile = "dcv_install_msi.log"
+$installLogFile = "$savePath\dcv_install_msi.log"
 
 if (-not (Test-Path -Path $savePath)) {
-    New-Item -ItemType Directory -Path $savePath -Force
+    New-Item -ItemType Directory -Path $savePath -Force | Out-Null
 }
 
-Invoke-WebRequest -Uri $fileUrl -OutFile "$savePath\nice-dcv-server-x64-Release.msi"
-
 $msiFile = Join-Path -Path $savePath -ChildPath "nice-dcv-server-x64-Release.msi"
-Start-Process msiexec.exe -ArgumentList "/i `"$msiFile`" ADDLOCAL=ALL /quiet /norestart /l*v `"$installLogFile`"" -Wait
+
+try {
+    Invoke-WebRequest -Uri $fileUrl -OutFile $msiFile -ErrorAction Stop
+    Write-Host "Download complete." -ForegroundColor Green
+} catch {
+    Write-Host "ERROR: Failed to download MSI file: $_" -ForegroundColor Red
+    exit 1
+}
+
+if (-not (Test-Path $msiFile)) {
+    Write-Host "ERROR: MSI file not found after download" -ForegroundColor Red
+    exit 1
+}
+
+Write-Host "Installing DCV Server (this may take a few minutes)..." -ForegroundColor Yellow
+$installProcess = Start-Process msiexec.exe -ArgumentList "/i `"$msiFile`" ADDLOCAL=ALL /quiet /norestart /l*v `"$installLogFile`"" -Wait -PassThru
+
+if ($installProcess.ExitCode -ne 0) {
+    Write-Host "WARNING: MSI install exited with code $($installProcess.ExitCode). Check log at $installLogFile" -ForegroundColor Yellow
+} else {
+    Write-Host "DCV Server installation complete." -ForegroundColor Green
+}
 
 # ============================================
 # SECTION 2: Configure Registry Settings
 # ============================================
+Write-Host "Configuring registry settings..." -ForegroundColor Yellow
+
 $registryPaths = @(
     "Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\license",
     "Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\connectivity",
@@ -28,18 +51,22 @@ $registryPaths = @(
 
 foreach ($path in $registryPaths) {
     if (!(Test-Path -LiteralPath $path)) {
-        New-Item $path -Force -ErrorAction SilentlyContinue
+        New-Item $path -Force -ErrorAction SilentlyContinue | Out-Null
     }
 }
 
-New-ItemProperty -LiteralPath 'Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\connectivity' -Name 'enable-quic-frontend' -Value 0 -PropertyType DWord -Force -ErrorAction SilentlyContinue
-New-ItemProperty -LiteralPath 'Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\session-management\automatic-console-session' -Name 'owner' -Value 'computle' -PropertyType String -Force -ErrorAction SilentlyContinue
-New-ItemProperty -LiteralPath 'Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\connectivity' -Name 'idle-timeout' -Value 0 -PropertyType DWord -Force -ErrorAction SilentlyContinue
-New-ItemProperty -Path "HKLM:\Software\GSettings\com\nicesoftware\dcv\security" -Name "os-auto-lock" -PropertyType DWord -Value 1 -Force -ErrorAction SilentlyContinue
+New-ItemProperty -LiteralPath 'Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\connectivity' -Name 'enable-quic-frontend' -Value 0 -PropertyType DWord -Force -ErrorAction SilentlyContinue | Out-Null
+New-ItemProperty -LiteralPath 'Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\session-management\automatic-console-session' -Name 'owner' -Value 'computle' -PropertyType String -Force -ErrorAction SilentlyContinue | Out-Null
+New-ItemProperty -LiteralPath 'Registry::\HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\connectivity' -Name 'idle-timeout' -Value 0 -PropertyType DWord -Force -ErrorAction SilentlyContinue | Out-Null
+New-ItemProperty -Path "HKLM:\Software\GSettings\com\nicesoftware\dcv\security" -Name "os-auto-lock" -PropertyType DWord -Value 1 -Force -ErrorAction SilentlyContinue | Out-Null
+
+Write-Host "Registry settings configured." -ForegroundColor Green
 
 # ============================================
 # SECTION 3: Resolve License Servers and Update Registry
 # ============================================
+Write-Host "Configuring license servers..." -ForegroundColor Yellow
+
 $licensingServers = @(
     'dcvlicensing1.computle.net',
     'dcvlicensing2.computle.net'
@@ -60,41 +87,44 @@ foreach ($server in $licensingServers) {
 
 $licenseValue = $resolvedIPs -join ';'
 $registryPath = 'Registry::HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\license'
-New-ItemProperty -LiteralPath $registryPath -Name 'license-file' -Value $licenseValue -PropertyType String -Force -ErrorAction SilentlyContinue
-Write-Host "Registry updated successfully with license value: $licenseValue" -ForegroundColor Green
+New-ItemProperty -LiteralPath $registryPath -Name 'license-file' -Value $licenseValue -PropertyType String -Force -ErrorAction SilentlyContinue | Out-Null
+
+Write-Host "License servers configured: $licenseValue" -ForegroundColor Green
 
 # ============================================
 # SECTION 4: Download Certificates
 # ============================================
+Write-Host "Downloading certificates..." -ForegroundColor Yellow
+
 $sourceKey = "https://certs.computle.net/dcv.key"
 $sourcePem = "https://certs.computle.net/dcv.pem"
 $destinationFolder = "C:\Windows\System32\config\systemprofile\AppData\Local\NICE\dcv\"
 
 if (-not (Test-Path -Path $destinationFolder)) {
-    New-Item -ItemType Directory -Path $destinationFolder -Force
-    Write-Output "Created destination folder: $destinationFolder"
+    New-Item -ItemType Directory -Path $destinationFolder -Force | Out-Null
+    Write-Host "Created destination folder: $destinationFolder" -ForegroundColor Gray
 }
 
-Write-Output "Downloading certificates..."
 try {
     Invoke-WebRequest -Uri $sourceKey -OutFile "$destinationFolder\dcv.key" -UseBasicParsing -ErrorAction Stop
-    Write-Output "Successfully downloaded dcv.key"
+    Write-Host "Downloaded dcv.key" -ForegroundColor Green
 } catch {
-    Write-Error "Failed to download dcv.key: $_"
+    Write-Host "ERROR: Failed to download dcv.key: $_" -ForegroundColor Red
 }
 
 try {
     Invoke-WebRequest -Uri $sourcePem -OutFile "$destinationFolder\dcv.pem" -UseBasicParsing -ErrorAction Stop
-    Write-Output "Successfully downloaded dcv.pem"
+    Write-Host "Downloaded dcv.pem" -ForegroundColor Green
 } catch {
-    Write-Error "Failed to download dcv.pem: $_"
+    Write-Host "ERROR: Failed to download dcv.pem: $_" -ForegroundColor Red
 }
 
 # ============================================
 # SECTION 5: Create Scheduled Task for Daily Certificate Updates
 # ============================================
-Write-Output "Creating scheduled task for daily certificate updates..."
-$script = @"
+Write-Host "Creating scheduled task for daily certificate updates..." -ForegroundColor Yellow
+
+$scriptBlock = @"
 if (-not (Test-Path -Path '$destinationFolder')) {
     New-Item -ItemType Directory -Path '$destinationFolder' -Force
 }
@@ -110,21 +140,22 @@ try {
 }
 "@
 
-$action = New-ScheduledTaskAction -Execute "PowerShell.exe" -Argument "-NoProfile -ExecutionPolicy Bypass -Command `"$script`""
+$action = New-ScheduledTaskAction -Execute "PowerShell.exe" -Argument "-NoProfile -ExecutionPolicy Bypass -Command `"$scriptBlock`""
 $trigger = New-ScheduledTaskTrigger -Daily -At 3am
 $settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
 
 try {
-    Register-ScheduledTask -TaskName "Update DCV Certs" -Action $action -Trigger $trigger -Settings $settings -RunLevel Highest -User "SYSTEM" -ErrorAction Stop
-    Write-Output "Successfully created scheduled task 'Update DCV Certs'"
+    Unregister-ScheduledTask -TaskName "Update DCV Certs" -Confirm:$false -ErrorAction SilentlyContinue
+    Register-ScheduledTask -TaskName "Update DCV Certs" -Action $action -Trigger $trigger -Settings $settings -RunLevel Highest -User "SYSTEM" -ErrorAction Stop | Out-Null
+    Write-Host "Scheduled task 'Update DCV Certs' created." -ForegroundColor Green
 } catch {
-    Write-Error "Failed to create scheduled task: $_"
+    Write-Host "ERROR: Failed to create scheduled task: $_" -ForegroundColor Red
 }
 
 # ============================================
 # SECTION 6: Configure DCV Permissions
 # ============================================
-Write-Host "Configuring Computle DCV permissions..." -ForegroundColor Yellow
+Write-Host "Configuring DCV permissions..." -ForegroundColor Yellow
 
 $permissionsFilePath = "C:\Program Files\NICE\DCV\Server\conf\default.perm"
 
@@ -132,90 +163,113 @@ if (Test-Path $permissionsFilePath) {
     $backupPath = "$permissionsFilePath.backup.$(Get-Date -Format 'yyyyMMdd_HHmmss')"
     try {
         Copy-Item $permissionsFilePath $backupPath -Force
-        Write-Host "Permissions backup created: $backupPath" -ForegroundColor Green
+        Write-Host "Permissions backup created: $backupPath" -ForegroundColor Gray
     }
     catch {
-        Write-Warning "Failed to create permissions backup: $_"
+        Write-Host "WARNING: Failed to create permissions backup: $_" -ForegroundColor Yellow
     }
 
     try {
         $content = Get-Content $permissionsFilePath -Raw
         $content = $content -replace '(?m)^; %owner% allow builtin', '%any% allow builtin'
         Set-Content -Path $permissionsFilePath -Value $content -Encoding ASCII -NoNewline
-        Write-Host "Successfully updated Computle DCV permissions to allow owner" -ForegroundColor Green
+        Write-Host "DCV permissions updated." -ForegroundColor Green
     }
     catch {
-        Write-Warning "Failed to update permissions file: $_"
+        Write-Host "WARNING: Failed to update permissions file: $_" -ForegroundColor Yellow
     }
 } else {
-    Write-Warning "Computle DCV permissions file not found at: $permissionsFilePath"
+    Write-Host "WARNING: DCV permissions file not found at: $permissionsFilePath" -ForegroundColor Yellow
 }
 
 # ============================================
 # SECTION 7: Port Check and Authentication Configuration
 # ============================================
-$securityRegPath = "Registry::HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\security"
-$publicIP = (Invoke-RestMethod -Uri "https://api.ipify.org").Trim()
-$portsOpen = $false
+Write-Host "Checking port configuration..." -ForegroundColor Yellow
 
-for ($port = 8443; $port -le 8473; $port++) {
-    try {
-        $tcpClient = New-Object System.Net.Sockets.TcpClient
-        $connect = $tcpClient.BeginConnect($publicIP, $port, $null, $null)
-        $wait = $connect.AsyncWaitHandle.WaitOne(1000, $false)
-        
-        if ($wait -and $tcpClient.Connected) {
-            $portsOpen = $true
-            $tcpClient.Close()
-            break
-        }
-        $tcpClient.Close()
-    }
-    catch {
-    }
+$securityRegPath = "Registry::HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\security"
+
+try {
+    $publicIP = (Invoke-RestMethod -Uri "https://api.ipify.org" -ErrorAction Stop).Trim()
+} catch {
+    Write-Host "WARNING: Could not determine public IP, skipping port check" -ForegroundColor Yellow
+    $publicIP = $null
 }
 
-if ($portsOpen) {
-    Write-Host "You have not passed pre-requisites, please consult your account rep." -ForegroundColor Red
-    exit 1
+$portsOpen = $false
+
+if ($publicIP) {
+    for ($port = 8443; $port -le 8473; $port++) {
+        try {
+            $tcpClient = New-Object System.Net.Sockets.TcpClient
+            $connect = $tcpClient.BeginConnect($publicIP, $port, $null, $null)
+            $wait = $connect.AsyncWaitHandle.WaitOne(1000, $false)
+            
+            if ($wait -and $tcpClient.Connected) {
+                $portsOpen = $true
+                $tcpClient.Close()
+                break
+            }
+            $tcpClient.Close()
+        }
+        catch {
+        }
+    }
+
+    if ($portsOpen) {
+        Write-Host "ERROR: You have not passed pre-requisites, please consult your account rep." -ForegroundColor Red
+        exit 1
+    }
 }
 
 if (-not (Test-Path $securityRegPath)) {
-    New-Item -Path $securityRegPath -Force | Out-Null
+    New-Item -Path $securityRegPath -Force -ErrorAction SilentlyContinue | Out-Null
 }
 
-New-ItemProperty -Path $securityRegPath -Name "authentication" -Value "none" -PropertyType String -Force | Out-Null
-New-ItemProperty -Path $securityRegPath -Name "os-auto-lock" -Value 1 -PropertyType DWORD -Force | Out-Null
+New-ItemProperty -Path $securityRegPath -Name "authentication" -Value "none" -PropertyType String -Force -ErrorAction SilentlyContinue | Out-Null
+New-ItemProperty -Path $securityRegPath -Name "os-auto-lock" -Value 1 -PropertyType DWORD -Force -ErrorAction SilentlyContinue | Out-Null
+
+Write-Host "Authentication configuration complete." -ForegroundColor Green
 
 # ============================================
 # SECTION 8: Configure Service and Final Restart
 # ============================================
-Clear-Host
+Write-Host "Configuring DCV Server service..." -ForegroundColor Yellow
 
-Write-Host "Installation complete!" -ForegroundColor Green
-Write-Host "Computle DCV Server has been installed and configured with:" -ForegroundColor Cyan
-Write-Host "- License servers configured" -ForegroundColor White
-Write-Host "- SSL certificates downloaded" -ForegroundColor White
-Write-Host "- Daily certificate update task created" -ForegroundColor White
-Write-Host "- Permissions set to allow owner (%owner%) to connect" -ForegroundColor White
-Write-Host "- Authentication mode set to none" -ForegroundColor White
-
-Write-Host "`nSetting DCV Server to Automatic (Delayed Start)..." -ForegroundColor Yellow
 try {
     Set-Service -Name dcvserver -StartupType "Automatic" -ErrorAction Stop
-    sc.exe config dcvserver start= delayed-auto
-    Write-Host "DCV Server startup type set to Automatic (Delayed Start)" -ForegroundColor Green
+    sc.exe config dcvserver start= delayed-auto | Out-Null
+    Write-Host "DCV Server set to Automatic (Delayed Start)." -ForegroundColor Green
 } catch {
-    Write-Warning "Failed to set DCV Server startup type: $_"
+    Write-Host "WARNING: Failed to set DCV Server startup type: $_" -ForegroundColor Yellow
 }
 
-Write-Host "`nFinal step: Restarting Computle DCV Server service..." -ForegroundColor Yellow
+Write-Host "Restarting DCV Server service..." -ForegroundColor Yellow
+
 try {
     Restart-Service -Name dcvserver -Force -ErrorAction Stop
-    Write-Host "Computle DCV Server service restarted successfully!" -ForegroundColor Green
+    Write-Host "DCV Server service restarted." -ForegroundColor Green
 } catch {
-    Write-Warning "Failed to restart Computle DCV Server service: $_"
-    Write-Host "Please manually restart the service using: Restart-Service dcvserver" -ForegroundColor Yellow
+    Write-Host "WARNING: Failed to restart DCV Server service: $_" -ForegroundColor Yellow
+    Write-Host "Please manually restart: Restart-Service dcvserver" -ForegroundColor Yellow
 }
 
-Write-Host "`nComputle DCV Server setup is now complete and ready for connections!" -ForegroundColor Green
+# ============================================
+# COMPLETE
+# ============================================
+Clear-Host
+
+Write-Host "========================================" -ForegroundColor Cyan
+Write-Host " Computle DCV Server Setup Complete!" -ForegroundColor Green
+Write-Host "========================================" -ForegroundColor Cyan
+Write-Host ""
+Write-Host "Configured:" -ForegroundColor White
+Write-Host "  - DCV Server installed" -ForegroundColor Gray
+Write-Host "  - License servers configured" -ForegroundColor Gray
+Write-Host "  - SSL certificates downloaded" -ForegroundColor Gray
+Write-Host "  - Daily certificate update task created" -ForegroundColor Gray
+Write-Host "  - Permissions configured" -ForegroundColor Gray
+Write-Host "  - Authentication mode set to none" -ForegroundColor Gray
+Write-Host "  - Service set to auto-start" -ForegroundColor Gray
+Write-Host ""
+Write-Host "Ready for connections!" -ForegroundColor Green
