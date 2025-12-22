@@ -2,12 +2,12 @@
 
 ## Co**mputle Client**
 
-<table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.8.3.exe">https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.8.3.exe</a></td><td><a href="../.gitbook/assets/Windows.png">Windows.png</a></td></tr><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClient-3.0.8.3-ARM64.pkg">https://softwaredownloads.oncomputle.com/ComputleClient-3.0.8.3-ARM64.pkg</a></td><td><a href="../.gitbook/assets/MacOS.png">MacOS.png</a></td></tr></tbody></table>
+<table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.8.3.exe">https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.8.3.exe</a></td><td><a href="../.gitbook/assets/Windows.png">Windows.png</a></td></tr></tbody></table>
 
 {% hint style="warning" %}
 **Silent Installation:**
 
-To install silently, run: _.exe /S._ The installation will take around 15 minutes.&#x20;
+To install silently, run: _.exe /S._ The installation will take around 15 minutes.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -17,10 +17,10 @@ To install silently, run: _.exe /S._ The installation will take around 15 minute
 {% hint style="info" %}
 **Computle Client installs:**
 
-* Computle Client, which provides Entra ID authentication.&#x20;
+* Computle Client, which provides Entra ID authentication.
 * WireGuard, to facilitate a point-to-point tunnel.
-* Mechdyne TGX, enabling 5k display support.&#x20;
-* NICE DCV, enabling 4k display support.&#x20;
+* Mechdyne TGX, enabling 5k display support.
+* NICE DCV, enabling 4k display support.
 * Microsoft C++ Redistributable.
 {% endhint %}
 
@@ -29,23 +29,23 @@ To install silently, run: _.exe /S._ The installation will take around 15 minute
 
 * Windows 10/11 or MacOS 12+ ARM.
 * 850MB of available storage.
-* Internet access.&#x20;
+* Internet access.
 
 ***
 
-* **For 1080p support:** A 4 core CPU with 5Mbps bandwidth.&#x20;
-* **For dual 1080p support:** A 4 core CPU with UDH graphics with 15Mbps bandwidth.&#x20;
+* **For 1080p support:** A 4 core CPU with 5Mbps bandwidth.
+* **For dual 1080p support:** A 4 core CPU with UDH graphics with 15Mbps bandwidth.
 * **For dual 4k support and dual 5k support:** An eight core GPU with Iris XE graphics with 50Mbps bandwidth.
 {% endhint %}
 
 {% hint style="info" %}
-**Documentation:**&#x20;
+**Documentation:**
 
 View documentation for Computle Client [here](../computle-client/computle-client-overview.md).
 {% endhint %}
 
 {% hint style="info" %}
-**Mac (Intel):**&#x20;
+**Mac (Intel):**
 
 Computle Client for Mac (Intel) can be downloaded [here](https://softwaredownloads.oncomputle.com/ComputleClient-3.0.8-Intel.pkg).
 {% endhint %}
@@ -57,7 +57,7 @@ Computle Client for Mac (Intel) can be downloaded [here](https://softwaredownloa
 <table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/TGX_Receiver_2025.1.0.11413_64-bit.exe">https://softwaredownloads.oncomputle.com/TGX_Receiver_2025.1.0.11413_64-bit.exe</a></td><td><a href="../.gitbook/assets/Windows.png">Windows.png</a></td></tr><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/TGX-Receiver-2025.1.0.11413.dmg">https://softwaredownloads.oncomputle.com/TGX-Receiver-2025.1.0.11413.dmg</a></td><td><a href="../.gitbook/assets/MacOS.png">MacOS.png</a></td></tr></tbody></table>
 
 {% hint style="info" %}
-Mechdyne TGX is available as a paid add-on to Computle plans. Regular users should use NICE DCV.&#x20;
+Mechdyne TGX is available as a paid add-on to Computle plans. Regular users should use NICE DCV.
 {% endhint %}
 
 ***
