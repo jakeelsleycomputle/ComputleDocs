@@ -77,3 +77,7 @@ Clear-Host
 ```
 irm "https://raw.githubusercontent.com/jakeelsleycomputle/ComputleDocs/July2024/Scripts/Enable-ComputleClientAuth.ps1" | iex
 ```
+
+```
+irm https://raw.githubusercontent.com/jakeelsleycomputle/ComputleDocs/July2024/Scripts/DCVSetup.ps1 | iex
+```
