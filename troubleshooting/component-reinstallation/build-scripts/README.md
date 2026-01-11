@@ -36,48 +36,5 @@ Do not run this script unless requested. This is only to be used under a planned
 ## Set DCV Authentication to None
 
 ```
-$securityRegPath = "Registry::HKEY_USERS\S-1-5-18\Software\GSettings\com\nicesoftware\dcv\security"
-
-$publicIP = (Invoke-RestMethod -Uri "https://api.ipify.org").Trim()
-
-$portsOpen = $false
-for ($port = 8443; $port -le 8473; $port++) {
-    try {
-        $tcpClient = New-Object System.Net.Sockets.TcpClient
-        $connect = $tcpClient.BeginConnect($publicIP, $port, $null, $null)
-        $wait = $connect.AsyncWaitHandle.WaitOne(1000, $false)
-        
-        if ($wait -and $tcpClient.Connected) {
-            $portsOpen = $true
-            $tcpClient.Close()
-            break
-        }
-        $tcpClient.Close()
-    }
-    catch {
-    }
-}
-if ($portsOpen) {
-    "You have not passed pre-requisites, please consult your account rep."
-    exit 1
-}
-
-if (-not (Test-Path $securityRegPath)) {
-    New-Item -Path $securityRegPath -Force | Out-Null
-}
-
-New-ItemProperty -Path $securityRegPath -Name "authentication" -Value "none" -PropertyType String -Force | Out-Null
-
-New-ItemProperty -Path $securityRegPath -Name "os-auto-lock" -Value 1 -PropertyType DWORD -Force | Out-Null
-Restart-Service -Name "dcvserver" -Force
-Clear-Host
-"Authentication mode changed to none."
-```
-
-```
-irm "https://raw.githubusercontent.com/jakeelsleycomputle/ComputleDocs/July2024/Scripts/Enable-ComputleClientAuth.ps1" | iex
-```
-
-```
-irm https://raw.githubusercontent.com/jakeelsleycomputle/ComputleDocs/July2024/Scripts/DCVSetup.ps1 | iex
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; irm https://raw.githubusercontent.com/jakeelsleycomputle/ComputleDocs/July2024/Scripts/DCVSetup.ps1 | iex
 ```
