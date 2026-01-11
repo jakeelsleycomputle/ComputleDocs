@@ -36,8 +36,13 @@ Do not run this script unless requested. This is only to be used under a planned
 ## Set DCV Authentication to None
 
 ```
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$wc = New-Object System.Net.WebClient
-$script = $wc.DownloadString("https://raw.githubusercontent.com/jakeelsleycomputle/ComputleDocs/July2024/Scripts/DCVSetup.ps1")
-Invoke-Expression $script
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; (New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/jakeelsleycomputle/ComputleDocs/July2024/Scripts/DCVSetup.ps1") | iex
+```
+
+```
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/jakeelsleycomputle/ComputleDocs/July2024/Scripts/DCVSetup.ps1" -OutFile "$env:TEMP\dcv.ps1"; & "$env:TEMP\dcv.ps1"
+```
+
+```
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; try { irm https://raw.githubusercontent.com/jakeelsleycomputle/ComputleDocs/July2024/Scripts/DCVSetup.ps1 } catch { $_.Exception.Message }
 ```
