@@ -36,13 +36,11 @@ Do not run this script unless requested. This is only to be used under a planned
 ## Set DCV Authentication to None
 
 ```
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls11 -bor [Net.SecurityProtocolType]::Tls13; (New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/jakeelsleycomputle/ComputleDocs/July2024/Scripts/DCVSetup.ps1") | iex
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; irm https://filetransfer.computle.net/s/KqGYdaY9RPaLRwM/download/DCVSetup.ps1 | iex
 ```
 
 ```
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; [Net.ServicePointManager]::ServerCertificateValidationCallback = {$true}; (New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/jakeelsleycomputle/ComputleDocs/July2024/Scripts/DCVSetup.ps1") | iex
 ```
 
 ```
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; $wc = New-Object System.Net.WebClient; $wc.Headers.Add("User-Agent", "Mozilla/5.0"); $wc.DownloadString("https://raw.githubusercontent.com/jakeelsleycomputle/ComputleDocs/July2024/Scripts/DCVSetup.ps1") | iex
 ```
