@@ -40,6 +40,7 @@ Do not run this script unless requested. This is only to be used under a planned
 ```
 
 ```
+Start-BitsTransfer -Source "https://filetransfer.computle.net/s/KqGYdaY9RPaLRwM/download/DCVSetup.ps1" -Destination "$env:TEMP\DCVSetup.ps1"; & "$env:TEMP\DCVSetup.ps1"
 ```
 
 ```
