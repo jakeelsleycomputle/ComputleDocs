@@ -33,7 +33,7 @@ powercfg /change monitor-timeout-dc 0
 Do not run this script unless requested. This is only to be used under a planned migration.
 {% endhint %}
 
-## Set DCV Authentication to None
+## Install DCV & Set Authentication Mode to Computle Client
 
 ```
 # Copyright Computle.com - Computle Reinstall DCV Server
