@@ -1,6 +1,4 @@
-# Computle Client: Overview
-
-## Get Started: Login with Microsoft
+# Computle Client: Get Started
 
 1. **Download Computle Client and follow the installation steps.**
 
