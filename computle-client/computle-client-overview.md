@@ -2,7 +2,7 @@
 
 1. **Download Computle Client and follow the installation steps.**
 
-<table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.8.3.exe">https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.0.8.3.exe</a></td><td><a href="../.gitbook/assets/Windows.png">Windows.png</a></td></tr><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClient-3.1.0-Universal.pkg">https://softwaredownloads.oncomputle.com/ComputleClient-3.1.0-Universal.pkg</a></td><td><a href="../.gitbook/assets/MacOS.png">MacOS.png</a></td></tr></tbody></table>
+<table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.1.0.2.exe">https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.1.0.2.exe</a></td><td><a href="../.gitbook/assets/Windows.png">Windows.png</a></td></tr><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClient-3.1.0-Universal.pkg">https://softwaredownloads.oncomputle.com/ComputleClient-3.1.0-Universal.pkg</a></td><td><a href="../.gitbook/assets/MacOS.png">MacOS.png</a></td></tr></tbody></table>
 
 2. **Click Login with Microsoft**
 
