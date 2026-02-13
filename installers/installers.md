@@ -18,26 +18,16 @@
 * **For dual 4k support and dual 5k support:** An eight core GPU with Iris XE graphics with 50Mbps bandwidth.
 {% endhint %}
 
-{% hint style="warning" %}
-**Silent Installation:**
-
-To install silently, run: _.exe /S._ The installation will take around 15 minutes.
-{% endhint %}
-
-{% hint style="info" %}
-**Computle Client installs:**
-
-* Computle Client, which provides Entra ID authentication.
-* WireGuard, to facilitate a point-to-point tunnel.
-* Mechdyne TGX, enabling 5k display support.
-* NICE DCV, enabling 4k display support.
-* Microsoft C++ Redistributable.
-{% endhint %}
-
 {% hint style="info" %}
 **Documentation:**
 
 View documentation for Computle Client [here](../computle-client/computle-client-overview.md).
+{% endhint %}
+
+{% hint style="warning" %}
+**Silent Installation:**
+
+To install silently, run: _.exe /S._ The installation will take around 15 minutes.
 {% endhint %}
 
 ***
