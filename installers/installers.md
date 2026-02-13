@@ -4,6 +4,20 @@
 
 <table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.1.0.2.exe">https://softwaredownloads.oncomputle.com/ComputleClientV3_Setup_3.1.0.2.exe</a></td><td><a href="../.gitbook/assets/Windows.png">Windows.png</a></td></tr><tr><td></td><td><a href="https://softwaredownloads.oncomputle.com/ComputleClient-3.1.0-Universal.pkg">https://softwaredownloads.oncomputle.com/ComputleClient-3.1.0-Universal.pkg</a></td><td><a href="../.gitbook/assets/MacOS.png">MacOS.png</a></td></tr></tbody></table>
 
+{% hint style="info" %}
+**System requirements:**
+
+* Windows 10/11 or MacOS 14+ ARM.
+* 850MB of available storage.
+* Internet access.
+
+***
+
+* **For 1080p support:** A 4 core CPU with 5Mbps bandwidth.
+* **For dual 1080p support:** A 4 core CPU with UDH graphics with 15Mbps bandwidth.
+* **For dual 4k support and dual 5k support:** An eight core GPU with Iris XE graphics with 50Mbps bandwidth.
+{% endhint %}
+
 {% hint style="warning" %}
 **Silent Installation:**
 
@@ -18,20 +32,6 @@ To install silently, run: _.exe /S._ The installation will take around 15 minute
 * Mechdyne TGX, enabling 5k display support.
 * NICE DCV, enabling 4k display support.
 * Microsoft C++ Redistributable.
-{% endhint %}
-
-{% hint style="info" %}
-**System requirements:**
-
-* Windows 10/11 or MacOS 12+ ARM.
-* 850MB of available storage.
-* Internet access.
-
-***
-
-* **For 1080p support:** A 4 core CPU with 5Mbps bandwidth.
-* **For dual 1080p support:** A 4 core CPU with UDH graphics with 15Mbps bandwidth.
-* **For dual 4k support and dual 5k support:** An eight core GPU with Iris XE graphics with 50Mbps bandwidth.
 {% endhint %}
 
 {% hint style="info" %}
