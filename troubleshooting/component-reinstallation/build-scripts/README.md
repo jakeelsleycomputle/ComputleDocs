@@ -43,7 +43,7 @@ Do not run this script unless requested. This is only to be used under a planned
 # ============================================
 Write-Host "Downloading DCV Server installer..." -ForegroundColor Yellow
 
-$fileUrl = "https://d1uj6qtbmh3dt5.cloudfront.net/2024.0/Servers/nice-dcv-server-x64-Release-2024.0-19030.msi"
+$fileUrl = "https://d1uj6qtbmh3dt5.cloudfront.net/2025.0/Servers/nice-dcv-server-x64-Release-2025.0-20103.msi"
 $savePath = "C:\Windows\Computle"
 $installLogFile = "$savePath\dcv_install_msi.log"
 
